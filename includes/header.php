@@ -14,7 +14,7 @@
                     <div class="de-flex-col">
                         <!-- logo begin -->
                         <div id="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img class="logo-main" src="images/logo-white.webp" alt="" >
                                 <img class="logo-scroll" src="images/logo.png" alt="" >
                                 <img class="logo-mobile" src="images/logo-white.webp" alt="" >
@@ -29,7 +29,7 @@
 
                             <li><a class="menu-item" href="cdcp.html">CDCP</a></li>
 
-                            <li><a class="menu-item" href="#">About</a>
+                            <li><a class="menu-item" href="about.php">About</a>
                                 <ul>
                                     <li><a href="about/team.html">Our Team</a></li>
                                     <li><a href="about/clinic-info.html">Clinic Info</a></li>

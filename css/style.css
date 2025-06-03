@@ -394,6 +394,13 @@ header.smaller.scroll-light .logo-main{
 header.smaller.scroll-light .logo-scroll{
   display: block;
 }
+body.about-page .logo-main {
+  display: none !important;
+}
+
+body.about-page .logo-scroll {
+  display: block !important;
+}
 
 header.smaller.scroll-dark {
   background: var(--bg-color-even);
@@ -3451,6 +3458,19 @@ a.btn-outline-white {
   color: #fff;
   background-color: transparent;
 }
+body.about-page header{
+  background: white;
+}
+body.about-page a.btn-outline-white{
+  border-color: var(--primary-color);
+}
+#mainmenu>li.has-child:after, 
+body.about-page a.btn-outline-white{ 
+  color: var(--primary-color);
+}
+ body.about-page #mainmenu a {
+    color: var(--secondary-color);
+ }
 header.smaller.scroll-light .btn-outline-white {
   color: var(--primary-color);
   border: 2px solid var(--primary-color);

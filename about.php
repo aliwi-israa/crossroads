@@ -18,7 +18,7 @@
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
 
 </head>
-<body>
+<body class= "about-page">
     <div id="wrapper">
     <?php include 'includes/header.php'; ?>
             <div class="no-bottom no-top" id="content">
