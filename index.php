@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Crossroads Dental — Dentist & Dental Clinic Website Template</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/icon.png">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <meta content="Crossroads Dental — Dentist & Dental Clinic Website Template" name="description" >

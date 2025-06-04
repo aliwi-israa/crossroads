@@ -14,7 +14,7 @@
                     <div class="de-flex-col">
                         <!-- logo begin -->
                         <div id="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img class="logo-main" src="images/logo-white.webp" alt="" >
                                 <img class="logo-scroll" src="images/logo.png" alt="" >
                                 <img class="logo-mobile" src="images/logo-white.webp" alt="" >
@@ -25,14 +25,14 @@
                     <div class="de-flex-col header-col-mid">
                         <!-- mainemenu begin -->
                         <ul id="mainmenu">
-                            <li><a class="menu-item" href="index.html">Home</a></li>
+                            <li><a class="menu-item" href="index.php">Home</a></li>
 
                             <li><a class="menu-item" href="cdcp.html">CDCP</a></li>
 
-                            <li><a class="menu-item" href="#">About</a>
+                            <li><a class="menu-item" href="about.php">About</a>
                                 <ul>
                                     <li><a href="about/team.html">Our Team</a></li>
-                                    <li><a href="about/clinic-info.html">Clinic Info</a></li>
+                                    <li><a href="about.php">Clinic Info</a></li>
                                     <li><a href="about/careers.html">Careers</a></li>
                                 </ul>
                             </li>

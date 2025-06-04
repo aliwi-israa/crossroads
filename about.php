@@ -18,7 +18,7 @@
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
 
 </head>
-<body>
+<body class= "subpage">
     <div id="wrapper">
     <?php include 'includes/header.php'; ?>
             <div class="no-bottom no-top" id="content">
@@ -37,43 +37,148 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="pb-2">
                 <div class="container">
                   <div class="row g-4 gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <div class="row g-4">
-                            <div class="col-sm-6">
-                                <div class="row g-4">
-                                    <div class="col-lg-12">
-                                        <div class=" rounded-1 overflow-hidden wow zoomIn">
-                                            <img src="images/misc/p1.webp" class="w-100 wow scaleIn" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="row g-4">
-                                    <div class="spacer-single sm-hide"></div>
-                                    <div class="col-lg-12">
-                                       <div class=" rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
-                                            <img src="images/misc/p2.webp" class="w-100 wow scaleIn" alt="" data-wow-delay=".3s">
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="col-sm-12">
+                            <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
+                                <img src="images/misc/p1.webp" class="w-100 wow scaleIn  responsive-img" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                           <div class="me-lg-3">
-                              <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">About Us</div>
-                              <h2 class="wow fadeInUp" data-wow-delay=".2s">Professionals and Personalized Dental Excellence</h2>
-                              <p class="wow fadeInUp" data-wow-delay=".4s">We offer high-quality dental care tailored for the whole family. From routine checkups to advanced treatments, our compassionate team ensures your smile stays healthy and confident.</p>
-                              <ul class="ul-check text-dark cols-2 fw-600 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                                <li>Personalized Treatment Plans</li>
-                                <li>Gentle Care for Kids and Adults</li>
-                                <li>State-of-the-Art Technology</li>
-                                <li>Flexible Appointment Scheduling</li>
-                              </ul>
+                              <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Healthy Smiles Start Here</div>
+                              <h2 class="wow fadeInUp" data-wow-delay=".2s">Welcome to Crossroads Dental Clinic</h2>
+                              <p class="wow fadeInUp" data-wow-delay=".4s">Your trusted dental care partner in Toronto, conveniently located at the crossroads of Dundas Street West and Bloor Street West.
+                                At Crossroads Dental Clinic, we believe that every smile tells a story, and we are here to ensure yours is both healthy and beautiful. Nestled in the vibrant Toronto community, we proudly serve patients of all ages with comprehensive dental care that prioritizes your comfort and well-being.</p>
+                              <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section class="pb-2">
+                <div class="container">
+                  <div class="row g-4 gx-5 align-items-center">
+                    <div class="col-lg-6">
+                          <div class="me-lg-3">
+                              <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s"></div>
+                              <h2 class="wow fadeInUp" data-wow-delay=".2s">Why Choose Us?</h2>
+                                <ul class="ul-check text-dark fw-600 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                <li class="mb-4">
+                                    <strong>Comprehensive Services for All Ages</strong><br>
+                                    <span class="fw-normal">
+                                    From preventative care and cosmetic enhancements to emergency treatments, our team is equipped to meet all your dental needs.
+                                    </span>
+                                </li>
+                                <li class="mb-4">
+                                    <strong>Convenient Hours</strong><br>
+                                    <span class="fw-normal">
+                                    Open 7 days a week, 9 AM – 9 PM, so you can prioritize your oral health without disrupting your busy schedule.
+                                    </span>
+                                </li>
+                                <li class="mb-4">
+                                    <strong>Warm & Friendly Environment</strong><br>
+                                    <span class="fw-normal">
+                                    Our modern clinic is designed to make every visit as stress-free and enjoyable as possible.
+                                    </span>
+                                </li>
+                                </ul>
+                              <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
+                          </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="col-sm-12">
+                            <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
+                                <img src="images/misc/p2.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section class="pb-2">
+                <div class="container">
+                  <div class="row g-4 gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="col-sm-12">
+                            <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
+                                <img src="images/gallery/l8.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                          <div class="me-lg-3">
+                              <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Mission</h2>
+                              <p class="wow fadeInUp" data-wow-delay=".4s">At Crossroads Dental Clinic, our mission is to build lasting relationships with our patients through exceptional care and personalized service. We are committed to using the latest technology and techniques to provide treatments that enhance both your oral health and confidence.</p>
+                              <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section class="pb-2">
+                <div class="container">
+                  <div class="row g-4 gx-5 align-items-center">
+                    <div class="col-lg-6">
+                          <div class="me-lg-3">
+                              <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Services</h2>
+                              <p class="wow fadeInUp" data-wow-delay=".4s">Explore a wide array of dental solutions, including:</p>
+                              <ul class="ul-check text-dark fw-600 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                <li class="mb-4">
+                                    <strong>Preventative Dentistry</strong><br>
+                                    <span class="fw-normal">
+                                    Dental exams, gum care, and more.
+                                    </span>
+                                </li>
+                                <li class="mb-4">
+                                    <strong>General Dentistry</strong><br>
+                                    <span class="fw-normal">
+                                    Fillings, root canals, and pediatric care.
+                                    </span>
+                                </li>
+                                <li class="mb-4">
+                                    <strong>Cosmetic Dentistry</strong><br>
+                                    <span class="fw-normal">
+                                    Whitening, veneers, and smile makeovers.
+                                    </span>
+                                </li>
+                                <li class="mb-4">
+                                    <strong>Specialized Treatments</strong><br>
+                                    <span class="fw-normal">
+                                    Invisalign, dental implants, and more.
+                                    </span>
+                                </li>
+                                </ul>
+                              <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
+                          </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="col-sm-12">
+                            <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
+                                <img src="images/gallery/l10.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                  <div class="row g-4 gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="col-sm-12">
+                            <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
+                                <img src="images/gallery/l12.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                          <div class="me-lg-3">
+                              <h2 class="wow fadeInUp" data-wow-delay=".2s">Visit Us Today</h2>
+                              <p class="wow fadeInUp" data-wow-delay=".4s">Crossroads Dental Clinic is conveniently located in Toronto at the crossroads of Dundas Street West and Bloor Street West. Whether you’re due for a cleaning or need urgent care, our skilled team is here to help.</p>
                               <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
                           </div>
                     </div>
@@ -145,89 +250,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="container">
-                    <div class="row gy-4 gx-5 align-items-center">
-                        <div class="col-lg-6">
-                            <div class="subtitle id-color wow fadeInUp" data-wow-delay=".0s">Why Choose Our Dental Care</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Exceptional Service With a Personal Touch</h2>
-                            <p class="wow fadeInUp" data-wow-delay=".4s">Choosing the right dental provider matters. We combine expert care, advanced technology, and a warm atmosphere to ensure every visit is comfortable, efficient, and tailored to your unique needs.</p>
-                            <div class="border-bottom mb-4"></div>
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="h-100">
-                                        <div class="relative wow fadeInUp">
-                                            <h5>Experienced Dental</h5>
-                                            <p class="mb-0">Skilled care backed by years of trusted dental experience.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="h-100">
-                                        <div class="relative wow fadeInUp">
-                                            <h5>Advanced Technology</h5>
-                                            <p class="mb-0">Modern tools ensure accurate and efficient treatments.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="h-100">
-                                        <div class="relative wow fadeInUp">
-                                            <h5>Personalized Treatment</h5>
-                                            <p class="mb-0">Custom care plans made to fit your smile and lifestyle.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="h-100">
-                                        <div class="relative wow fadeInUp">
-                                            <h5>Family-Friendly</h5>
-                                            <p class="mb-0">Welcoming space for kids, teens, adults, and seniors.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="row g-4 align-items-center">
-                                <div class="col-sm-6 text-end">
-                                    <div class="w-80 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                        <img src="images/misc/s2.webp" class="w-100 wow scaleIn" alt="">
-                                    </div>
-                                    <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                        <img src="images/misc/s3.webp" class="w-100 wow scaleIn" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                        <img src="images/misc/p3.webp" class="w-100 wow scaleIn" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                                          <div class="col-sm-12">
-                        <div class="h-100">
-                            <div class="relative wow fadeInUp">
-                                <div class="d-flex align-items-center">
-                                    <h5 class="mb-0 me-3">Google Rating</h5>
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-1 fw-bold">5.0</div>
-                                        <div class="d-flex fs-14 d-rating">
-                                            <i class="fa fa-solid fa-star me-1"></i>
-                                            <i class="fa fa-solid fa-star me-1"></i>
-                                            <i class="fa fa-solid fa-star me-1"></i>
-                                            <i class="fa fa-solid fa-star me-1"></i>
-                                            <i class="fa fa-solid fa-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </section>          
+            </section>      
         </div>
     </div>
     <?php include 'includes/footer.php'; ?>

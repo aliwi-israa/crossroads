@@ -10,7 +10,7 @@
                         <div class="spacer-single sm-hide"></div>
                         <div class="subtitle">Family Dental Care</div>
                         <h1>Elevating Smiles with Expert Care and a Gentle Touch</h1>
-                        <a class="btn-main btn-line fx-slide" href="#"><span>Book Appointment</span></a>
+                        <a class="btn-main btn-line fx-slide menu_side_area" href="#"><span>Book Appointment</span></a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                 <div class="swiper-wrapper">
                 <!-- Slides -->
                     <div class="swiper-slide">
-                        <div class="swiper-inner" data-bgimage="url(images/slider/1.jpg) center">
+                        <div class="swiper-inner" data-bgimage="url(images/slider/1.webp) center">
                             <div class="sw-overlay op-5"></div>
                             <div class="gradient-edge-left z-2"></div>
 
@@ -29,9 +29,16 @@
                     </div>
                     <!-- Slides -->
                     <div class="swiper-slide">
-                        <div class="swiper-inner" data-bgimage="url(images/slider/2.jpg) center">
+                        <div class="swiper-inner" data-bgimage="url(images/slider/2.webp) center">
                             <div class="sw-overlay op-5"></div>
                             <div class="gradient-edge-left z-2"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-inner" data-bgimage="url(images/slider/3.webp) center">
+                            <div class="sw-overlay op-5"></div>
+                            <div class="gradient-edge-left z-2"></div>
+
                         </div>
                     </div>
                 </div>
@@ -46,7 +53,7 @@
                 <div class="d-flex justify-content-center">
                     <i class="fs-60 id-color icon_phone"></i>
                     <div class="ms-3">
-                        <h4 class="mb-0">Need Dental Services?</h4>
+                        <h4 class="mb-0">Need Assistance? Call us Now!</h4>
                         <p><a href="tel:+1123456789">Call: +1 123 456 789</a></p>
                     </div>
                 </div>
@@ -101,13 +108,13 @@
         <div class="col-lg-6">
             <div class="me-lg-3">
                 <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">About Us</div>
-                <h2 class="wow fadeInUp" data-wow-delay=".2s">Professionals and Personalized Dental Excellence</h2>
-                <p class="wow fadeInUp" data-wow-delay=".4s">We offer high-quality dental care tailored for the whole family. From routine checkups to advanced treatments, our compassionate team ensures your smile stays healthy and confident.</p>
+                <h2 class="wow fadeInUp" data-wow-delay=".2s">Your Crossroads Clinic for Healthy, Confident Smiles</h2>
+                <p class="wow fadeInUp" data-wow-delay=".4s">Located at the crossroads of Dundas St. West and Bloor St. West, Crossroads Dental Clinic offers comprehensive, family-friendly dental care in the heart of Toronto. From preventative visits to smile makeovers, we’re here 7 days a week to support your oral health journey with compassion and convenience.</p>
                 <ul class="ul-check text-dark cols-2 fw-600 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li>Personalized Treatment Plans</li>
-                <li>Gentle Care for Kids and Adults</li>
-                <li>State-of-the-Art Technology</li>
-                <li>Flexible Appointment Scheduling</li>
+                <li>All-Ages Dental Services</li>
+                <li>7 Days a Week, 9AM–9PM</li>
+                <li>Comfortable Environment</li>
+                <li>Personalized, Friendly Care</li>
                 </ul>
 
                 <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
@@ -131,7 +138,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="hover">
                     <div class="bg-white h-100 p-40 rounded-1">
-                        <img src="images/icons/tooth-1.png" class="w-70px mb-3 wow scaleIn" alt="">
+                        <img src="images/icons/examination.svg" class="w-70px mb-3 wow scaleIn" alt="">
                         <div class="relative mt-4 wow fadeInUp">
                             <h4>General Dentistry</h4>
                             <p>Complete oral care for every smile with cleanings, exams, and more.</p>
@@ -146,9 +153,9 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="hover">
                     <div class="bg-white h-100 p-40 rounded-1">
-                        <img src="images/icons/tooth-2.png" class="w-70px mb-3 wow scaleIn" alt="">
+                        <img src="images/icons/smile-makeover.svg" class="w-70px mb-3 wow scaleIn" alt="">
                         <div class="relative mt-4 wow fadeInUp">
-                            <h4>Cosmetic Dentistry</h4>
+                            <h4>Smile Makeover</h4>
                             <p>Enhance your smile’s beauty with whitening, veneers, and more.</p>
                             <a class="btn-plus" href="service-cosmetic-dentistry.html">
                                 <i class="fa fa-plus"></i>
@@ -161,7 +168,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="hover">
                     <div class="bg-white h-100 p-40 rounded-1">
-                        <img src="images/icons/tooth-3.png" class="w-70px mb-3 wow scaleIn" alt="">
+                        <img src="images/icons/children.svg" class="w-70px mb-3 wow scaleIn" alt="">
                         <div class="relative mt-4 wow fadeInUp">
                             <h4>Pediatric Dentistry</h4>
                             <p>Gentle and fun dental care for kids to grow healthy, happy smiles.</p>
@@ -176,9 +183,9 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="hover">
                     <div class="bg-white h-100 p-40 rounded-1">
-                        <img src="images/icons/tooth-4.png" class="w-70px mb-3 wow scaleIn" alt="">
+                        <img src="images/icons/implants.svg" class="w-70px mb-3 wow scaleIn" alt="">
                         <div class="relative mt-4 wow fadeInUp">
-                            <h4>Restorative Dentistry</h4>
+                            <h4>Dental Implants</h4>
                             <p>Repair and restore your teeth for lasting comfort and function.</p>
                             <a class="btn-plus" href="service-restorative-dentistry.html">
                                 <i class="fa fa-plus"></i>
@@ -189,7 +196,7 @@
                 </div>
             </div>
             <div class="col-lg-12 mt-5 text-center">
-                <a class="btn-main fx-slide" href="services.html"><span>View All Services</span></a>
+                <a class="btn-secondary fx-slide" href="services.html"><span>View All Services</span></a>
             </div>
         </div>
     </div>
@@ -257,23 +264,11 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="row g-4 align-items-center">
-                    <div class="col-6 text-end">
-                        <div class="w-80 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                            <img src="images/misc/s2.webp" class="w-100 wow scaleIn" alt="">
-                        </div>
-                        <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                            <img src="images/misc/s3.webp" class="w-100 wow scaleIn" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-6">
-                        <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                            <img src="images/misc/p3.webp" class="w-100 wow scaleIn" alt="">
-                        </div>
-                    </div>
+                <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block image-container">
+                    <img src="images/misc/p3.webp" class="w-100 wow responsive-img" alt="">
                 </div>
             </div>
+
         </div>
     </div>
 </section>
