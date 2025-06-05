@@ -84,7 +84,7 @@
         <div class="col-md-12">
             <div class="de-flex">
                 <div class="de-flex-col">
-                    Copyright 2025 - Crossroads Dental by Designesia
+                    Copyright 2025 - Crossroads Dental Clinic
                 </div>
                 <ul class="menu-simple">
                     <li><a href="#">Terms &amp; Conditions</a></li>

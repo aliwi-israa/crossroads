@@ -8,9 +8,9 @@
                 <div class="row g-4 align-items-center justify-content-between">
                     <div class="col-lg-6">
                         <div class="spacer-single sm-hide"></div>
-                        <div class="subtitle">Family Dental Care</div>
-                        <h1>Elevating Smiles with Expert Care and a Gentle Touch</h1>
-                        <a class="btn-main btn-line fx-slide menu_side_area" href="#"><span>Book Appointment</span></a>
+                        <div class="subtitle">Welcome to Crossroads Dental Clinic</div>
+                        <h1>Gentle, Personalized Dental Care in Toronto — For Confident Smiles at Every Age</h1>
+                        <a class="btn-main fx-slide menu_side_area m-0" href="#"><span>Book Appointment</span></a>
                     </div>
                 </div>
             </div>

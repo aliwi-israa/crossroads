@@ -182,7 +182,9 @@ a:hover {
   text-decoration: none;
   outline: none;
 }
-
+footer a:hover {
+  color:var(--primary-color);
+}
 .dark-scheme a,
 .dark-scheme a:hover,
 .text-light a,
@@ -522,7 +524,7 @@ header.header-float.header-light .header-inner{
 #subheader {
   overflow: hidden;
   position: relative;
-  padding: 160px 0 120px 0;
+  padding: 160px 0 40px 0;
 }
 
 #subheader.dark {
@@ -3015,6 +3017,7 @@ a.btn-secondary.btn-line:hover {
 
 a.btn-outline-white:hover {
   background: var(--primary-color);
+  color: #ffffff;
 }
 a.btn-slider:hover:after {
   color: #222;
@@ -3518,7 +3521,9 @@ header.smaller.scroll-light .btn-outline-white {
   border: 1px solid var(--primary-color);
   background: transparent;
 }
-
+.about-header :is(h1, h2, p, a) {
+  color: #ffffff;
+}
 /* divider */
 /* ------------------------------ */
 
@@ -5924,6 +5929,14 @@ h4.de-timeline-year {
 
   .single-timeline:nth-child(even) .timeline-text span {
     text-align: left !important;
+  }
+  .flipped-section {
+    flex-direction: column-reverse;
+  }
+  .subpage a.btn-main {
+    margin: auto;
+    width: fit-content;
+    display: flex;
   }
 }
 

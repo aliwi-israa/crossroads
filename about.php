@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Crossroads Dental — Dentist & Dental Clinic Website Template</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/icon.png">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <meta content="Crossroads Dental — Dentist & Dental Clinic Website Template" name="description" >
@@ -23,12 +23,27 @@
     <?php include 'includes/header.php'; ?>
             <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center">
-                <div class="container relative z-2">
+            <section id="subheader" class="bg-color-op-1 text-center" style="background-image: url('images/banner/about.jpg'); background-size: cover; background-position: center;">
+                <div class="container relative z-2 about-header">
                     <div class="row align-items-center">
                         <div class="col-lg-12">
-                            <h1 class="wow fadeInUp">About Us</h1>
-                            <div class="border-bottom my-3"></div>
+                            <h2 class="wow fadeInUp fs-4 mb-4" data-wow-delay=".2s">
+                                Discover who we are
+                            </h2>
+                            <h1 class="wow fadeInUp mb-5">About Us</h1>
+                            <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
+                            <p class="wow fadeInUp mb-4" data-wow-delay=".5s">
+                                or call <a href="tel:(+1) 123-456-789">(+1) 123-456-789</a>
+
+                            </p>
+
+                    </div>
+                </div>
+            </section>
+            <div class="section m-3">
+                <div class="breadcrumbs-wrap">
+                    <div class="container">
+                        <div class="breadcrumbs">
                             <ul class="crumb wow fadeInDown">
                                 <li><a href="index.html">Home</a></li>
                                 <li class="active">About Us</li>
@@ -36,8 +51,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="pb-2">
+		    </div>
+       
+            <section>
                 <div class="container">
                   <div class="row g-4 gx-5 align-items-center">
                     <div class="col-lg-6">
@@ -59,9 +75,9 @@
                   </div>
                 </div>
             </section>
-            <section class="pb-2">
+            <section class="bg-color-op-1">
                 <div class="container">
-                  <div class="row g-4 gx-5 align-items-center">
+                  <div class="row g-4 gx-5 align-items-center flipped-section">
                     <div class="col-lg-6">
                           <div class="me-lg-3">
                               <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s"></div>
@@ -99,7 +115,7 @@
                   </div>
                 </div>
             </section>
-            <section class="pb-2">
+            <section>
                 <div class="container">
                   <div class="row g-4 gx-5 align-items-center">
                     <div class="col-lg-6">
@@ -119,9 +135,9 @@
                   </div>
                 </div>
             </section>
-            <section class="pb-2">
+            <section class="bg-color-op-1">
                 <div class="container">
-                  <div class="row g-4 gx-5 align-items-center">
+                  <div class="row g-4 gx-5 align-items-center flipped-section">
                     <div class="col-lg-6">
                           <div class="me-lg-3">
                               <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Services</h2>
