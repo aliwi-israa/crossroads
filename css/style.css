@@ -1301,6 +1301,21 @@ section.no-bg,
     z-index: 9999;
 }
 
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+}
+
+.img-section {
+  padding-right: 0;
+}
+
 .text-section {
   background: var(--primary-color);
   padding-left: 20px;
@@ -1310,8 +1325,13 @@ section.no-bg,
     color: #ffffff;
 }
 
+.text-section h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
 .text-section p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .close-btn {
