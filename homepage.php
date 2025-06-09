@@ -51,7 +51,7 @@
         <div class="row g-4 grid-divider">
             <div class="col-lg-4 col-md-6 mb-sm-30">
                 <div class="d-flex justify-content-center">
-                    <i class="fs-60 id-color icon_phone"></i>
+                    <i class="fs-60 id-color fa-solid fa-phone"></i>
                     <div class="ms-3">
                         <h4 class="mb-0">Need Assistance? Call us Now!</h4>
                         <p><a href="tel:+1123456789">Call: +1 123 456 789</a></p>
@@ -60,7 +60,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-sm-30">
                 <div class="d-flex justify-content-center">
-                    <i class="fs-60 id-color icon_clock"></i>
+                    <i class="fs-60 id-color fa-solid fa-clock"></i>
                     <div class="ms-3">
                         <h4 class="mb-0">Opening Hours</h4>
                         <p>Mon to Sat 09:00 - 18:00</p>
@@ -69,7 +69,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-sm-30">
                 <div class="d-flex justify-content-center">
-                    <i class="fs-60 id-color icon_mail"></i>
+                    <i class="fs-60 id-color fa fa-envelope" aria-hidden="true"></i>
                     <div class="ms-3">
                         <h4 class="mb-0">Email Us</h4>
                         <p><a href="mailto:info@crossroadsdental.ca">info@crossroadsdental.ca</a></p>
@@ -396,6 +396,4 @@
         </div>
     </div>
 </section>
-
 </div>
-<!-- content end -->

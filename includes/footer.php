@@ -11,7 +11,7 @@
             <i class="fa-brands fa-facebook-f"></i>
             </a>
             <a href="https://twitter.com/login" target="_blank" aria-label="Twitter Login">
-            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-solid fa-x fa-brands"></i>
             </a>
             <a href="https://www.instagram.com/accounts/login/" target="_blank" aria-label="Instagram Login">
             <i class="fa-brands fa-instagram"></i>
@@ -61,17 +61,18 @@
         <div class="widget">
             <h5>Contact Us</h5>
             <a href="https://maps.app.goo.gl/CiMYzzZSTiPKMQBw8" target="_blank" class="text-white text-decoration-none d-block fw-bold">
-                <i class="icofont-location-pin me-2 id-color"></i>Clinic Location
+                <i class="fa-solid fa-location-dot me-2 id-color fs-14"></i>
+                Clinic Location
                 <div class="fw-normal text-white ms-4">2384 Dundas St W</div>
             </a>
             <div class="spacer-20"></div>
             <a href="tel:+1123456789" class="text-white text-decoration-none d-block fw-bold">
-                <i class="icofont-phone me-2 id-color"></i>Call Us
+                <i class="fa-solid fa-phone me-2 id-color fs-14"></i>Call Us
                 <div class="fw-normal text-white ms-4">+1 123 456 789</div>
             </a>
             <div class="spacer-20"></div>
             <a href="mailto:info@crossroadsdental.ca" class="text-white text-decoration-none d-block fw-bold">
-                <i class="icofont-envelope me-2 id-color"></i>Send a Message
+                <i class="fa fa-envelope me-2 id-color fs-14"></i>Send a Message
                 <div class="fw-normal text-white ms-4">info@crossroadsdental.ca</div>
             </a>
         </div>
@@ -116,9 +117,9 @@
 </ul>
 <div class="spacer-30-line"></div>
 <h5>Contact Us</h5>
-<div><i class="icofont-clock-time me-2 op-5"></i>Monday - Friday 08.00 - 18.00</div>
-<div><i class="icofont-location-pin me-2 op-5"></i>100 S Main St, New York, </div>
-<div><i class="icofont-envelope me-2 op-5"></i>contact@Crossroads Dentalcare.com </div>
+<div><i class="fa-solid fa-clock me-2 op-5"></i>Monday - Friday 08.00 - 18.00</div>
+<div><i class=" fa-solid fa-location-dot me-2 id-color fs-14 me-2 op-5"></i>100 S Main St, New York, </div>
+<div><i class="fa-solid fa fa-envelope me-2 id-color fs-14 me-2 op-5"></i>contact@Crossroads Dentalcare.com </div>
 <div class="spacer-30-line"></div>
 <h5>About Us</h5>
 <p>At Crossroads Dental, we’re dedicated to providing high-quality, personalized dental care for patients of all ages. Our skilled team uses the latest technology to ensure comfortable, efficient treatments and beautiful, healthy smiles for life.</p>

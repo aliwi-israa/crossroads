@@ -8,15 +8,10 @@
     <meta content="Crossroads Dental — Dentist & Dental Clinic Website Template" name="description" >
     <meta content="" name="keywords" >
     <meta content="" name="author" >
-    <!-- CSS Files
-    ================================================== -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
     <link href="css/plugins.css" rel="stylesheet" type="text/css" >
     <link href="css/swiper.css" rel="stylesheet" type="text/css" >
     <link href="css/style.css" rel="stylesheet" type="text/css" >
-    <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
-
 </head>
 <body class= "subpage">
     <div id="wrapper">
@@ -270,13 +265,7 @@
         </div>
     </div>
     <?php include 'includes/footer.php'; ?>
-    <!-- Javascript Files
-    ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
-    <script src="js/swiper.js"></script>
-    <script src="js/custom-swiper-1.js"></script>
-    <script src="js/custom-marquee.js"></script>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?LR-verbose&snipver=1&LiveTest=1"></' + 'script>')</script>
 </body>
 </html>
