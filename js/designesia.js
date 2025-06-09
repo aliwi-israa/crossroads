@@ -177,7 +177,7 @@
       * plugin | enquire.js
       * --------------------------------------------------*/
      function init_resize() {
-         enquire.register("screen and (min-width: 993px)", {
+         enquire.register("screen and (min-width: 1024px)", {
              match: function() {
                  mobile_menu_show = 1;
              },
@@ -186,7 +186,7 @@
                  jQuery("#menu-btn").show();
              }
          });
-         enquire.register("screen and (max-width: 993px)", {
+         enquire.register("screen and (max-width: 1024px)", {
              match: function() {
                  $('header').addClass("header-mobile");
 				 var body = jQuery('body');

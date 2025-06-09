@@ -29,9 +29,7 @@
                             <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
                             <p class="wow fadeInUp mb-4" data-wow-delay=".5s">
                                 or call <a href="tel:(+1) 123-456-789">(+1) 123-456-789</a>
-
                             </p>
-
                     </div>
                 </div>
             </section>
@@ -47,7 +45,6 @@
                     </div>
                 </div>
 		    </div>
-       
             <section>
                 <div class="container">
                   <div class="row g-4 gx-5 align-items-center">

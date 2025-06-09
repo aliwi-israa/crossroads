@@ -1,4 +1,3 @@
-<!-- footer begin -->
 <footer class="section-dark">
 <div class="container">
 <div class="row gx-5">
@@ -97,7 +96,6 @@
 </div>
 </div>
 </footer>
-<!-- footer end -->
 <div id="extra-wrap" class="text-light">
 <div id="btn-close">
 <span></span>

@@ -1,4 +1,3 @@
-<!-- content begin -->
 <div class="no-bottom no-top" id="content">
 <div id="top"></div>
 <section id="section-intro" class="text-light no-top no-bottom relative overflow-hidden">
@@ -17,9 +16,7 @@
         </div>
         <div class="mh-800">
             <div class="swiper wow scaleIn">
-                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                <!-- Slides -->
                     <div class="swiper-slide">
                         <div class="swiper-inner" data-bgimage="url(images/slider/1.webp) center">
                             <div class="sw-overlay op-5"></div>
@@ -27,7 +24,6 @@
 
                         </div>
                     </div>
-                    <!-- Slides -->
                     <div class="swiper-slide">
                         <div class="swiper-inner" data-bgimage="url(images/slider/2.webp) center">
                             <div class="sw-overlay op-5"></div>
@@ -38,7 +34,6 @@
                         <div class="swiper-inner" data-bgimage="url(images/slider/3.webp) center">
                             <div class="sw-overlay op-5"></div>
                             <div class="gradient-edge-left z-2"></div>
-
                         </div>
                     </div>
                 </div>
