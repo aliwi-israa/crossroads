@@ -2,7 +2,11 @@
 <div class="popup" id="promoPopup">
     <div class="row">
         <div class="col-7 img-section">
-            <img src="images/popup.jpg" alt="Dental Promo Image" class="promo-img">
+            <picture>
+            <source srcset="images/homepage/popup-480.webp" media="(max-width: 600px)">
+            <source srcset="images/homepage/popup-768.webp" media="(max-width: 992px)">
+            <img src="images/homepage/popup-1280.webp" class="promo-img" loading="lazy" alt="Dental Promo Image">
+            </picture>
         </div>
         <div class="col-5 text-section">
             <button type="button" class="close-btn float-end" aria-label="Close">

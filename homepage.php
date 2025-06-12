@@ -18,20 +18,20 @@
             <div class="swiper wow scaleIn">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="swiper-inner" data-bgimage="url(images/slider/1.webp) center">
+                        <div class="swiper-inner" data-bgimage="url(images/homepage/slider/1.webp) center" loading="lazy">
                             <div class="sw-overlay op-5"></div>
                             <div class="gradient-edge-left z-2"></div>
 
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="swiper-inner" data-bgimage="url(images/slider/2.webp) center">
+                        <div class="swiper-inner" data-bgimage="url(images/homepage/slider/2.webp) center" loading="lazy">
                             <div class="sw-overlay op-5"></div>
                             <div class="gradient-edge-left z-2"></div>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="swiper-inner" data-bgimage="url(images/slider/3.webp) center">
+                        <div class="swiper-inner" data-bgimage="url(images/homepage/slider/3.webp) center" loading="lazy">
                             <div class="sw-overlay op-5"></div>
                             <div class="gradient-edge-left z-2"></div>
                         </div>
@@ -83,7 +83,11 @@
                     <div class="row g-4">
                         <div class="col-lg-12">
                             <div class=" rounded-1 overflow-hidden wow zoomIn">
-                                <img src="images/misc/p1.webp" class="w-100 wow scaleIn" alt="">
+                                <picture>
+                                <source srcset="images/about/p1-480.webp" media="(max-width: 600px)">
+                                <source srcset="images/about/p1-768.webp" media="(max-width: 992px)">
+                                <img src="images/about/p1-1280.webp" class="w-100 wow scaleIn" alt="About us">
+                                </picture>
                             </div>
                         </div>  
                     </div>
@@ -93,7 +97,11 @@
                         <div class="spacer-single sm-hide"></div>
                         <div class="col-lg-12">
                             <div class=" rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
-                                <img src="images/misc/p2.webp" class="w-100 wow scaleIn" alt="" data-wow-delay=".3s">
+                                <picture>
+                                <source srcset="images/about/p2-480.webp" media="(max-width: 600px)">
+                                <source srcset="images/about/p2-768.webp" media="(max-width: 992px)">
+                                <img src="images/about/p2-1280.webp" class="w-100 wow scaleIn" data-wow-delay=".3s" alt="About us">
+                                </picture>
                             </div>
                         </div>
                     </div>
@@ -133,7 +141,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="hover">
                     <div class="bg-white h-100 p-40 rounded-1">
-                        <img src="images/icons/examination.svg" class="w-70px mb-3 wow scaleIn" alt="">
+                        <img src="images/homepage/icons/examination.svg" class="w-70px mb-3 wow scaleIn" alt="">
                         <div class="relative mt-4 wow fadeInUp">
                             <h4>General Dentistry</h4>
                             <p>Complete oral care for every smile with cleanings, exams, and more.</p>
@@ -148,7 +156,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="hover">
                     <div class="bg-white h-100 p-40 rounded-1">
-                        <img src="images/icons/smile-makeover.svg" class="w-70px mb-3 wow scaleIn" alt="">
+                        <img src="images/homepage/icons/smile-makeover.svg" class="w-70px mb-3 wow scaleIn" alt="">
                         <div class="relative mt-4 wow fadeInUp">
                             <h4>Smile Makeover</h4>
                             <p>Enhance your smile’s beauty with whitening, veneers, and more.</p>
@@ -163,7 +171,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="hover">
                     <div class="bg-white h-100 p-40 rounded-1">
-                        <img src="images/icons/children.svg" class="w-70px mb-3 wow scaleIn" alt="">
+                        <img src="images/homepage/icons/children.svg" class="w-70px mb-3 wow scaleIn" alt="">
                         <div class="relative mt-4 wow fadeInUp">
                             <h4>Pediatric Dentistry</h4>
                             <p>Gentle and fun dental care for kids to grow healthy, happy smiles.</p>
@@ -178,7 +186,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="hover">
                     <div class="bg-white h-100 p-40 rounded-1">
-                        <img src="images/icons/implants.svg" class="w-70px mb-3 wow scaleIn" alt="">
+                        <img src="images/homepage/icons/implants.svg" class="w-70px mb-3 wow scaleIn" alt="">
                         <div class="relative mt-4 wow fadeInUp">
                             <h4>Dental Implants</h4>
                             <p>Repair and restore your teeth for lasting comfort and function.</p>
@@ -260,7 +268,11 @@
             </div>
             <div class="col-lg-6">
                 <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block image-container">
-                    <img src="images/misc/p3.webp" class="w-100 wow responsive-img" alt="">
+                    <picture>
+                    <source srcset="images/homepage/p3-480.webp" media="(max-width: 600px)">
+                    <source srcset="images/homepage/p3-768.webp" media="(max-width: 992px)">
+                    <img src="images/homepage/p3-1280.webp" class="w-100 wow responsive-img" loading="lazy" alt="Dental Image in the clinic">
+                    </picture>
                 </div>
             </div>
 
@@ -281,7 +293,11 @@
             <div class="col-lg-3 col-md-6">
                 <div class="relative rounded-1 overflow-hidden">
                     <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                        <img src="images/team/1.webp" class="w-100 wow scaleIn" alt="">
+                        <picture>
+                        <source srcset="images/team/1-480.webp" media="(max-width: 600px)">
+                        <source srcset="images/team/1-768.webp" media="(max-width: 992px)">
+                        <img src="images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                        </picture>
                     </div>                                
                     <div class="abs w-100 start-0 bottom-0 z-3">
                         <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -294,7 +310,11 @@
             <div class="col-lg-3 col-md-6">
                 <div class="relative rounded-1 overflow-hidden">
                     <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                        <img src="images/team/2.webp" class="w-100 wow scaleIn" alt="">
+                        <picture>
+                        <source srcset="images/team/2-480.webp" media="(max-width: 600px)">
+                        <source srcset="images/team/2-768.webp" media="(max-width: 992px)">
+                        <img src="images/team/2-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                        </picture>
                     </div>
                     
                     <div class="abs w-100 start-0 bottom-0 z-3">
@@ -308,7 +328,11 @@
             <div class="col-lg-3 col-md-6">
                 <div class="relative rounded-1 overflow-hidden">
                     <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                        <img src="images/team/3.webp" class="w-100 wow scaleIn" alt="">
+                        <picture>
+                        <source srcset="images/team/3-480.webp" media="(max-width: 600px)">
+                        <source srcset="images/team/3-768.webp" media="(max-width: 992px)">
+                        <img src="images/team/3-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                        </picture>
                     </div>
                     <div class="abs w-100 start-0 bottom-0 z-3">
                         <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -321,7 +345,11 @@
             <div class="col-lg-3 col-md-6">
                 <div class="relative rounded-1 overflow-hidden">
                     <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                        <img src="images/team/4.webp" class="w-100 wow scaleIn" alt="">
+                        <picture>
+                        <source srcset="images/team/4-480.webp" media="(max-width: 600px)">
+                        <source srcset="images/team/4-768.webp" media="(max-width: 992px)">
+                        <img src="images/team/4-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                        </picture>
                     </div>
                     <div class="abs w-100 start-0 bottom-0 z-3">
                         <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">

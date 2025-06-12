@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Crossroads Dental — Dentist & Dental Clinic Website Template</title>
+    <title>Crossroads Dental — Dentist & Dental Clinic Website Templates</title>
     <link rel="icon" type="image/png" href="images/icon.png">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
@@ -13,25 +13,29 @@
     <link href="css/swiper.css" rel="stylesheet" type="text/css" >
     <link href="css/style.css" rel="stylesheet" type="text/css" >
 </head>
-<body class= "subpage">
+<body class= "subpage testing-cache">
     <div id="wrapper">
     <?php include 'includes/header.php'; ?>
             <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center" style="background-image: url('images/banner/about.jpg'); background-size: cover; background-position: center;">
-                <div class="container relative z-2 about-header">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <h2 class="wow fadeInUp fs-4 mb-4" data-wow-delay=".2s">
-                                Discover who we are
-                            </h2>
-                            <h1 class="wow fadeInUp mb-5">About Us</h1>
-                            <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
-                            <p class="wow fadeInUp mb-4" data-wow-delay=".5s">
-                                or call <a href="tel:(+1) 123-456-789">(+1) 123-456-789</a>
-                            </p>
-                    </div>
+            <section id="subheader" class="position-relative overflow-hidden" style="padding: 0; height: 500px;">
+            <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            <source srcset="images/about/banner/about-480.webp" media="(max-width: 600px)">
+            <source srcset="images/about/banner/about-768.webp" media="(max-width: 992px)">
+            <img src="images/about/banner/about-1280.webp" alt="About Page Banner" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </picture>
+            <div class="container z-1 text-center text-white about-header" style="position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <div class="row align-items-center" style="margin-top:100px;">
+                <div class="col-lg-12">
+                    <h2 class="wow fadeInUp fs-4 mb-4" data-wow-delay=".2s">Discover who we are</h2>
+                    <h1 class="wow fadeInUp mb-5">About Us</h1>
+                    <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
+                    <p class="wow fadeInUp mb-4" data-wow-delay=".5s">
+                    or call <a href="tel:(+1) 123-456-789">(+1) 123-456-789</a>
+                    </p>
                 </div>
+                </div>
+            </div>
             </section>
             <div class="section m-3">
                 <div class="breadcrumbs-wrap">
@@ -51,7 +55,11 @@
                     <div class="col-lg-6">
                         <div class="col-sm-12">
                             <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
-                                <img src="images/misc/p1.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                                <picture>
+                                <source srcset="images/about/p1-480.webp" media="(max-width: 600px)">
+                                <source srcset="images/about/p1-768.webp" media="(max-width: 992px)">
+                                <img src="images/about/p1-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                </picture>
                             </div>
                         </div>
                     </div>
@@ -99,8 +107,12 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="col-sm-12">
-                            <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
-                                <img src="images/misc/p2.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                            <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">                                
+                                <picture>
+                                <source srcset="images/about/p2-480.webp" media="(max-width: 600px)">
+                                <source srcset="images/about/p2-768.webp" media="(max-width: 992px)">
+                                <img src="images/about/p2-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                </picture>
                             </div>
                         </div>
                     </div>
@@ -113,7 +125,11 @@
                     <div class="col-lg-6">
                         <div class="col-sm-12">
                             <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
-                                <img src="images/gallery/l8.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                              <picture>
+                                <source srcset="images/about/p3-480.webp" media="(max-width: 600px)">
+                                <source srcset="images/about/p3-768.webp" media="(max-width: 992px)">
+                                <img src="images/about/p3-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                </picture>
                             </div>
                         </div>
                     </div>
@@ -166,7 +182,11 @@
                     <div class="col-lg-6">
                         <div class="col-sm-12">
                             <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
-                                <img src="images/gallery/l10.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                                <picture>
+                                <source srcset="images/about/p4-480.webp" media="(max-width: 600px)">
+                                <source srcset="images/about/p4-768.webp" media="(max-width: 992px)">
+                                <img src="images/about/p4-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                </picture>
                             </div>
                         </div>
                     </div>
@@ -179,7 +199,11 @@
                     <div class="col-lg-6">
                         <div class="col-sm-12">
                             <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
-                                <img src="images/gallery/l12.webp" class="w-100 wow scaleIn  responsive-img" alt="">
+                                <picture>
+                                <source srcset="images/about/p5-480.webp" media="(max-width: 600px)">
+                                <source srcset="images/about/p5-768.webp" media="(max-width: 992px)">
+                                <img src="images/about/p5-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                </picture>
                             </div>
                         </div>
                     </div>
@@ -207,7 +231,11 @@
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="images/team/1.webp" class="w-100 wow scaleIn" alt="">
+                                <picture>
+                                <source srcset="images/team/1-480.webp" media="(max-width: 600px)">
+                                <source srcset="images/team/1-768.webp" media="(max-width: 992px)">
+                                <img src="images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                </picture>
                                 </div>                                
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -220,7 +248,11 @@
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="images/team/2.webp" class="w-100 wow scaleIn" alt="">
+                                    <picture>
+                                    <source srcset="images/team/2-480.webp" media="(max-width: 600px)">
+                                    <source srcset="images/team/2-768.webp" media="(max-width: 992px)">
+                                    <img src="images/team/2-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -233,7 +265,11 @@
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="images/team/3.webp" class="w-100 wow scaleIn" alt="">
+                                    <picture>
+                                    <source srcset="images/team/3-480.webp" media="(max-width: 600px)">
+                                    <source srcset="images/team/3-768.webp" media="(max-width: 992px)">
+                                    <img src="images/team/3-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -246,7 +282,11 @@
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="images/team/4.webp" class="w-100 wow scaleIn" alt="">
+                                    <picture>
+                                    <source srcset="images/team/4-480.webp" media="(max-width: 600px)">
+                                    <source srcset="images/team/4-768.webp" media="(max-width: 992px)">
+                                    <img src="images/team/4-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
