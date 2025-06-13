@@ -78,9 +78,9 @@
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">CDCP</h2>
                                 <p class="wow fadeInUp" data-wow-delay=".4s">Crossroads Dental is proud to announce that
                                     we accept the Canadian Dental Care Plan (CDCP)!
-
+                                    <br/>
                                     The CDCP plan is designed to make quality dental care more accessible to individuals
-                                    and families, offering comprehensive coverage for a range of dental services.
+                                    and families, offering comprehensive coverage for a range of dental services.<br/>
                                     Through this partnership, we are committed to providing top-notch dental care to all
                                     members of our community.</p>
                                 <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s"
@@ -99,14 +99,14 @@
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">We Listen, Care and Explain.
                                 </h2>
                                 <p class="wow fadeInUp" data-wow-delay=".4s">
-                                    Apply for the CDCP and learn more about the program here! Using your CDCP benefits
-                                    at Bellwoods Dental is simple — just schedule an appointment and notify our staff
+                                    Apply for the CDCP and learn more about the program here!<br/> Using your CDCP benefits
+                                    at Crossroads Dental is simple — just schedule an appointment and notify our staff
                                     that you plan to use these benefits during your visit, and we’ll guide you through
-                                    the process. Call
-                                    416 535 2231 or visit our website to book your visit!
+                                    the process.<br/><br/> Call
+                                    <a href="tel:(+1) 123-456-789">(+1) 123-456-789</a> or visit our website to book your visit!
 
                                     With the inclusion of the CDCP plan, we’re excited to expand our reach and serve
-                                    even more members of our community. Thank you for choosing us as your dental care
+                                    even more members of our community.<br/><br/> Thank you for choosing us as your dental care
                                     provider.
                                 </p>
                                 <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s"
