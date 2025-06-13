@@ -2,22 +2,17 @@
 <html lang="en">
 
 <head>
-    <title>Dentia — Dentist & Dental Clinic Website Template</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <title>Crossroads Dental — Dentist & Dental Clinic Website Template</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <meta content="Dentia — Dentist & Dental Clinic Website Template" name="description" >
-    <meta content="" name="keywords" >
-    <meta content="" name="author" >
-    <!-- CSS Files
-    ================================================== -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Crossroads Dental — Dentist & Dental Clinic Website Template" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="author">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
     <link href="css/plugins.css" rel="stylesheet" type="text/css" >
     <link href="css/swiper.css" rel="stylesheet" type="text/css" >
     <link href="css/style.css" rel="stylesheet" type="text/css" >
-    <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
-
 </head>
 
 <body class="subpage">
@@ -30,20 +25,41 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="bg-color-op-1 text-center">
-                <div class="container relative z-2">
-                    <div class="row align-items-center">
+      <section id="subheader" class="position-relative overflow-hidden" style="padding: 0; height: 500px;">
+                <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <source srcset="images/about/banner/about-480.webp" media="(max-width: 600px)">
+                    <source srcset="images/about/banner/about-768.webp" media="(max-width: 992px)">
+                    <img src="images/about/banner/about-1280.webp" alt="About Page Banner" loading="lazy"
+                        style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </picture>
+                <div class="container z-1 text-center text-white about-header"
+                    style="position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <div class="row align-items-center" style="margin-top:100px;">
                         <div class="col-lg-12">
-                            <h1 class="wow fadeInUp">Contact Us</h1>
-                            <div class="border-bottom my-3"></div>
-                            <ul class="crumb wow fadeInDown">
-                                <li><a href="index.php">Home</a></li>
-                                <li class="active">Contact</li>
-                            </ul>
+                            <h2 class="wow fadeInUp fs-4 mb-4" data-wow-delay=".2s">Contact Us Today
+                            </h2>
+                            <h1 class="wow fadeInUp mb-5">Contact Us</h1>
+                            <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s"
+                                href="contact.html"><span>Book Appointment</span></a>
+                            <p class="wow fadeInUp mb-4" data-wow-delay=".5s">
+                                or call <a href="tel:(+1) 123-456-789">(+1) 123-456-789</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
+            <div class="section m-3">
+                <div class="breadcrumbs-wrap">
+                    <div class="container">
+                        <div class="breadcrumbs">
+                            <ul class="crumb wow fadeInDown">
+                                <li><a href="index.php">Home</a></li>
+                                <li class="active">Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
             <section>

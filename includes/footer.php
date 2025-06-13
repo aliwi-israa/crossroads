@@ -35,7 +35,7 @@
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="about/team.html">Our Team</a></li>
                         <li><a href="about/clinic-info.html">Clinic Info</a></li>
-                        <li><a href="about/careers.html">Careers</a></li>
+                        <li><a href="careers.php">Careers</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
