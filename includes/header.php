@@ -17,7 +17,7 @@
                     <div class="de-flex-col header-col-mid">
                         <ul id="mainmenu">
                             <li><a class="menu-item" href="index.php">Home</a></li>
-                            <li><a class="menu-item" href="cdcp.html">CDCP</a></li>
+                            <li><a class="menu-item" href="cdcp.php">CDCP</a></li>
                             <li><a class="menu-item" href="about.php">About</a>
                                 <ul>
                                     <li><a href="about/team.html">Our Team</a></li>
@@ -55,7 +55,7 @@
                                         </ul>
                                     </li>
                                     <li><a href="services/invisalign.html">Clear Aligners (Invisalign)</a></li>
-                                    <li><a href="services/implants.html">Dental Implants</a></li>
+                                    <li><a href="services.php">Dental Implants</a></li>
                                 </ul>
                             </li>
                             <li><a class="menu-item" href="#">Patients Corner</a>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Crossroads Dental — Dentist & Dental Clinic Website Templates</title>
+    <title>Crossroads Dental — Dentist & Dental Clinic Website Template</title>
     <link rel="icon" type="image/png" href="images/icon.png">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
@@ -13,7 +13,7 @@
     <link href="css/swiper.css" rel="stylesheet" type="text/css" >
     <link href="css/style.css" rel="stylesheet" type="text/css" >
 </head>
-<body class= "subpage testing-cache">
+<body class= "subpage">
     <div id="wrapper">
     <?php include 'includes/header.php'; ?>
             <div class="no-bottom no-top" id="content">
@@ -42,7 +42,7 @@
                     <div class="container">
                         <div class="breadcrumbs">
                             <ul class="crumb wow fadeInDown">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li class="active">About Us</li>
                             </ul>
                         </div>
