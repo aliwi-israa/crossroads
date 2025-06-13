@@ -62,9 +62,9 @@
                             <div class="col-sm-12">
                                 <div class=" rounded-1 overflow-hidden wow zoomIn  image-container">
                                     <picture>
-                                        <source srcset="images/about/p3-480.webp" media="(max-width: 600px)">
-                                        <source srcset="images/about/p3-768.webp" media="(max-width: 992px)">
-                                        <img src="images/about/p3-1280.webp" class="w-100 wow scaleIn  responsive-img"
+                                        <source srcset="images/cdcp/people-480.webp" media="(max-width: 600px)">
+                                        <source srcset="images/cdcp/people-768.webp" media="(max-width: 992px)">
+                                        <img src="images/cdcp/people-1280.webp" class="w-100 wow scaleIn  responsive-img"
                                             loading="lazy" alt="About us">
                                     </picture>
                                 </div>

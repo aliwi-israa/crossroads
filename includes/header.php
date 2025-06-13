@@ -22,7 +22,7 @@
                                 <ul>
                                     <li><a href="our-team.php">Our Team</a></li>
                                     <li><a href="about.php">Clinic Info</a></li>
-                                    <li><a href="about/careers.html">Careers</a></li>
+                                    <li><a class="menu-item" href="careers.php">Careers</a></li>
                                 </ul>
                             </li>
                             <li><a class="menu-item" href="#">Services</a>
@@ -65,7 +65,7 @@
                                     <li><a href="patients/forms.html">Forms</a></li>
                                 </ul>
                             </li>
-                            <li><a class="menu-item" href="contact.php">contact</a></li>
+                            <li><a class="menu-item" href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="de-flex-col">
