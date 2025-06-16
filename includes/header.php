@@ -60,8 +60,8 @@
                             </li>
                             <li><a class="menu-item" href="#">Patients Corner</a>
                                 <ul>
-                                    <li><a href="patients/new.html">New Patients</a></li>
-                                    <li><a href="patients/faq.html">FAQ</a></li>
+                                    <li><a href="new-patients.php">New Patients</a></li>
+                                    <li><a href="faq.php">FAQ</a></li>
                                     <li><a href="patients/forms.html">Forms</a></li>
                                 </ul>
                             </li>

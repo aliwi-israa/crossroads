@@ -43,94 +43,94 @@
                     </div>
                 </div>
             </section>
-            <div class="section m-3">
-                <div class="breadcrumbs-wrap">
-                    <div class="container">
-                        <div class="breadcrumbs">
-                            <ul class="crumb wow fadeInDown">
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="index.php">About</a></li>
-                                <li><a href="about.php">Our Services</a></li>
-                                <li class="active">Dental Implants</li>
-                            </ul>
+                <div class="section m-3">
+                    <div class="breadcrumbs-wrap">
+                        <div class="container">
+                            <div class="breadcrumbs">
+                                <ul class="crumb wow fadeInDown">
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="index.php">About</a></li>
+                                    <li><a href="about.php">Our Services</a></li>
+                                    <li class="active">Dental Implants</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <section class="pb-0">
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
                         <div class="col-md d-none d-md-block">
-                            <div class="container services-list bg-gray">
-                                <div class="service-category">
-                                    <h3>Preventative Dentistry</h3>
-                                    <div class="service-children">
-                                        <ul>
-                                            <li><a href="#">Dental Examination</a></li>
-                                            <li><a href="#">Gum Care & Teeth Cleaning</a></li>
-                                            <li><a href="#">Dental Sealants</a></li>
-                                            <li><a href="#">Fluoride Treatments</a></li>
-                                            <li><a href="#">Oral Cancer Screening</a></li>
+                            <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
+                                <li class="nav-item">
+                                    <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
+                                        data-target="#submenu1" aria-expanded="false"><span>Preventative Dentistry</span><i
+                                            class="fas fa-chevron-down rotate-icon"></i></a>
+                                    <div class="collapse" id="submenu1">
+                                        <ul class="flex-column nav">
+                                            <li class="nav-item"><a class="nav-link" href="services/dental-exam.html"><i
+                                                        class="fas fa-arrow-right"></i>Dental Examination</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/gum-care.html"><i
+                                                        class="fas fa-arrow-right"></i>Gum Care & Teeth Cleaning</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/sealants.html"><i
+                                                        class="fas fa-arrow-right"></i>Dental Sealants</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/fluoride.html"><i
+                                                        class="fas fa-arrow-right"></i>Fluoride Treatments</a></li>
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="services/oral-cancer-screening.html"><i
+                                                        class="fas fa-arrow-right"></i>Oral Cancer Screening</a></li>
                                         </ul>
                                     </div>
-                                </div>
-
-                                <div class="service-category">
-                                    <h3>General Dentistry</h3>
-                                    <div class="service-children">
-                                        <ul>
-                                            <li><a href="#">Dental Fillings</a></li>
-                                            <li><a href="#">Root Canal</a></li>
-                                            <li><a href="#">Extractions</a></li>
-                                            <li><a href="#">Crowns & Bridges</a></li>
-                                            <li><a href="#">Paediatric Dentistry</a></li>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link parent-category" href="#submenu2" data-toggle="collapse"
+                                        data-target="#submenu2" aria-expanded="false"><span>General Dentistry</span> <i
+                                            class="fas fa-chevron-down rotate-icon"></i></a>
+                                    <div class="collapse" id="submenu2">
+                                        <ul class="flex-column nav">
+                                            <li class="nav-item"><a class="nav-link" href="services/fillings.html"><i
+                                                        class="fas fa-arrow-right"></i>Dental Fillings</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/root-canal.html"><i
+                                                        class="fas fa-arrow-right"></i>Root Canal</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/extractions.html"><i
+                                                        class="fas fa-arrow-right"></i>Extractions</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/crowns-bridges.html"><i
+                                                        class="fas fa-arrow-right"></i>Crowns & Bridges</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/pediatric.html"><i
+                                                        class="fas fa-arrow-right"></i>Paediatric Dentistry</a></li>
                                         </ul>
                                     </div>
-                                </div>
-
-                                <div class="service-category">
-                                    <h3>Emergency Dentistry</h3>
-                                    <div class="service-children">
-                                        <ul>
-                                            <li><a href="#">Emergency Appointment</a></li>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Emergency Dentistry</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link parent-category" href="#submenu3" data-toggle="collapse"
+                                        data-target="#submenu3" aria-expanded="false"><span>Cosmetic Dentistry </span><i
+                                            class="fas fa-chevron-down rotate-icon"></i></a>
+                                    <div class="collapse" id="submenu3">
+                                        <ul class="flex-column nav">
+                                            <li class="nav-item"><a class="nav-link" href="services/whitening.html"><i
+                                                        class="fas fa-arrow-right"></i>Whitening</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/veneers.html"><i
+                                                        class="fas fa-arrow-right"></i>Veneers</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/bonding.html"><i
+                                                        class="fas fa-arrow-right"></i>Dental Bonding</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="services/smile-makeover.html"><i
+                                                        class="fas fa-arrow-right"></i>Smile Makeover</a></li>
                                         </ul>
                                     </div>
-                                </div>
-
-                                <div class="service-category">
-                                    <h3>Cosmetic Dentistry</h3>
-                                    <div class="service-children">
-                                        <ul>
-                                            <li><a href="#">Whitening</a></li>
-                                            <li><a href="#">Veneers</a></li>
-                                            <li><a href="#">Dental Bonding</a></li>
-                                            <li><a href="#">Smile Makeover</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="service-category">
-                                    <h3>Clear Aligners (Invisalign)</h3>
-                                    <div class="service-children">
-                                        <ul>
-                                            <li><a href="#">Invisalign Treatment</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="service-category">
-                                    <h3>Dental Implants</h3>
-                                    <div class="service-children">
-                                        <ul>
-                                            <li><a href="#">Single Implant</a></li>
-                                            <li><a href="#">Implant Bridge</a></li>
-                                            <li><a href="#">Full Arch Implants</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Clear Aligners (Invisalign)</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: var(--primary-color);">Dental Implants</a>
+                                </li>
+                            </ul>
                             <div class="question-box mt-3 bg-gray">
-                                <h4 class="question-box-title orange-color">Connect with our clinical team to get
+                                <h4 class="question-box-title">Connect with our clinical team to get
                                     the answers you need </h4>
                                 <p>If you’d like to discuss your options, costs, and get more information about our
                                     services, complete this short form, and we’ll give you a call back.</p>
@@ -151,51 +151,23 @@
                                 </div>
                                 <script src="https://link.msgsndr.com/js/form_embed.js"></script>
                             </div>
-                            <div class="hours-box mt-3 bg-dark">
-                                <div class="row d-flex flex-column flex-sm-row flex-md-column mt-3 office-hours">
-                                    <div class="col-auto col-sm col-md-auto d-none d-md-block">
-                                        <div class="contact-box contact-box-1">
-                                            <h5 class="contact-box-title"><i class="icon-clock"></i> Office Hours</h5>
-                                            <table class="row-table">
-                                                <tbody>
-                                                    <tr>
-                                                        <td><i>Monday</i></td>
-                                                        <td>7:30am - 5:00pm</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i>Tuesday</i></td>
-                                                        <td>7:30am - 2:00pm</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i>Wednesday</i></td>
-                                                        <td>7:30am - 5:00pm</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i>Thursday</i></td>
-                                                        <td>7:30am - 2:00pm</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i>Friday</i></td>
-                                                        <td>Closed</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i>Saturday</i></td>
-                                                        <td>Closed</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i>Sunday</i></td>
-                                                        <td>Closed</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                            <div class="office-hours mt-3">
+                                <div class="contact-box contact-box-1">
+                                    <h5 class="contact-box-title"><i class="icon-clock"></i> Office Hours</h5>
+                                    <table class="row-table">
+                                    <tbody>
+                                        <tr><td><i>Monday</i></td><td>7:30am - 5:00pm</td></tr>
+                                        <tr><td><i>Tuesday</i></td><td>7:30am - 2:00pm</td></tr>
+                                        <tr><td><i>Wednesday</i></td><td>7:30am - 5:00pm</td></tr>
+                                        <tr><td><i>Thursday</i></td><td>7:30am - 2:00pm</td></tr>
+                                        <tr><td><i>Friday</i></td><td>Closed</td></tr>
+                                        <tr><td><i>Saturday</i></td><td>Closed</td></tr>
+                                        <tr><td><i>Sunday</i></td><td>Closed</td></tr>
+                                    </tbody>
+                                    </table>
                                 </div>
                             </div>
+
                         </div>
                         <!-- Main Content -->
                         <div class="col-md-9">
@@ -213,7 +185,7 @@
                                 </picture>
                             </div>
 
-                            <section class="pt-0">
+                            <section class="pt-0 pb-0">
                                 <div class="service-items">
                                     <h3>Rediscover a Complete, Beautiful Smile with Dental Implants in Barrie</h3>
                                     <p>Have you lost any of your teeth because of an accident, tooth decay, or gum
@@ -232,13 +204,18 @@
                                             an appointment</a>, please contact our office at <a
                                             href="tel:(+1) 123-456-789">(+1) 123-456-789</a>. Let Crossroads Dental help
                                         you achieve the smile of your dreams with our compassionate, expert care.</p>
+
+                                        <div class="educational-video mb-4">
+										<h2>How Implants Work</h2>
+										<a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg" width="350" alt="" /></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+											<a href="//fast.wistia.net/embed/iframe/oyjs4vfuyb?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/implant-faqs.jpg" width="350" alt="" /></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+									</div>
                                 </div>
                             </section>
                             <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
-                                        <div class="col-lg-5"
-                                            style="background-size: cover; background-repeat: no-repeat;">
+                                        <div class="col-lg-5" style="background-size: cover; background-repeat: no-repeat;">
                                             <div class="subtitle id-color wow fadeInUp animated" data-wow-delay=".0s"
                                                 style="background-size: cover; background-repeat: no-repeat; visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
                                                 Everything You Need to Know</div>
@@ -247,8 +224,7 @@
                                                 Frequently Asked Questions</h2>
                                         </div>
 
-                                        <div class="col-lg-7"
-                                            style="background-size: cover; background-repeat: no-repeat;">
+                                        <div class="col-lg-7" style="background-size: cover; background-repeat: no-repeat;">
                                             <div class="accordion s2 wow fadeInUp animated"
                                                 style="background-size: cover; background-repeat: no-repeat; visibility: visible; animation-name: fadeInUp;">
                                                 <div class="accordion-section"
@@ -307,6 +283,7 @@
                         </div>
                     </div>
                 </div>
+            </section>
             <section class="text-dark no-bottom overflow-hidden bg-gray"
                 style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
                 <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
@@ -338,14 +315,38 @@
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
     <script>
-        // Toggle child list on click
-        document.querySelectorAll('.service-category h3').forEach(header => {
-            header.addEventListener('click', () => {
-                const content = header.nextElementSibling;
-                content.classList.toggle('open');
+        document.querySelectorAll('.services-nav .nav-link[data-toggle="collapse"]').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('data-target') || this.getAttribute('href');
+                const target = document.querySelector(targetId);
+                const arrowIcon = this.querySelector('.rotate-icon');
+
+                if (!target) return;
+
+                const isOpen = target.classList.contains('show');
+
+                // Close all others and reset their arrows
+                document.querySelectorAll('.services-nav .collapse').forEach(div => {
+                    div.classList.remove('show');
+                });
+                document.querySelectorAll('.services-nav .nav-link[aria-expanded]').forEach(l => {
+                    l.setAttribute('aria-expanded', 'false');
+                    const icon = l.querySelector('.rotate-icon');
+                    if (icon) icon.classList.remove('rotated');
+                });
+
+                // Open the clicked one and rotate its arrow
+                if (!isOpen) {
+                    target.classList.add('show');
+                    this.setAttribute('aria-expanded', 'true');
+                    if (arrowIcon) arrowIcon.classList.add('rotated');
+                }
             });
         });
     </script>
+
 </body>
 
 </html>
