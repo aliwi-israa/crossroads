@@ -1,0 +1,4 @@
+[17-Jun-2025 19:20:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/crossroadsdental.ca/public_html/crossroads/includes/config.php' (include_path='.:/usr/local/php82/pear') in /home/customer/www/crossroadsdental.ca/public_html/test/cdcp/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/crossroadsdental.ca/public_html/test/cdcp/index.php on line 1
