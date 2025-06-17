@@ -84,7 +84,7 @@
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>                                
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -104,7 +104,7 @@
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>                                
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -124,7 +124,7 @@
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>                                
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -144,7 +144,7 @@
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>                                
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -154,8 +154,7 @@
                                     </div>
                                 </div>
                             </div>
-                                                    </a>
-
+                        </a>
                         </div>
                     </div>
                 </div>

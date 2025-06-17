@@ -129,7 +129,7 @@
                                             <picture>
                                             <source srcset="<?php echo $root; ?>assets/images/about/p1-480.webp" media="(max-width: 600px)">
                                             <source srcset="<?php echo $root; ?>assets/images/about/p1-768.webp" media="(max-width: 992px)">
-                                            <img src="<?php echo $root; ?>assets/images/about/p1-1280.webp" class="w-100 wow scaleIn" alt="About us">
+                                            <img src="<?php echo $root; ?>assets/images/about/p1-1280.webp" class="w-100 wow scaleIn" alt="Woman having her teeth examined by a dentist">
                                             </picture>
                                         </div>
                                     </div>  
@@ -143,7 +143,7 @@
                                             <picture>
                                             <source srcset="<?php echo $root; ?>assets/images/about/p2-480.webp" media="(max-width: 600px)">
                                             <source srcset="<?php echo $root; ?>assets/images/about/p2-768.webp" media="(max-width: 992px)">
-                                            <img src="<?php echo $root; ?>assets/images/about/p2-1280.webp" class="w-100 wow scaleIn" data-wow-delay=".3s" alt="About us">
+                                            <img src="<?php echo $root; ?>assets/images/about/p2-1280.webp" class="w-100 wow scaleIn" data-wow-delay=".3s" alt="A dentist and her patient smiling at the result of the dentist work">
                                             </picture>
                                         </div>
                                     </div>
@@ -184,7 +184,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/examination.svg" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/examination.svg" class="w-70px mb-3 wow scaleIn" alt="an icon of a tooth gettting checked">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>General Dentistry</h4>
                                         <p>Complete oral care for every smile with cleanings, exams, and more.</p>
@@ -199,7 +199,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/smile-makeover.svg" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/smile-makeover.svg" class="w-70px mb-3 wow scaleIn" alt="an icon of a smiling mouth">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Smile Makeover</h4>
                                         <p>Enhance your smile’s beauty with whitening, veneers, and more.</p>
@@ -214,7 +214,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/children.svg" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/children.svg" class="w-70px mb-3 wow scaleIn" alt="an icon of a teeth with a little face on it to represent the pdiatric dentistry">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Pediatric Dentistry</h4>
                                         <p>Gentle and fun dental care for kids to grow healthy, happy smiles.</p>
@@ -229,7 +229,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/implants.svg" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/implants.svg" class="w-70px mb-3 wow scaleIn" alt="an icon of a tooth being implanted">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Dental Implants</h4>
                                         <p>Repair and restore your teeth for lasting comfort and function.</p>
@@ -314,7 +314,7 @@
                                 <picture>
                                 <source srcset="<?php echo $root; ?>assets/images/homepage/p3-480.webp" media="(max-width: 600px)">
                                 <source srcset="<?php echo $root; ?>assets/images/homepage/p3-768.webp" media="(max-width: 992px)">
-                                <img src="<?php echo $root; ?>assets/images/homepage/p3-1280.webp" class="w-100 wow responsive-img" loading="lazy" alt="Dental Image in the clinic">
+                                <img src="<?php echo $root; ?>assets/images/homepage/p3-1280.webp" class="w-100 wow responsive-img" loading="lazy" alt="an image of a women setting in the patients chair at the dentist, smiling with a thumbs up">
                                 </picture>
                             </div>
                         </div>
@@ -339,7 +339,7 @@
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/1-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>                                
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -356,7 +356,7 @@
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/2-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/2-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/2-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/2-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>
                                 
@@ -374,7 +374,7 @@
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/3-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/3-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/3-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/3-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -391,7 +391,7 @@
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/4-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/4-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/4-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/4-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">

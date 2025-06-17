@@ -76,7 +76,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                                 <picture>
                                 <source srcset="<?php echo $root; ?>assets/images/about/p1-480.webp" media="(max-width: 600px)">
                                 <source srcset="<?php echo $root; ?>assets/images/about/p1-768.webp" media="(max-width: 992px)">
-                                <img src="<?php echo $root; ?>assets/images/about/p1-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                <img src="<?php echo $root; ?>assets/images/about/p1-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="Woman having her teeth examined by a dentist">
                                 </picture>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                                 <picture>
                                 <source srcset="<?php echo $root; ?>assets/images/about/p2-480.webp" media="(max-width: 600px)">
                                 <source srcset="<?php echo $root; ?>assets/images/about/p2-768.webp" media="(max-width: 992px)">
-                                <img src="<?php echo $root; ?>assets/images/about/p2-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                <img src="<?php echo $root; ?>assets/images/about/p2-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist and her patient smiling at the result of the dentist work">
                                 </picture>
                             </div>
                         </div>
@@ -146,7 +146,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                               <picture>
                                 <source srcset="<?php echo $root; ?>assets/images/about/p3-480.webp" media="(max-width: 600px)">
                                 <source srcset="<?php echo $root; ?>assets/images/about/p3-768.webp" media="(max-width: 992px)">
-                                <img src="<?php echo $root; ?>assets/images/about/p3-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                <img src="<?php echo $root; ?>assets/images/about/p3-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist and her patient taking a selfie">
                                 </picture>
                             </div>
                         </div>
@@ -203,7 +203,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                                 <picture>
                                 <source srcset="<?php echo $root; ?>assets/images/about/p4-480.webp" media="(max-width: 600px)">
                                 <source srcset="<?php echo $root; ?>assets/images/about/p4-768.webp" media="(max-width: 992px)">
-                                <img src="<?php echo $root; ?>assets/images/about/p4-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                <img src="<?php echo $root; ?>assets/images/about/p4-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist smiling and talking with her patient">
                                 </picture>
                             </div>
                         </div>
@@ -220,7 +220,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                                 <picture>
                                 <source srcset="<?php echo $root; ?>assets/images/about/p5-480.webp" media="(max-width: 600px)">
                                 <source srcset="<?php echo $root; ?>assets/images/about/p5-768.webp" media="(max-width: 992px)">
-                                <img src="<?php echo $root; ?>assets/images/about/p5-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                <img src="<?php echo $root; ?>assets/images/about/p5-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist checking her patient teeth with dental tools">
                                 </picture>
                             </div>
                         </div>
@@ -252,7 +252,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                                 <picture>
                                 <source srcset="<?php echo $root; ?>assets/images/team/1-480.webp" media="(max-width: 600px)">
                                 <source srcset="<?php echo $root; ?>assets/images/team/1-768.webp" media="(max-width: 992px)">
-                                <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                 </picture>
                                 </div>                                
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -269,7 +269,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/2-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/2-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/2-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/2-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -286,7 +286,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/3-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/3-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/3-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/3-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -303,7 +303,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                                     <picture>
                                     <source srcset="<?php echo $root; ?>assets/images/team/4-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>assets/images/team/4-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>assets/images/team/4-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="team members">
+                                    <img src="<?php echo $root; ?>assets/images/team/4-1280.webp" class="w-100 wow scaleIn" loading="lazy" alt="a dentist from the crossroads dental team">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">

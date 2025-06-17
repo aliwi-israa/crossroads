@@ -74,7 +74,7 @@
                     <div class="row">
                         <div class="col-md">
                             <div class=" rounded-1 overflow-hidden wow zoomIn  image-container animated" style="background-size: cover; background-repeat: no-repeat; visibility: visible; animation-name: zoomIn;">
-                                <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="img-fluid" alt="Dr. Name in here">
+                                <img src="<?php echo $root; ?>assets/images/team/1-1280.webp" class="img-fluid" alt="an image for one of the team">
                             </div>
                             <div class="mt-4 text-center">
                                 <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s"

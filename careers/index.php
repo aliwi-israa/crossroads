@@ -103,7 +103,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-growth-opportunities.svg" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-growth-opportunities.svg" alt="an icon for a person going up the stairs to represent growth">
                                     <h4>Growth Opportunities</h4>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-health-dental-benefits.svg" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-health-dental-benefits.svg" alt="an icon of a heart being held by hands to repreent dental benefite">
                                     <h4>Health & Dental Benefits</h4>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-mentorship-training.svg" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-mentorship-training.svg" alt="an icon of a graduation hat to represent mentorship">
                                     <h4>Mentorship and Training</h4>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-relocation-support.svg" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-relocation-support.svg" alt="an icon of a location pin with the globe to represent availability for the relocation">
                                     <h4>Relocation Support</h4>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1 career-icon">
                                 <div class="relative wow fadeInUp">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-competitive-wages.svg" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-competitive-wages.svg" alt="an icon of a hand holding money to represent competitive wages">
                                     <h4>Competitive Wages</h4>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-supportive-teams.svg" alt="">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-supportive-teams.svg" alt="an icon of hands holding many people to represent supportive teams">
                                     <h4>Supportive Teams
                                     </h4>
                                 </div>

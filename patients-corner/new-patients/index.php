@@ -77,7 +77,7 @@
                                         <source srcset="<?php echo $root; ?>assets/images/patients/new-480.webp" media="(max-width: 600px)">
                                         <source srcset="<?php echo $root; ?>assets/images/patients/new-768.webp" media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/patients/new-1280.webp"
-                                            class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                            class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="two detntits proudly standing ">
                                     </picture>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@
                                         <source srcset="<?php echo $root; ?>assets/images/patients/child-480.webp" media="(max-width: 600px)">
                                         <source srcset="<?php echo $root; ?>assets/images/patients/child-768.webp" media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/patients/child-1280.webp" class="w-100 wow scaleIn  responsive-img"
-                                            loading="lazy" alt="About us">
+                                            loading="lazy" alt="A little girl brushing her teeth">
                                     </picture>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                                         <source srcset="<?php echo $root; ?>assets/images/about/p5-480.webp" media="(max-width: 600px)">
                                         <source srcset="<?php echo $root; ?>assets/images/about/p5-768.webp" media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/about/p5-1280.webp"
-                                            class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="About us">
+                                            class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist checking her patient teeth with dental tools">
                                     </picture>
                                 </div>
                             </div>

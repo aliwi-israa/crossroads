@@ -190,7 +190,7 @@
                                 <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
                                     <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp" media="(max-width: 600px)">
                                     <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp" alt="Dental Implants" loading="lazy"
+                                    <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp" alt="Dental Implants image of a person getting his teeth implanted" loading="lazy"
                                         class="img-fluid">
                                 </picture>
                             </div>

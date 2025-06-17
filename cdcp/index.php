@@ -78,7 +78,7 @@
                                         <source srcset="<?php echo $root; ?>assets/images/cdcp/people-480.webp" media="(max-width: 600px)">
                                         <source srcset="<?php echo $root; ?>assets/images/cdcp/people-768.webp" media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/cdcp/people-1280.webp" class="w-100 wow scaleIn  responsive-img"
-                                            loading="lazy" alt="About us">
+                                            loading="lazy" alt="A picture of people smiling and showing their teeth">
                                     </picture>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                                         <source srcset="<?php echo $root; ?>assets/images/about/p4-480.webp" media="(max-width: 600px)">
                                         <source srcset="<?php echo $root; ?>assets/images/about/p4-768.webp" media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/about/p4-1280.webp" class="w-100 wow scaleIn  responsive-img"
-                                            loading="lazy" alt="About us">
+                                            loading="lazy" alt="A dentist smiling and talking with her patient">
                                     </picture>
                                 </div>
                             </div>
