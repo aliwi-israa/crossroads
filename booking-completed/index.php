@@ -41,14 +41,14 @@
 <body class="subpage">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-body.php';?>
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/header.php';?>
-	<section> 
+    <section>
 	<div class="page-content" style="margin-top:100px;">
 		<div class="section page-content-first">
 			<div class="container">
-				<div class="text-center mb-2  mb-md-3 mb-lg-4 mt-5">
-					<div class="h-sub text-blue">Page Not Found</div>
-					<h1 class="orange-color">Oops! We cannot find the page you were looking for.</h1>
-					<div class="text-blue">Please click on the link below to go back to the homepage or use the menu above.
+				<div class="text-center mb-2  mb-md-3 mb-lg-4">
+					<div class="h-sub theme-color">Thank you for booking an appointment at Crossroads Dental.</div>
+					<h1 class="orange-color">We’re committed to providing you with the best experience possible.</h1>
+					<div class="text-blue">You will receive an SMS/Text shortly with your appointment confirmation.<br>We look forward to seeing you!
 					</div>
 				</div>
 			</div>
@@ -58,19 +58,19 @@
 						<p class="mb-4">
 							<div class="cta-book mb-5">
      							<a class="btn-main fx-slide btn-outline-white" href="<?php echo $root; ?>"><span>Back to Homepage</span></a>								
-								<a class="btn-main fx-slide menu_side_area m-0" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
 							</div>
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	</section>
+	</div>	
+     </section>
 	 <div class="backToTop js-backToTop">
 		<i class="icon icon-up-arrow"></i>
 	</div>
 	 
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/footer.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/js-vendors.php';?>
+
 </html>

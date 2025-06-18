@@ -2641,6 +2641,10 @@ input[type=button].btn-outline-white.banner-btn,
 .rotate-icon.rotated {
   transform: rotate(180deg);
 }
+
+.text-blue {
+  color: var(--secondary-color);
+}
 @-webkit-keyframes move-up-down {
   0% {
     transform: translateY(0);
