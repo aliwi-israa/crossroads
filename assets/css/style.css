@@ -109,7 +109,6 @@ html {
 body {
   overflow-x: hidden;
   font-family: var(--body-font);
-    font-display: swap;
   font-size: var(--body-font-size);
   font-weight: var(--body-font-weight);
   color: var(--body-font-color);
@@ -2544,7 +2543,7 @@ input[type=button].btn-outline-white.banner-btn,
 }
 
 .office-hours {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   color: #fff;
 }
 
@@ -2644,6 +2643,12 @@ input[type=button].btn-outline-white.banner-btn,
 
 .text-blue {
   color: var(--secondary-color);
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 @-webkit-keyframes move-up-down {
   0% {
@@ -3522,7 +3527,34 @@ img {
     top: 15%;
   }
 }
+@media only screen and (max-width: 600px) {
+  #subheader .col-lg-12{
+    margin-top: 70px;
+  }
+  
+  .breadcrumbs li {
+    font-size: 14px;
+  }
 
+  .breadcrumbs-wrap .container {
+    padding: 10px;
+  }
+
+  .video {
+    margin-bottom: 5px;
+  }
+.video-container {
+  flex-direction: column;
+}
+  .banner-center-caption .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer {
+    padding-top: 20px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   header .logo-main {
