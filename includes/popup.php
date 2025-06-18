@@ -5,7 +5,7 @@
             <picture>
             <source srcset="<?php echo $root; ?>assets/images/homepage/popup-480.webp" media="(max-width: 600px)">
             <source srcset="<?php echo $root; ?>assets/images/homepage/popup-768.webp" media="(max-width: 992px)">
-            <img src="<?php echo $root; ?>assets/images/homepage/popup-1280.webp" class="promo-img" loading="lazy" alt="Dental Promo Image, a picture of a mother and her son looking happy">
+            <img src="<?php echo $root; ?>assets/images/homepage/popup-1280.webp" class="promo-img" width="100" height="100" alt="Dental Promo Image, a picture of a mother and her son looking happy">
             </picture>
         </div>
         <div class="col-5 text-section">

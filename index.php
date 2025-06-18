@@ -11,6 +11,7 @@
 	<meta name="description"
 		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
 	<meta name="author" content="Dentalook">
+<link rel="preload" as="image" href="<?php echo $root; ?>assets/images/homepage/popup-480.webp">
 
     	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="">
