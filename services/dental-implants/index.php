@@ -227,15 +227,20 @@
                             </div>
 
                             <div class="service-img mb-4">
-                                <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp"
-                                        media="(max-width: 600px)">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp"
-                                        media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp"
-                                        alt="Dental Implants in Toronto - Crossroads Dental" loading="lazy"
-                                        class="img-fluid">
-                                </picture>
+                                  <div class="educational-video mb-4">
+                                        <h3>How Implants Work</h3>
+                                        <div class="video-container">
+
+                                            <div class="video">
+                                                <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
+                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
+                                                        src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
+                                                        width="350" style="width:100%" alt="" /></a>
+                                                <script charset="ISO-8859-1"
+                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
 
                             <section class="pt-0 pb-0">
@@ -295,97 +300,6 @@
                                     <p><strong>Book your dental implant consultation at Crossroads Dental in Toronto
                                             today and take the first step toward a complete, confident smile.</strong>
                                     </p>
-                                    <div class="educational-video mb-4">
-                                        <h3>How Implants Work</h3>
-                                        <div class="video-container">
-
-                                            <div class="video">
-                                                <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
-                                                        width="350" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-
-                                            <div class="video">
-
-                                                <a href="//fast.wistia.net/embed/iframe/oyjs4vfuyb?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/implant-faqs.jpg"
-                                                        width="350" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
-                                <div class="container" style="background-size: cover; background-repeat: no-repeat;">
-                                    <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
-                                        <div class="col-lg-5"
-                                            style="background-size: cover; background-repeat: no-repeat;">
-                                            <div class="subtitle id-color wow fadeInUp animated" data-wow-delay=".0s">
-                                                Everything You Need to Know
-                                            </div>
-                                            <h2 class="wow fadeInUp animated" data-wow-delay=".2s">Frequently Asked
-                                                Questions</h2>
-                                        </div>
-                                        <div class="col-lg-7"
-                                            style="background-size: cover; background-repeat: no-repeat;">
-                                            <div class="accordion s2 wow fadeInUp animated">
-                                                <div class="accordion-section">
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f1">
-                                                        1. What are dental implants made of?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f1">
-                                                        Most implants are made of biocompatible titanium, which safely
-                                                        integrates with your jawbone and supports a crown, bridge, or
-                                                        denture.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f2">
-                                                        2. How long do dental implants last?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f2">
-                                                        With good oral hygiene and regular checkups, implants can last
-                                                        20+ years or a lifetime in many cases.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f3">
-                                                        3. Is the implant procedure painful?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f3">
-                                                        Implant surgery is done under local anesthesia, and most
-                                                        patients report minimal discomfort. We’ll provide pain
-                                                        management instructions for recovery.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f4">
-                                                        4. Can anyone get dental implants?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f4">
-                                                        Most healthy adults with adequate bone are good candidates. If
-                                                        you’ve lost bone, we may recommend a graft before implant
-                                                        placement.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f5">
-                                                        5. How do I care for dental implants?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f5">
-                                                        Treat them like natural teeth: brush, floss, and see your
-                                                        dentist regularly. Good home care and professional maintenance
-                                                        are key to longevity.
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </section>
                         </div>

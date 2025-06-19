@@ -20,7 +20,7 @@
     <meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
     <meta property="og:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
-    <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Smile-Makeover.png">
+    <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/emergency_dental_care.jpg">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -29,7 +29,7 @@
     <meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
     <meta name="twitter:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
-    <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Smile-Makeover.png">
+    <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/emergency_dental_care.jpg">
 
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
     <!-- Google Fonts -->
@@ -222,15 +222,15 @@
         <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
             <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
         </div>
-        <h1>Emergency Dentist in Toronto</h1>
+        <h1>Dental Emergency? We’re Here When You Need Us.</h1>
         <p>Dental emergencies can happen without warning but fast, professional care can make all the difference. At Crossroads Dental, we provide same-day emergency appointments to relieve pain, treat trauma, and protect your smile when it matters most.</p>
     </div>
 
     <div class="service-img mb-4">
         <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp" media="(max-width: 600px)">
-            <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp" media="(max-width: 992px)">
-            <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp"
+            <source srcset="<?php echo $root; ?>/assets/images/services/banner/Emergency-Dentistry-480.webp" media="(max-width: 600px)">
+            <source srcset="<?php echo $root; ?>/assets/images/services/banner/Emergency-Dentistry-768.webp" media="(max-width: 992px)">
+            <img src="<?php echo $root; ?>/assets/images/services/banner/Emergency-Dentistry-1280.webp"
                 alt="Emergency Dentist in Toronto at Crossroads Dental" loading="lazy" class="img-fluid">
         </picture>
     </div>
@@ -284,29 +284,10 @@
             <p><strong>Experiencing a dental emergency? Call Crossroads Dental now for a same-day appointment in Toronto.</strong></p>
 
             <div class="educational-video mb-4">
-                <h3>How Implants Work</h3>
-                <div class="video-container">
-
-                    <div class="video">
-                        <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
-                            class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
-                                width="350" alt="" /></a>
-                        <script charset="ISO-8859-1"
-                            src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                    </div>
-
-                    <div class="video">
-
-                        <a href="//fast.wistia.net/embed/iframe/oyjs4vfuyb?popover=true"
-                            class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                src="https://www.deardoctor.com/images/video-gallery/play/implant-faqs.jpg"
-                                width="350" alt="" /></a>
-                        <script charset="ISO-8859-1"
-                            src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                    </div>
-                </div>
+                <h3>Emergency Dentistry Explained</h3>
+                <a href="//fast.wistia.net/embed/iframe/pjkwm6m89d?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/emergency-dental-care.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
             </div>
+
         </div>
     </section>
 

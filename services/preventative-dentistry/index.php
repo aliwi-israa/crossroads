@@ -223,25 +223,23 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Preventive Dentistry at Crossroads Dental</h1>
+                                <h1>Is Your Smile Getting the Preventive Care It Needs?</h1>
                                 <p>At Crossroads Dental, we believe prevention is the foundation of lifelong oral
                                     health. Our preventive dental services are designed to detect problems early,
                                     maintain healthy teeth and gums, and help you avoid costly or invasive treatments
                                     later on.</p>
                             </div>
+                            <div class="educational-video mb-4">
+                                <h3>How Implants Work</h3>
+                                <div class="video-container">
 
-                            <div class="service-img mb-4">
-                                <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp"
-                                        media="(max-width: 600px)">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp"
-                                        media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp"
-                                        alt="Preventive Dentistry in Toronto - Crossroads Dental" loading="lazy"
-                                        class="img-fluid">
-                                </picture>
+                                    <div class="video">
+                                        <a href="//fast.wistia.net/embed/iframe/7zejtgjz1m?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/dental-sealants.jpg" width="650" alt=""></a>
+                                        <script charset="ISO-8859-1"
+                                            src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+                                    </div>
+                                </div>
                             </div>
-
                             <section class="pt-0 pb-0">
                                 <div class="service-items">
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">What is Preventive Dentistry?</h3>
@@ -295,99 +293,7 @@
                                         long-term oral health. Whether you're due for a cleaning or haven’t seen a
                                         dentist in years, our friendly team is here to help.</p>
                                     <p><strong>Book your next preventive care visit today at Crossroads Dental in
-                                            Toronto!</strong></p>
-
-                                    <div class="educational-video mb-4">
-                                        <h3>How Implants Work</h3>
-                                        <div class="video-container">
-
-                                            <div class="video">
-                                                <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
-                                                        width="350" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-
-                                            <div class="video">
-
-                                                <a href="//fast.wistia.net/embed/iframe/oyjs4vfuyb?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/implant-faqs.jpg"
-                                                        width="350" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
-                                <div class="container" style="background-size: cover; background-repeat: no-repeat;">
-                                    <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
-                                        <div class="col-lg-5"
-                                            style="background-size: cover; background-repeat: no-repeat;">
-                                            <div class="subtitle id-color wow fadeInUp animated" data-wow-delay=".0s">
-                                                Everything You Need to Know
-                                            </div>
-                                            <h2 class="wow fadeInUp animated" data-wow-delay=".2s">Frequently Asked
-                                                Questions</h2>
-                                        </div>
-                                        <div class="col-lg-7"
-                                            style="background-size: cover; background-repeat: no-repeat;">
-                                            <div class="accordion s2 wow fadeInUp animated">
-                                                <div class="accordion-section">
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f1">
-                                                        1. What is preventive dentistry?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f1">
-                                                        Preventive dentistry is all about maintaining a healthy mouth
-                                                        through regular dental visits, cleanings, screenings, and good
-                                                        daily habits — preventing issues before they start.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f2">
-                                                        2. How often should I have a dental checkup?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f2">
-                                                        Most patients should see their dentist every six months. Some
-                                                        may need more frequent visits if they have gum disease or other
-                                                        risk factors.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f3">
-                                                        3. Are preventive treatments only for children?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f3">
-                                                        No — preventive care is vital for all ages. Adults benefit just
-                                                        as much from regular cleanings, fluoride, and early detection of
-                                                        oral issues.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f4">
-                                                        4. What are dental sealants and who should get them?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f4">
-                                                        Sealants are thin coatings that protect back teeth from decay.
-                                                        They're especially useful for kids and teens, but adults with
-                                                        deep grooves can benefit too.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f5">
-                                                        5. Can preventive care really save money?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f5">
-                                                        Absolutely. Preventing cavities, gum disease, and other issues
-                                                        reduces the need for costly treatments like fillings, root
-                                                        canals, or tooth replacements.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                            Toronto!</strong></p>                     
                                 </div>
                             </section>
                         </div>

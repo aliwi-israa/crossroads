@@ -78,7 +78,7 @@
                             <div class="subcategory-section">
                                 <h3 class="subcategory-title">Preventative Dentistry</h3>
                                 <div class="subcategory-sub">
-                                    <h4 class="subcategory-subtitle mt-4" style=" margin-left: 20px;">Dental Examination
+                                    <h4 class="subcategory-subtitle id-color mt-4" style=" margin-left: 20px;">Dental Examination
                                     </h4>
                                     <div class="accordion-section" style=" margin-left: 20px;">
                                         <div class="accordion-section-title" data-tab="#faq-exam-1">
@@ -97,7 +97,7 @@
                                     </div>
                                 </div>
                                 <div class="subcategory-sub">
-                                    <h4 class="subcategory-subtitle mt-4" style=" margin-left: 20px;">Gum Care & Teeth
+                                    <h4 class="subcategory-subtitle id-color mt-4" style=" margin-left: 20px;">Gum Care & Teeth
                                         Cleaning</h4>
                                     <div class="accordion-section" style=" margin-left: 20px;">
                                         <div class="accordion-section-title" data-tab="#faq-gum-1">
@@ -116,7 +116,7 @@
                                     </div>
                                 </div>
                                 <div class="subcategory-sub">
-                                    <h4 class="subcategory-subtitle mt-4" style=" margin-left: 20px;">Dental Sealants
+                                    <h4 class="subcategory-subtitle id-color mt-4" style=" margin-left: 20px;">Dental Sealants
                                     </h4>
                                     <div class="accordion-section" style=" margin-left: 20px;">
                                         <div class="accordion-section-title" data-tab="#faq-sealant-1">
@@ -134,7 +134,7 @@
                                     </div>
                                 </div>
                                 <div class="subcategory-sub">
-                                    <h4 class="subcategory-subtitle mt-4" style=" margin-left: 20px;">Fluoride
+                                    <h4 class="subcategory-subtitle id-color mt-4" style=" margin-left: 20px;">Fluoride
                                         Treatments</h4>
                                     <div class="accordion-section" style=" margin-left: 20px;">
                                         <div class="accordion-section-title" data-tab="#faq-fluoride-1">
@@ -152,7 +152,7 @@
                                     </div>
                                 </div>
                                 <div class="subcategory-sub">
-                                    <h4 class="subcategory-subtitle mt-4" style=" margin-left: 20px;">Oral Cancer
+                                    <h4 class="subcategory-subtitle id-color mt-4" style=" margin-left: 20px;">Oral Cancer
                                         Screening</h4>
                                     <div class="accordion-section" style=" margin-left: 20px;">
                                         <div class="accordion-section-title" data-tab="#faq-cancer-1">
@@ -173,7 +173,7 @@
                             <div class="subcategory-section">
                                 <h3 class="subcategory-title">General Dentistry</h3>
                                 <div class="subcategory-sub">
-                                    <h4 class="subcategory-subtitle mt-4" style=" margin-left: 20px;">Dental Fillings
+                                    <h4 class="subcategory-subtitle id-color mt-4" style=" margin-left: 20px;">Dental Fillings
                                     </h4>
                                     <div class="accordion-section" style=" margin-left: 20px;">
                                         <div class="accordion-section-title" data-tab="#faq-fillings-1">
@@ -212,7 +212,7 @@
                             <div class="subcategory-section">
                                 <h3 class="subcategory-title">Cosmetic Dentistry</h3>
                                 <div class="subcategory-sub">
-                                    <h4 class="subcategory-subtitle mt-4" style=" margin-left: 20px;">Whitening</h4>
+                                    <h4 class="subcategory-subtitle id-color mt-4" style=" margin-left: 20px;">Whitening</h4>
                                     <div class="accordion-section" style=" margin-left: 20px;">
                                         <div class="accordion-section-title" data-tab="#faq-whitening-1">
                                             Is in-office whitening safe?
@@ -289,33 +289,45 @@
                 c.style.display = i === 0 ? 'block' : 'none';
             });
         });
-    </script>
-    <script>
-        console.log('sss');
+
+        
         document.addEventListener('DOMContentLoaded', function () {
-            console.log('ll');
+    const searchInput = document.getElementById('faqSearch');
+    const sections = document.querySelectorAll('.subcategory-section');
 
-            const searchInput = document.getElementById('faqSearch');
-            const sections = document.querySelectorAll('.subcategory-section');
+    searchInput.addEventListener('input', function () {
+        const query = this.value.toLowerCase().trim();
 
-            searchInput.addEventListener('input', function () {
-                const query = this.value.toLowerCase().trim();
+        sections.forEach(section => {
+            const categoryTitle = section.querySelector('.subcategory-title');
+            const subcategorySubs = section.querySelectorAll('.subcategory-sub');
 
-                sections.forEach(section => {
-                    const titles = section.querySelectorAll(
-                        '.subcategory-title, .subcategory-subtitle');
-                    let matchFound = false;
+            let sectionHasMatch = false;
 
-                    titles.forEach(title => {
-                        if (title.textContent.toLowerCase().includes(query)) {
-                            matchFound = true;
-                        }
-                    });
+            subcategorySubs.forEach(sub => {
+                const subtitle = sub.querySelector('.subcategory-subtitle id-color');
 
-                    section.style.display = matchFound || query === '' ? '' : 'none';
-                });
+                if (subtitle && subtitle.textContent.toLowerCase().includes(query)) {
+                    sub.style.display = ''; // Show matching subcategory
+                    sectionHasMatch = true;
+                } else {
+                    sub.style.display = 'none'; // Hide non-matching subcategory
+                }
             });
+
+            // Also show section if parent category matches
+            if (categoryTitle && categoryTitle.textContent.toLowerCase().includes(query)) {
+                section.style.display = '';
+                subcategorySubs.forEach(sub => sub.style.display = ''); // Show all children if parent matches
+            } else {
+                // Show or hide whole section based on whether any sub matched
+                section.style.display = sectionHasMatch || query === '' ? '' : 'none';
+            }
         });
+    });
+});
+
     </script>
+ 
 </body>
 </html>

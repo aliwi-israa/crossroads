@@ -1870,7 +1870,7 @@ footer .widget h5 {
   top: 0;
   width: 50%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(33, 87, 127, 0.5) 0%, rgba(120, 160, 190, 0) 100%);
+  background: linear-gradient(90deg, rgba(33, 87, 127, 0.5) 0%, rgba(120, 160, 190, 0) 0%)
 }
 
 .grid-divider>[class*=col-]:nth-child(n+2):after {
@@ -2654,6 +2654,14 @@ input[type=button].btn-outline-white.banner-btn,
 background-color: var(--secondary-color);
 }
 
+.subcategory-section:not(:last-child) {
+    margin-bottom: 40px; /* or whatever value you prefer */
+}
+
+.all-jobs ul li {
+  display: flex;
+  flex-direction: column;
+}
 @-webkit-keyframes move-up-down {
   0% {
     transform: translateY(0);

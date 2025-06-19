@@ -20,7 +20,7 @@
     <meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
     <meta property="og:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
-    <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Smile-Makeover.png">
+    <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Clear-Aligners.png">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -29,7 +29,7 @@
     <meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
     <meta name="twitter:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
-    <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Smile-Makeover.png">
+    <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Clear-Aligners.png">
 
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
     <!-- Google Fonts -->
@@ -230,15 +230,10 @@
                             </div>
 
                             <div class="service-img mb-4">
-                                <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp"
-                                        media="(max-width: 600px)">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp"
-                                        media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp"
-                                        alt="Clear Aligners in Toronto - Crossroads Dental" loading="lazy"
-                                        class="img-fluid">
-                                </picture>
+                              <div class="educational-video mb-4">
+										<h3>How Clear Aligners Work</h3>
+										<a href="//fast.wistia.net/embed/iframe/9yie6pjs36?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/clear-orthodontic-aligners.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+								</div>
                             </div>
                             <section class="pt-0 pb-0">
                                 <div class="service-items">
@@ -291,95 +286,6 @@
                                     <p><strong>Book your clear aligner consultation at Crossroads Dental in Toronto
                                             today and take the first step toward a straighter, more confident
                                             smile.</strong></p>
-
-                                              
-                                    <div class="educational-video mb-4">
-                                        <h3>How Implants Work</h3>
-                                        <div class="video-container">
-
-                                            <div class="video">
-                                                <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
-                                                        width="350" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-
-                                            <div class="video">
-
-                                                <a href="//fast.wistia.net/embed/iframe/oyjs4vfuyb?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/implant-faqs.jpg"
-                                                        width="350" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
-                                <div class="container" style="background-size: cover; background-repeat: no-repeat;">
-                                    <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
-                                        <div class="col-lg-5"
-                                            style="background-size: cover; background-repeat: no-repeat;">
-                                            <div class="subtitle id-color wow fadeInUp animated" data-wow-delay=".0s">
-                                                Everything You Need to Know
-                                            </div>
-                                            <h2 class="wow fadeInUp animated" data-wow-delay=".2s">Frequently Asked
-                                                Questions</h2>
-                                        </div>
-                                        <div class="col-lg-7"
-                                            style="background-size: cover; background-repeat: no-repeat;">
-                                            <div class="accordion s2 wow fadeInUp animated">
-                                                <div class="accordion-section">
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f1">
-                                                        1. How long does clear aligner treatment take?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f1">
-                                                        Treatment typically lasts 6–18 months, depending on the
-                                                        complexity of your case and how consistently you wear the
-                                                        aligners.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f2">
-                                                        2. Are clear aligners as effective as braces?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f2">
-                                                        For mild to moderate alignment issues, yes. Severe cases may
-                                                        still require traditional braces or additional treatments.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f3">
-                                                        3. Do clear aligners hurt?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f3">
-                                                        You may feel mild pressure when switching to a new set of
-                                                        aligners, but discomfort is usually minimal and temporary.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f4">
-                                                        4. Can I eat while wearing my aligners?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f4">
-                                                        No. You should remove them when eating or drinking anything
-                                                        other than water. This prevents staining and damage.
-                                                    </div>
-
-                                                    <div class="accordion-section-title" data-tab="#accordion-f5">
-                                                        5. How do I clean my aligners?
-                                                    </div>
-                                                    <div class="accordion-section-content" id="accordion-f5">
-                                                        Rinse them daily with lukewarm water and brush them gently.
-                                                        Avoid using hot water, which can warp the plastic.
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </section>
                         </div>

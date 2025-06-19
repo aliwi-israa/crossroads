@@ -225,15 +225,15 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Root Canal Therapy in Toronto</h1>
+                                <h1>Need Root Canal Treatment?</h1>
                                 <p>If you're experiencing severe tooth pain or sensitivity, you may need a root canal. At Crossroads Dental, our root canal treatments are safe, gentle, and designed to relieve pain while saving your natural tooth.</p>
                             </div>
 
                             <div class="service-img mb-4">
                                 <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp" media="(max-width: 600px)">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp" media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp"
+                                    <source srcset="<?php echo $root; ?>/assets/images/services/banner/root_canals-480.webp" media="(max-width: 600px)">
+                                    <source srcset="<?php echo $root; ?>/assets/images/services/banner/root_canals-768.webp" media="(max-width: 992px)">
+                                    <img src="<?php echo $root; ?>/assets/images/services/banner/root_canals-1280.webp"
                                         alt="Root Canal Therapy in Toronto - Crossroads Dental" loading="lazy" class="img-fluid">
                                 </picture>
                             </div>
@@ -271,29 +271,12 @@
                                     <p>Root canals don’t cause pain — they relieve it. At Crossroads Dental, we use advanced tools and gentle techniques to make your treatment as stress-free as possible.</p>
                                     <p><strong>If you're in pain, don’t wait! Book your root canal consultation at Crossroads Dental in Toronto today!</strong></p>
                                 
-                                    <div class="educational-video mb-4">
-                                        <h3>How Implants Work</h3>
+                                   <div class="educational-video mb-4">
+										<h3>Things to Know about Root Canal Treatment</h3>
                                         <div class="video-container">
-
-                                            <div class="video">
-                                                <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
-                                                        width="350" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-
-                                            <div class="video">
-
-                                                <a href="//fast.wistia.net/embed/iframe/oyjs4vfuyb?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/implant-faqs.jpg"
-                                                        width="350" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-                                        </div>
+									        <div class="video">	<a href="//fast.wistia.net/embed/iframe/08anwftq82?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/root-canal-treatment.jpg" width="350" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
+											<div class="video">	<a href="//fast.wistia.net/embed/iframe/u9ps7dgqlc?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/top5-reasons-not-to-delay-root-canal.jpg" width="350" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
+									    </div>
                                     </div>
                                 </div>
                             </section>
