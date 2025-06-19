@@ -2650,6 +2650,10 @@ input[type=button].btn-outline-white.banner-btn,
   flex-direction: row;
   gap: 5px;
 }
+.parent-category a.active {
+background-color: var(--secondary-color);
+}
+
 @-webkit-keyframes move-up-down {
   0% {
     transform: translateY(0);

@@ -65,7 +65,6 @@
                                 <ul>
                                     <li><a href="<?php echo $root; ?>patients-corner/new-patients/">New Patients</a></li>
                                     <li><a href="<?php echo $root; ?>faq/">FAQ</a></li>
-                                    <li><a href="<?php echo $root; ?>patients-corner/forms/">Forms</a></li>
                                 </ul>
                             </li>
                             <li><a class="menu-item" href="<?php echo $root; ?>contact/">Contact</a></li>
