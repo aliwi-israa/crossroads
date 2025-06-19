@@ -2658,9 +2658,28 @@ background-color: var(--secondary-color);
     margin-bottom: 40px; /* or whatever value you prefer */
 }
 
-.all-jobs ul li {
+#all-jobs ul li {
   display: flex;
   flex-direction: column;
+}
+
+.services-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.services-icons img{
+  width: 30px !important;
+}
+
+.services-icons strong{
+  margin-top: 10px;
+}
+
+.services-icon-list li::marker {
+  content: '';
 }
 @-webkit-keyframes move-up-down {
   0% {

@@ -273,27 +273,7 @@
                                             guide you on the best brushing, flossing, and dietary habits to maintain
                                             your smile between visits.</li>
                                     </ul>
-
-                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">Why Preventive Care Matters</h3>
-                                    <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                                        <li class="mb-4">Saves time and money by avoiding major dental procedures</li>
-                                        <li class="mb-4">Helps maintain natural teeth for life</li>
-                                        <li class="mb-4">Supports overall health as oral issues can impact heart
-                                            disease, diabetes, and more</li>
-                                        <li class="mb-4">Builds positive habits for kids and families</li>
-                                    </ul>
-
-                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">How Often Should You Visit?</h3>
-                                    <p>We recommend scheduling a preventive dental visit every 6 months. Patients with
-                                        gum disease or special conditions may require more frequent care.</p>
-
-                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">Convenient, Caring Dentistry in
-                                        Toronto</h3>
-                                    <p>At Crossroads Dental, we prioritize your comfort, your schedule, and your
-                                        long-term oral health. Whether you're due for a cleaning or haven’t seen a
-                                        dentist in years, our friendly team is here to help.</p>
-                                    <p><strong>Book your next preventive care visit today at Crossroads Dental in
-                                            Toronto!</strong></p>                     
+                                    <p><strong>Book your next preventive care visit today at Crossroads Dental in Toronto today! </strong></p>
                                 </div>
                             </section>
                         </div>

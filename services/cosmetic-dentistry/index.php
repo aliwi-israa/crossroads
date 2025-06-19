@@ -222,36 +222,59 @@
     <div class="title-wrap">
         <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i
                     class="fa-solid fa-arrow-left-long"></i> Services</a></div>
-        <h1>Cosmetic Dentistry in Toronto</h1>
+        <h1>Dreaming of a More Confident Smile?</h1>
         <p>A beautiful smile isn’t just about appearance, it’s about your overall confidence. At Crossroads Dental, we offer a range of cosmetic dentistry treatments designed to enhance your smile’s look, symmetry, and brightness. Whether you’re seeking subtle improvements or a full transformation, our Toronto team can help you achieve your dream smile.</p>
     </div>
-    <div class="service-img mb-4">
-        <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp"
-                media="(max-width: 600px)">
-            <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp"
-                media="(max-width: 992px)">
-            <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp"
-                alt="Dental Implants image of a person getting his teeth implanted"
-                loading="lazy" class="img-fluid">
-        </picture>
+    <div class="educational-video mb-4">
+        <h3>Things to Know about Dental Bonding</h3>
+        <a href="//fast.wistia.net/embed/iframe/ea8qm1ez8b?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/cosmetic-bonding.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
     </div>
 
     <section class="pt-0 pb-0">
         <div class="service-items">
             <h3 class="wow fadeInUp" data-wow-delay=".2s">Our Cosmetic Services</h3>
             <p>We offer personalized treatment options tailored to your goals, lifestyle, and budget:</p>
-            <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li class="mb-4">Teeth Whitening
-                    <br>Brighten your smile with professional-grade whitening treatments that safely lift deep stains and discoloration for a noticeably whiter smile in just one visit.</li>
-                <li class="mb-4">Dental Veneers
-                    <br>Thin, custom-made shells that cover the front of your teeth to correct chips, gaps, uneven shapes, or deep staining. Durable and natural-looking for long-lasting results.</li>
-                <li class="mb-4">Dental Bonding
-                    <br>A cost-effective way to repair minor imperfections using tooth-colored resin. Ideal for small chips, cracks, or gaps without invasive procedures.</li>
-                <li class="mb-4">Smile Makeovers
-                    <br>A customized combination of cosmetic treatments designed to give you a complete smile transformation. Perfect for patients looking for dramatic, yet natural-looking results.</li>
-            </ul>
+            <ul class="fw-500 mb-4 wow fadeInUp services-icon-list" data-wow-delay=".6s">
+                <li class="mb-4">
+                    <a href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/">
+                        <div class="services-icons">
+                            <img src="<?php echo $root; ?>assets/images/icons/icons-whitening.svg" class="w-100 wow scaleIn" alt="Icon for Teeth Whitening">
+                            <strong>Teeth Whitening</strong>
+                        </div><br>
+                        Brighten your smile with professional-grade whitening treatments that safely lift deep stains and discoloration for a noticeably whiter smile in just one visit.
+                    </a>
+                </li>
 
+                <li class="mb-4">
+                    <a href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/">
+                        <div class="services-icons">
+                            <img src="<?php echo $root; ?>assets/images/icons/icons-veneers-cosmetic.svg" class="w-100 wow scaleIn" alt="Icon for Dental Veneers">
+                            <strong>Dental Veneers</strong>
+                        </div><br>
+                        Thin, custom-made shells that cover the front of your teeth to correct chips, gaps, uneven shapes, or deep staining. Durable and natural-looking for long-lasting results.
+                    </a>
+                </li>
+
+                <li class="mb-4">
+                    <a href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/">
+                        <div class="services-icons">
+                            <img src="<?php echo $root; ?>assets/images/icons/icons-dental-bonding.svg" class="w-100 wow scaleIn" alt="Icon for Dental Bonding">
+                            <strong>Dental Bonding</strong>
+                        </div><br>
+                        A cost-effective way to repair minor imperfections using tooth-colored resin. Ideal for small chips, cracks, or gaps without invasive procedures.
+                    </a>
+                </li>
+
+                <li class="mb-4">
+                    <a href="<?php echo $root; ?>services/cosmetic-dentistry/smile-makeover/">
+                        <div class="services-icons">
+                            <img src="<?php echo $root; ?>assets/images/homepage/icons/smile-makeover.svg" class="w-100 wow scaleIn" alt="Icon for Smile Makeovers">
+                            <strong>Smile Makeovers</strong>
+                        </div><br>
+                        A customized combination of cosmetic treatments designed to give you a complete smile transformation. Perfect for patients looking for dramatic, yet natural-looking results.
+                    </a>
+                </li>
+            </ul>
             <h3 class="wow fadeInUp" data-wow-delay=".2s">Why Choose Cosmetic Dentistry?</h3>
             <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
                 <li class="mb-4">Boosts confidence and self-esteem</li>
@@ -259,38 +282,7 @@
                 <li class="mb-4">Corrects years of wear, discoloration, or damage</li>
                 <li class="mb-4">Improves social and professional presence</li>
             </ul>
-
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Your Personalized Smile Plan</h3>
-            <p>We’ll start with a consultation to understand your goals and evaluate your dental health. From there, we’ll build a customized treatment plan that may include one or more of our cosmetic services.</p>
-
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Start Your Smile Journey Today</h3>
-            <p>You don’t need to settle for a smile you’re not proud of. Whether it’s whitening or a complete makeover, we’re here to make your cosmetic goals a reality.</p>
             <p><strong> Book your cosmetic consultation today at Crossroads Dental in Toronto and take the first step toward a more confident smile.</strong></p>
-
-            <div class="educational-video mb-4">
-                <h3>How Implants Work</h3>
-                <div class="video-container">
-
-                    <div class="video">
-                        <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
-                            class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
-                                width="350" alt="" /></a>
-                        <script charset="ISO-8859-1"
-                            src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                    </div>
-
-                    <div class="video">
-
-                        <a href="//fast.wistia.net/embed/iframe/oyjs4vfuyb?popover=true"
-                            class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                src="https://www.deardoctor.com/images/video-gallery/play/implant-faqs.jpg"
-                                width="350" alt="" /></a>
-                        <script charset="ISO-8859-1"
-                            src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 </div>

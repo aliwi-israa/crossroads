@@ -225,16 +225,10 @@
         <h1>Dental Emergency? We’re Here When You Need Us.</h1>
         <p>Dental emergencies can happen without warning but fast, professional care can make all the difference. At Crossroads Dental, we provide same-day emergency appointments to relieve pain, treat trauma, and protect your smile when it matters most.</p>
     </div>
-
-    <div class="service-img mb-4">
-        <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            <source srcset="<?php echo $root; ?>/assets/images/services/banner/Emergency-Dentistry-480.webp" media="(max-width: 600px)">
-            <source srcset="<?php echo $root; ?>/assets/images/services/banner/Emergency-Dentistry-768.webp" media="(max-width: 992px)">
-            <img src="<?php echo $root; ?>/assets/images/services/banner/Emergency-Dentistry-1280.webp"
-                alt="Emergency Dentist in Toronto at Crossroads Dental" loading="lazy" class="img-fluid">
-        </picture>
+    <div class="educational-video mb-4">
+        <h3>Emergency Dentistry Explained</h3>
+        <a href="//fast.wistia.net/embed/iframe/pjkwm6m89d?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/emergency-dental-care.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
     </div>
-
     <section class="pt-0 pb-0">
         <div class="service-items">
             <h3 class="wow fadeInUp" data-wow-delay=".2s">When to Call for Emergency Dental Care</h3>
@@ -282,67 +276,6 @@
             <h3 class="wow fadeInUp" data-wow-delay=".2s">Your Toronto Emergency Dental Clinic</h3>
             <p>At Crossroads Dental, we’re prepared to treat dental emergencies with speed, care, and professionalism. Our modern facility and compassionate team are here to ease your pain and restore your smile as soon as possible.</p>
             <p><strong>Experiencing a dental emergency? Call Crossroads Dental now for a same-day appointment in Toronto.</strong></p>
-
-            <div class="educational-video mb-4">
-                <h3>Emergency Dentistry Explained</h3>
-                <a href="//fast.wistia.net/embed/iframe/pjkwm6m89d?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/emergency-dental-care.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
-        <div class="container" style="background-size: cover; background-repeat: no-repeat;">
-            <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
-                <div class="col-lg-5" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="subtitle id-color wow fadeInUp animated" data-wow-delay=".0s">
-                        Everything You Need to Know
-                    </div>
-                    <h2 class="wow fadeInUp animated" data-wow-delay=".2s">Frequently Asked Questions</h2>
-                </div>
-                <div class="col-lg-7" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="accordion s2 wow fadeInUp animated">
-                        <div class="accordion-section">
-
-                            <div class="accordion-section-title" data-tab="#accordion-f1">
-                                1. What qualifies as a dental emergency?
-                            </div>
-                            <div class="accordion-section-content" id="accordion-f1">
-                                Severe tooth pain, swelling, broken or knocked-out teeth, bleeding, or signs of infection are all dental emergencies. Call us right away.
-                            </div>
-
-                            <div class="accordion-section-title" data-tab="#accordion-f2">
-                                2. Can I walk in for emergency treatment?
-                            </div>
-                            <div class="accordion-section-content" id="accordion-f2">
-                                We encourage you to call ahead so we can prioritize your care, but we do our best to accommodate emergency walk-ins the same day.
-                            </div>
-
-                            <div class="accordion-section-title" data-tab="#accordion-f3">
-                                3. What should I do if I knock out a tooth?
-                            </div>
-                            <div class="accordion-section-content" id="accordion-f3">
-                                Keep the tooth moist in milk or saliva, avoid touching the root, and bring it to us immediately. Fast action increases the chance of saving it.
-                            </div>
-
-                            <div class="accordion-section-title" data-tab="#accordion-f4">
-                                4. What if I have a dental emergency after hours?
-                            </div>
-                            <div class="accordion-section-content" id="accordion-f4">
-                                Call our clinic, our voicemail may include after-hours instructions or an emergency contact. We’ll help as quickly as possible.
-                            </div>
-
-                            <div class="accordion-section-title" data-tab="#accordion-f5">
-                                5. Will insurance cover emergency dental treatment?
-                            </div>
-                            <div class="accordion-section-content" id="accordion-f5">
-                                Many insurance plans cover emergency care. We’ll help you understand your benefits and provide cost estimates before proceeding.
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 </div>

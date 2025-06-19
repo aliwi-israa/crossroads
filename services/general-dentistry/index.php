@@ -223,73 +223,72 @@
         <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
             <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
         </div>
-        <h1>General Dentistry in Toronto</h1>
+        <h1>Need Reliable Dental Care in Toronto?</h1>
         <p>At Crossroads Dental, our goal is to help you maintain a healthy, pain-free smile for life. Our general dentistry services cover everything from routine fillings and root canals to extractions and pediatric care. We deliver with precision, compassion, and a patient-first approach.</p>
     </div>
-
-    <div class="service-img mb-4">
-        <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp" media="(max-width: 600px)">
-            <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp" media="(max-width: 992px)">
-            <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp"
-                alt="General Dentistry in Toronto at Crossroads Dental" loading="lazy" class="img-fluid">
-        </picture>
+    <div class="educational-video mb-4">
+        <h3>Things to Know About Fillings</h3>
+        <a href="//fast.wistia.net/embed/iframe/ev9iwtlk0w?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/tooth-colored-fillings.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
     </div>
-
     <section class="pt-0 pb-0">
         <div class="service-items">
             <h3 class="wow fadeInUp" data-wow-delay=".2s">Full-Service Family Dental Care</h3>
             <p>We provide a complete range of general dental treatments under one roof, including:</p>
-            <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li class="mb-4"><strong>Dental Fillings</strong><br>Quick and effective repairs for cavities using strong, natural-looking composite materials that blend seamlessly with your teeth.</li>
-                <li class="mb-4"><strong>Root Canal Therapy</strong><br>Relieve tooth pain and save damaged teeth with modern root canal treatment—performed gently and with minimal discomfort.</li>
-                <li class="mb-4"><strong>Tooth Extractions</strong><br>When a tooth can’t be saved, we perform safe and comfortable extractions, including wisdom teeth removal if needed.</li>
-                <li class="mb-4"><strong>Crowns & Bridges</strong><br>Restore strength, function, and aesthetics to damaged or missing teeth with high-quality custom restorations.</li>
-                <li class="mb-4"><strong>Pediatric Dentistry</strong><br>Gentle, preventive care tailored for kids of all ages to build healthy habits and positive dental experiences early on.</li>
-            </ul>
+            <ul class="fw-500 mb-4 wow fadeInUp services-icon-list" data-wow-delay=".6s">
+                <li class="mb-4">
+                    <div class="services-icons">
+                        <a href="<?php echo $root; ?>services/general-dentistry/fillings/">
+                            <img src="<?php echo $root; ?>assets/images/icons/icons-fillings-restorative.svg" class="w-100 wow scaleIn" alt="An icon of Dental filling">
+                            <strong>Dental Fillings</strong>
+                        </div><br>
+                        Quick and effective repairs for cavities using strong, natural-looking composite materials that blend seamlessly with your teeth.
+                    </a>
+                </li>
 
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Why General Dentistry Matters</h3>
-            <p>Routine care and early intervention help:</p>
-            <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li class="mb-4">Prevent decay and gum disease</li>
-                <li class="mb-4">Detect problems before they become serious</li>
-                <li class="mb-4">Maintain strong, natural teeth as long as possible</li>
-                <li class="mb-4">Support whole-body health and confidence</li>
-            </ul>
+                <li class="mb-4">
+                    <div class="services-icons">
+                        <a href="<?php echo $root; ?>services/general-dentistry/root-canal/">
+                            <img src="<?php echo $root; ?>assets/images/icons/icons-root-canal.svg" class="w-100 wow scaleIn" alt="An icon of root canal therapy">
+                            <strong>Root Canal Therapy</strong>
+                        </div><br>
+                        Relieve tooth pain and save damaged teeth with modern root canal treatment—performed gently and with minimal discomfort.
+                    </a>
+                </li>
 
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Care You Can Trust</h3>
-            <p>Our team takes time to understand your needs, explain treatment options, and ensure your comfort every step of the way. Whether it’s your child’s first visit or a much-needed repair, we’re here for you.</p>
+                <li class="mb-4">
+                    <div class="services-icons">
+                        <a href="<?php echo $root; ?>services/general-dentistry/extractions/">
+                            <img src="<?php echo $root; ?>assets/images/icons/icons-extractions.svg" class="w-100 wow scaleIn" alt="An icon of tooth extraction">
+                            <strong>Tooth Extractions</strong>
+                        </div><br>
+                        When a tooth can’t be saved, we perform safe and comfortable extractions, including wisdom teeth removal if needed.
+                    </a>
+                </li>
+
+                <li class="mb-4">
+                    <div class="services-icons">
+                        <a href="<?php echo $root; ?>services/general-dentistry/crowns-bridges/">
+                            <img src="<?php echo $root; ?>assets/images/icons/icons-crowns-bridges-2.svg" class="w-100 wow scaleIn" alt="An icon of crowns and bridges">
+                            <strong>Crowns & Bridges</strong>
+                        </div><br>
+                        Restore strength, function, and aesthetics to damaged or missing teeth with high-quality custom restorations.
+                    </a>
+                </li>
+
+                <li class="mb-4">
+                    <div class="services-icons">
+                        <a href="<?php echo $root; ?>services/general-dentistry/pediatric/">
+                            <img src="<?php echo $root; ?>assets/images/homepage/icons/children.svg" class="w-100 wow scaleIn" alt="An icon representing pediatric dentistry">
+                            <strong>Pediatric Dentistry</strong>
+                        </div><br>
+                        Gentle, preventive care tailored for kids of all ages to build healthy habits and positive dental experiences early on.
+                    </a>
+                </li>
+            </ul>
             <p><strong>Book your general dentistry appointment today and enjoy complete care at Crossroads Dental in the heart of Toronto.</strong></p>
-
-            <div class="educational-video mb-4">
-                <h3>How Implants Work</h3>
-                <div class="video-container">
-
-                    <div class="video">
-                        <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
-                            class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
-                                width="350" alt="" /></a>
-                        <script charset="ISO-8859-1"
-                            src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                    </div>
-
-                    <div class="video">
-
-                        <a href="//fast.wistia.net/embed/iframe/oyjs4vfuyb?popover=true"
-                            class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                src="https://www.deardoctor.com/images/video-gallery/play/implant-faqs.jpg"
-                                width="350" alt="" /></a>
-                        <script charset="ISO-8859-1"
-                            src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 </div>
-
-
                     </div>
                 </div>
             </section>

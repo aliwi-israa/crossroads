@@ -222,7 +222,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Clear Aligners in Toronto</h1>
+                                <h1>Want Straighter Teeth Without Braces?</h1>
                                 <p>Want a straighter smile without metal braces? At Crossroads Dental, we offer clear
                                     aligners which are an invisible, comfortable alternative to traditional
                                     orthodontics. Perfect for teens and adults, clear aligners help you achieve a
