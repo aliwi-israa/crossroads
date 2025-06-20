@@ -72,7 +72,8 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="ms-lg-3">
-                                <h2 class="wow fadeInUp">Canadian Dental Care Program (CDCP)</h2>
+                                <div class="subtitle s2 mb-3 wow fadeInUp animated" data-wow-delay=".0s" style="background-size: cover; background-repeat: no-repeat; visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">CDCP</div>
+                                <h2 class="wow fadeInUp">Canadian Dental Care Program</h2>
                                 <p class="wow fadeInUp">
                                     Crossroads Dental is proud to support the Canadian Dental Care Program (CDCP), a new federal initiative to expand access to essential dental care for eligible Canadians. If you're approved through CDCP, we’re ready to welcome you with high-quality care right here in Toronto.
                                 </p>

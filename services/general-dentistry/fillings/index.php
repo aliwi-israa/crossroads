@@ -223,7 +223,7 @@
                         <div class="col-md-9">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a></div>
-                                    <h1>Tooth Pain or Sensitivity? It Might Be a Cavity.</h1>
+                                    <h2>Tooth Pain or Sensitivity? It Might Be a Cavity.</h2>
                                     <p>Cavities are one of the most common dental issues, but they’re also one of the
                                     easiest to fix! At Crossroads Dental, we offer durable, natural-looking composite
                                     fillings to restore your teeth and prevent further decay, all in a single visit.</p>

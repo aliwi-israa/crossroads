@@ -225,7 +225,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Experiencing Severe Tooth Pain or Damage?</h1>
+                                <h2>Experiencing Severe Tooth Pain or Damage?</h2>
                                 <p>While we always strive to save your natural teeth, sometimes a tooth must be removed
                                     to protect your overall oral health. At Crossroads Dental, we offer safe,
                                     comfortable tooth extractions using modern techniques to minimize discomfort and

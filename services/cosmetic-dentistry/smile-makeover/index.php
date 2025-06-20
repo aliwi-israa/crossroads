@@ -222,7 +222,7 @@
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i
                                             class="fa-solid fa-arrow-left-long"></i> Services</a></div>
-                                <h1>Dreaming of a New Smile?</h1>
+                                <h2>Dreaming of a New Smile?</h2>
                                 <p>If you’re ready to completely transform your smile, a custom smile makeover at
                                     Crossroads Dental might be your perfect solution. Whether you want to correct years
                                     of wear or achieve a movie-star smile, our personalized treatment plans combine the

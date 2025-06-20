@@ -224,7 +224,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Smile Restoration with Crowns & Bridges</h1>
+                                <h2>Smile Restoration with Crowns & Bridges</h2>
                                 <p>When teeth are damaged or missing, restoring your smile goes beyond aesthetics. It’s
                                     about function, comfort, and confidence! At Crossroads Dental, we provide custom
                                     dental crowns and bridges to help you chew, speak, and smile without hesitation.</p>

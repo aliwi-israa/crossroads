@@ -224,7 +224,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Looking for a Kid-Friendly Dentist in Toronto?</h1>
+                                <h2>Looking for a Kid-Friendly Dentist in Toronto?</h2>
                                 <p>At Crossroads Dental, we believe a lifetime of healthy smiles starts in childhood. Our pediatric dental services are designed to make visits comfortable, fun, and educational for kids, while giving parents the peace of mind they deserve.</p>
                             </div>
 

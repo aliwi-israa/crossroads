@@ -222,7 +222,7 @@
         <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
             <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
         </div>
-        <h1>Dental Emergency? We’re Here When You Need Us.</h1>
+        <h2>Dental Emergency? We’re Here When You Need Us.</h2>
         <p>Dental emergencies can happen without warning but fast, professional care can make all the difference. At Crossroads Dental, we provide same-day emergency appointments to relieve pain, treat trauma, and protect your smile when it matters most.</p>
     </div>
     <div class="educational-video mb-4">

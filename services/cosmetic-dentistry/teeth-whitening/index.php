@@ -223,7 +223,7 @@
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i
                                             class="fa-solid fa-arrow-left-long"></i> Services</a></div>
-                                <h1>Whitening Treatments for a Noticeably Brighter Smile</h1>
+                                <h2>Whitening Treatments for a Noticeably Brighter Smile</h2>
                                 <p>A bright smile can make a lasting impression. At Crossroads Dental, our professional
                                     teeth whitening treatments help you remove deep stains and restore the natural
                                     brilliance of your smile. Safely, comfortably, and effectively.</p>

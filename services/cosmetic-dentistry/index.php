@@ -222,7 +222,7 @@
     <div class="title-wrap">
         <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i
                     class="fa-solid fa-arrow-left-long"></i> Services</a></div>
-        <h1>Dreaming of a More Confident Smile?</h1>
+        <h2>Dreaming of a More Confident Smile?</h2>
         <p>A beautiful smile isn’t just about appearance, it’s about your overall confidence. At Crossroads Dental, we offer a range of cosmetic dentistry treatments designed to enhance your smile’s look, symmetry, and brightness. Whether you’re seeking subtle improvements or a full transformation, our Toronto team can help you achieve your dream smile.</p>
     </div>
     <div class="educational-video mb-4">

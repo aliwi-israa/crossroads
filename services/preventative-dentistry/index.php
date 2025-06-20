@@ -223,7 +223,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Is Your Smile Getting the Preventive Care It Needs?</h1>
+                                <h2>Is Your Smile Getting the Preventive Care It Needs?</h2>
                                 <p>At Crossroads Dental, we believe prevention is the foundation of lifelong oral
                                     health. Our preventive dental services are designed to detect problems early,
                                     maintain healthy teeth and gums, and help you avoid costly or invasive treatments

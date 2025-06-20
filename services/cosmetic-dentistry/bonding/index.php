@@ -225,7 +225,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Fix Chips & Gaps with Dental Bonding</h1>
+                                <h2>Fix Chips & Gaps with Dental Bonding</h2>
                                 <p>Looking for a fast and affordable way to improve your smile? Dental bonding is a
                                     simple cosmetic treatment that can fix chips, close gaps, and brighten discolored
                                     teeth in just one visit. At Crossroads Dental, we offer expert bonding to enhance

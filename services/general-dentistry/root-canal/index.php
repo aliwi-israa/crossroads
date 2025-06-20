@@ -225,7 +225,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Need Root Canal Treatment?</h1>
+                                <h2>Need Root Canal Treatment?</h2>
                                 <p>If you're experiencing severe tooth pain or sensitivity, you may need a root canal. At Crossroads Dental, our root canal treatments are safe, gentle, and designed to relieve pain while saving your natural tooth.</p>
                             </div>
 

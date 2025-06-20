@@ -223,7 +223,7 @@
         <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
             <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
         </div>
-        <h1>Need Reliable Dental Care in Toronto?</h1>
+        <h2>Need Reliable Dental Care in Toronto?</h2>
         <p>At Crossroads Dental, our goal is to help you maintain a healthy, pain-free smile for life. Our general dentistry services cover everything from routine fillings and root canals to extractions and pediatric care. We deliver with precision, compassion, and a patient-first approach.</p>
     </div>
     <div class="educational-video mb-4">
