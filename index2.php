@@ -464,6 +464,7 @@
                 </div>
             </section>
         </div>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/popup.php';?>
     </div>
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/footer.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/js-vendors.php';?>

@@ -51,11 +51,10 @@
     <div id="wrapper">
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center"
-                style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container relative z-2" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
+            <section id="subheader" class="bg-color-op-1 text-center">
+                <div class="container relative z-2" >
+                    <div class="row align-items-center" >
+                        <div class="col-lg-12" >
                             <h3 class="wow fadeInUp subheader">Services</h3>
                             <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                                 Preventive Dentistry at Crossroads Dental</h1>
@@ -83,7 +82,7 @@
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
-                        <div class="col-md d-none d-md-block">
+                        <div class="col-md d-none d-md-block sidebar">
                             <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
@@ -218,18 +217,18 @@
 
                         </div>
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 main-content">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                    <a href="#" class="text-blue"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h2 class="id-color">Is Your Smile Getting the Preventive Care It Needs?</h2>
+                                <h2 class="id-color service-header">Is Your Smile Getting the Preventive Care It Needs?</h2>
                                 <p>At Crossroads Dental, we believe prevention is the foundation of lifelong oral
                                     health. Our preventive dental services are designed to detect problems early,
                                     maintain healthy teeth and gums, and help you avoid costly or invasive treatments
                                     later on.</p>
                             </div>
-                            <div class="educational-video mb-4">
+                            <div class="educational-video single mb-4">
                                 <h3>How Implants Work</h3>
                                 <div class="video-container">
 
@@ -251,28 +250,74 @@
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Our Preventive Services</h3>
                                     <p>We offer a full range of preventive services tailored to your needs, including:
                                     </p>
-                                    <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                                        <li class="mb-4"><strong>Comprehensive Oral Exams:</strong> Thorough check-ups
-                                            to detect cavities, gum disease, and other concerns. Our exams include
-                                            digital X-rays, bite evaluations, and assessments of existing dental work.
-                                        </li>
-                                        <li class="mb-4"><strong>Professional Cleanings:</strong> Our hygienists remove
-                                            plaque and tartar from areas that brushing alone can’t reach, helping to
-                                            prevent gum disease and tooth decay.</li>
-                                        <li class="mb-4"><strong>Fluoride Treatments:</strong> Safe and effective
-                                            fluoride applications help strengthen tooth enamel and reduce the risk of
-                                            decay. This is especially beneficial for children and patients with high
-                                            cavity risk.</li>
-                                        <li class="mb-4"><strong>Dental Sealants:</strong> Protective coatings applied
-                                            to the grooves of molars to prevent food and bacteria buildup. Ideal for
-                                            children and teens.</li>
-                                        <li class="mb-4"><strong>Oral Cancer Screenings:</strong> Quick, non-invasive
-                                            screenings during your exam to detect early signs of oral cancer, especially
-                                            important for adults over 40 or tobacco users.</li>
-                                        <li class="mb-4"><strong>Personalized Oral Hygiene Education:</strong> We’ll
-                                            guide you on the best brushing, flossing, and dietary habits to maintain
-                                            your smile between visits.</li>
-                                    </ul>
+                    <ul class="fw-500 mb-4 wow fadeInUp services-icon-list" data-wow-delay=".6s">
+    <li class="mb-4">
+        <div class="services-icons">
+            <a href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/">
+                <img src="<?php echo $root; ?>assets/images/icons/oral-exam.svg"
+                    class="w-100 wow scaleIn" alt="Icon for Oral Exam">
+                <strong>Comprehensive Oral Exams</strong>
+        </div><br>
+        Thorough check-ups to detect cavities, gum disease, and other concerns. Our exams include digital X-rays, bite evaluations, and assessments of existing dental work.
+        </a>
+    </li>
+
+    <li class="mb-4">
+        <div class="services-icons">
+            <a href="<?php echo $root; ?>services/preventative-dentistry/gum-care/">
+                <img src="<?php echo $root; ?>assets/images/icons/whitening.svg"
+                    class="w-100 wow scaleIn" alt="Icon for Teeth Cleaning">
+                <strong>Professional Cleanings</strong>
+        </div><br>
+        Our hygienists remove plaque and tartar from areas that brushing alone can’t reach, helping to prevent gum disease and tooth decay.
+        </a>
+    </li>
+
+    <li class="mb-4">
+        <div class="services-icons">
+            <a href="<?php echo $root; ?>services/preventative-dentistry/fluoride/">
+                <img src="<?php echo $root; ?>assets/images/icons/fluoride.svg"
+                    class="w-100 wow scaleIn" alt="Icon for Fluoride Treatments">
+                <strong>Fluoride Treatments</strong>
+        </div><br>
+        Safe and effective fluoride applications help strengthen tooth enamel and reduce the risk of decay. This is especially beneficial for children and patients with high cavity risk.
+        </a>
+    </li>
+
+    <li class="mb-4">
+        <div class="services-icons">
+            <a href="<?php echo $root; ?>services/preventative-dentistry/sealants/">
+                <img src="<?php echo $root; ?>assets/images/icons/sealants.svg"
+                    class="w-100 wow scaleIn" alt="Icon for Dental Sealants">
+                <strong>Dental Sealants</strong>
+        </div><br>
+        Protective coatings applied to the grooves of molars to prevent food and bacteria buildup. Ideal for children and teens.
+        </a>
+    </li>
+
+    <li class="mb-4">
+        <div class="services-icons">
+            <a href="<?php echo $root; ?>services/preventative-dentistry/oral-cancer-screening/">
+                <img src="<?php echo $root; ?>assets/images/icons/oral-screening.svg"
+                    class="w-100 wow scaleIn" alt="Icon for Oral Cancer Screening">
+                <strong>Oral Cancer Screenings</strong>
+        </div><br>
+        Quick, non-invasive screenings during your exam to detect early signs of oral cancer, especially important for adults over 40 or tobacco users.
+        </a>
+    </li>
+
+    <li class="mb-4">
+        <div class="services-icons">
+            <a href="#">
+                <img src="<?php echo $root; ?>assets/images/icons/oral-hygiene.svg"
+                    class="w-100 wow scaleIn" alt="Icon for Oral Hygiene Education">
+                <strong>Personalized Oral Hygiene Education</strong>
+        </div><br>
+        We’ll guide you on the best brushing, flossing, and dietary habits to maintain your smile between visits.
+        </a>
+    </li>
+</ul>
+
                                     <p><strong>Book your next preventive care visit today at Crossroads Dental in Toronto today! </strong></p>
                                 </div>
                             </section>
@@ -280,12 +325,42 @@
                     </div>
                 </div>
             </section>
-
-            <section class="text-dark no-bottom overflow-hidden bg-gray"
-                style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
-                <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="py-5 my-5 me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
+            <!-- Mobile Contact Form -->
+            <section class="contact-mobile"> 
+                <div class="question-box mt-5 bg-gray d-block d-md-none">
+                    <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
+                    <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
+                    <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
+                        style="border-radius: 3px; display: block;">
+                        <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
+                            style="border-radius: 3px;">
+                            <iframe
+                                src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
+                                style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
+                                id="inline-hVKuv45TUa57ScoGZiV7"
+                                data-layout="{'id':'INLINE'}"
+                                data-trigger-type="alwaysShow"
+                                data-trigger-value=""
+                                data-activation-type="alwaysActivated"
+                                data-activation-value=""
+                                data-deactivation-type="neverDeactivate"
+                                data-deactivation-value=""
+                                data-form-name="Ask an Expert"
+                                data-height="668"
+                                data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
+                                data-form-id="hVKuv45TUa57ScoGZiV7"
+                                title="Ask an Expert"
+                                scrolling="yes">
+                            </iframe>
+                        </div>
+                    </div>
+                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </section>
+            <section class="text-dark no-bottom overflow-hidden ad-section">
+                <div class="col-lg-12">
+                    <div class="me-lg-3">
+                        <div class="my-5 me-lg-3 content">
                             <h2 class="wow fadeInUp animated text-center" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 Complimentary Implant Consultation</h2>
