@@ -2651,12 +2651,16 @@ background-color: var(--secondary-color);
 }
 
 .subcategory-section:not(:last-child) {
-    margin-bottom: 40px; /* or whatever value you prefer */
+    margin-bottom: 40px;
 }
 
 #all-jobs ul li {
+  padding: 15px;
+  margin: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  gap: 41px;
 }
 
 #all-jobs ul li:hover{
@@ -2693,7 +2697,9 @@ background-color: var(--secondary-color);
   margin-right: 10px;
 }
 
-
+button.btn.btn-dark.button-element, #_builder-form button{
+  background: #6fbcb2 !important;
+}
 @-webkit-keyframes move-up-down {
   0% {
     transform: translateY(0);

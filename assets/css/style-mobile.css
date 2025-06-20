@@ -46,6 +46,19 @@
         padding: 0 0 0 0;
         left: 20px;
     }
+    header .row {
+        padding-right: 20px;
+    }
+    .menu_side_area  {
+        margin-left: 0;
+    }
+    .mobile-cta a {
+        padding: 4px 12px;
+        font-size: large;
+        border: 2px solid var(--primary-color);
+        border-radius: 12px;
+        margin: 0 5px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -55,6 +68,7 @@
         z-index: 1000;
         top: 0;
         right: 0;
+        margin-left: 0;
     }
 
     #subheader {
@@ -382,14 +396,6 @@
         padding-left: 40px;
     }
 
-    header #mainmenu li ul li:first-child {
-        border-top: solid 1px var(--bg-dark-3);
-    }
-
-    .dark-scheme header #mainmenu li ul li:first-child {
-        border-top-color: rgba(255, 255, 255, .1);
-    }
-
     header.header-mobile #mainmenu li ul li a.menu-item {
         display: block;
         border-bottom: solid 1px var(--primary-color);
@@ -431,36 +437,6 @@
         margin-bottom: 10px;
     }
 
-    header.header-mobile #mainmenu>li>span {
-        width: 36px;
-        height: 36px;
-        background: url(../images/ui/arrow-down-light.png) center no-repeat;
-        position: absolute;
-        right: 0;
-        margin-top: 10px;
-        z-index: 1000;
-        cursor: poInter;
-    }
-
-    header.header-mobile #mainmenu li span.active {
-        background: url(../images/ui/arrow-up-light.png) center no-repeat;
-    }
-
-    header.header-mobile #mainmenu li>ul>li>span {
-        width: 36px;
-        height: 36px;
-        background: url(../images/ui/arrow-down.png) center no-repeat;
-        position: absolute;
-        right: 0;
-        margin-top: -45px;
-        z-index: 1000;
-        cursor: poInter;
-    }
-
-    header.header-mobile #mainmenu>li>ul>li>span.active {
-        background: url(../images/ui/arrow-up.png) center no-repeat;
-    }
-
     header.header-mobile #mainmenu li ul li a.menu-item {
         border-bottom: solid 1px var(--primary-color);
     }
@@ -471,16 +447,6 @@
 
     header.header-mobile #mainmenu li ul li:last-child>a.menu-item {
         border-bottom: none;
-    }
-
-    header.header-light.header-mobile #mainmenu>li>span,
-    header.header-light.header-mobile #mainmenu li>ul>li>span {
-        background: url(../images/ui/arrow-down.png) center no-repeat;
-    }
-
-    header.header-light.header-mobile #mainmenu>li>span.active,
-    header.header-light.header-mobile #mainmenu li>ul>li>span.active {
-        background: url(../images/ui/arrow-up.png) center no-repeat;
     }
 
     #mainmenu li ul.mega {
@@ -880,7 +846,7 @@
     }
 
     .menu_side_area {
-        margin-left: 20px;
+        margin-left: 0;
         width: 100%;
         position: relative;
         right: 0;
@@ -939,7 +905,7 @@
     }
 
     .menu_side_area {
-        margin-left: 20px;
+        margin-left: 0;
         width: 100%;
         position: relative;
         right: 0;
@@ -1295,6 +1261,17 @@
     .educational-video.single img {
         width: 100%;
     }
+            #all-jobs ul {
+            padding-left: 0;
+            }
+        #all-jobs ul li {
+    padding: 15px;
+    margin: 20px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
 
 
 
@@ -1314,5 +1291,4 @@
     header a.btn-main i {
         display: inline-block;
     }
-
 }

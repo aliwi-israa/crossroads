@@ -289,44 +289,43 @@
                 c.style.display = i === 0 ? 'block' : 'none';
             });
         });
-
-        
+        //filter results
         document.addEventListener('DOMContentLoaded', function () {
-    const searchInput = document.getElementById('faqSearch');
-    const sections = document.querySelectorAll('.subcategory-section');
+            const searchInput = document.getElementById('faqSearch');
+            const sections = document.querySelectorAll('.subcategory-section');
 
-    searchInput.addEventListener('input', function () {
-        const query = this.value.toLowerCase().trim();
+            searchInput.addEventListener('input', function () {
+                const query = this.value.toLowerCase().trim();
 
-        sections.forEach(section => {
-            const categoryTitle = section.querySelector('.subcategory-title');
-            const subcategorySubs = section.querySelectorAll('.subcategory-sub');
+                sections.forEach(section => {
+                    const categoryTitle = section.querySelector('.subcategory-title');
+                    const subcategorySubs = section.querySelectorAll('.subcategory-sub');
 
-            let sectionHasMatch = false;
+                    let matchFound = false;
 
-            subcategorySubs.forEach(sub => {
-                const subtitle = sub.querySelector('.subcategory-subtitle id-color');
+                    // Check if parent category matches
+                    const categoryMatches = categoryTitle && categoryTitle.textContent.toLowerCase().includes(query);
 
-                if (subtitle && subtitle.textContent.toLowerCase().includes(query)) {
-                    sub.style.display = ''; // Show matching subcategory
-                    sectionHasMatch = true;
-                } else {
-                    sub.style.display = 'none'; // Hide non-matching subcategory
-                }
+                    subcategorySubs.forEach(sub => {
+                        const subtitle = sub.querySelector('.subcategory-subtitle');
+                        const subMatches = subtitle && subtitle.textContent.toLowerCase().includes(query);
+
+                        sub.style.display = subMatches ? '' : 'none';
+                        if (subMatches) matchFound = true;
+                    });
+
+                    // Show whole section if parent category matches
+                    if (categoryMatches) {
+                        section.style.display = '';
+                        subcategorySubs.forEach(sub => sub.style.display = '');
+                        matchFound = true;
+                    } else {
+                        // If no subcategories match, hide section
+                        section.style.display = matchFound || query === '' ? '' : 'none';
+                    }
+                });
             });
-
-            // Also show section if parent category matches
-            if (categoryTitle && categoryTitle.textContent.toLowerCase().includes(query)) {
-                section.style.display = '';
-                subcategorySubs.forEach(sub => sub.style.display = ''); // Show all children if parent matches
-            } else {
-                // Show or hide whole section based on whether any sub matched
-                section.style.display = sectionHasMatch || query === '' ? '' : 'none';
-            }
         });
-    });
-});
-
     </script>
  
 </body>
