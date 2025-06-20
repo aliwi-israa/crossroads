@@ -2681,6 +2681,7 @@ background-color: var(--secondary-color);
 .services-icon-list li::marker {
   content: '';
 }
+
 @-webkit-keyframes move-up-down {
   0% {
     transform: translateY(0);
@@ -3688,7 +3689,7 @@ img {
   }
 
   section {
-    padding: 40px 0;
+    padding: 0;
   }
 
   #subheader {
@@ -3984,6 +3985,11 @@ img {
     text-align: center;
     padding: 20px;
   }
+  .educational-video.single img
+  {
+    width: 100%;
+  }
+  
 }
 
 @media only screen and (max-width: 480px) {

@@ -33,7 +33,7 @@
                         <li><a href="<?php echo $root; ?>cdcp/">CDCP</a></li>
                         <li><a href="<?php echo $root; ?>about/">About Us</a></li>
                         <li><a href="<?php echo $root; ?>our-dentists/">Our Team</a></li>
-                        <li><a href="<?php echo $root; ?>about/clinic-info/">Clinic Info</a></li>
+                        <li><a href="<?php echo $root; ?>about/">Clinic Info</a></li>
                         <li><a href="<?php echo $root; ?>careers/">Careers</a></li>
                         <li><a href="<?php echo $root; ?>contact/">Contact</a></li>
                     </ul>

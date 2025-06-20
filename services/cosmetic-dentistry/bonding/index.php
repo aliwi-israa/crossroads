@@ -69,7 +69,7 @@
                     <div class="container">
                         <div class="breadcrumbs">
                             <ul class="crumb wow fadeInDown">
-                                <li><a <?php echo $root; ?>>Home</a></li>
+                                <li><a href="<?php echo $root; ?>">Home</a></li>
                                 <li><a href="<?php echo $root; ?>services/">Our Services</a></li>
                                 <li><a href="<?php echo $root; ?>services/cosmetic-dentistry/">Cosmetics Dentistry</a></li>
                                 <li class="active">Dental Bonding</li>
@@ -92,17 +92,17 @@
                                             Dentistry</span><i class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu1">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="services/dental-exam.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/"><i
                                                         class="fas fa-arrow-right"></i>Dental Examination</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/gum-care.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/gum-care/"><i
                                                         class="fas fa-arrow-right"></i>Gum Care & Teeth Cleaning</a>
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="services/sealants.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/sealants/"><i
                                                         class="fas fa-arrow-right"></i>Dental Sealants</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/fluoride.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/fluoride/"><i
                                                         class="fas fa-arrow-right"></i>Fluoride Treatments</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/oral-cancer-screening.html"><i
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/oral-cancer-screening/"><i
                                                         class="fas fa-arrow-right"></i>Oral Cancer Screening</a></li>
                                         </ul>
                                     </div>
@@ -113,22 +113,22 @@
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu2">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="services/fillings.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/fillings/"><i
                                                         class="fas fa-arrow-right"></i>Dental Fillings</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/root-canal.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/root-canal/"><i
                                                         class="fas fa-arrow-right"></i>Root Canal</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/extractions.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
                                                         class="fas fa-arrow-right"></i>Extractions</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/crowns-bridges.html"><i
+                                                    href="services/<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
                                                         class="fas fa-arrow-right"></i>Crowns & Bridges</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/pediatric.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
                                                         class="fas fa-arrow-right"></i>Paediatric Dentistry</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Emergency Dentistry</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/emergency-dentistry/">Emergency Dentistry</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu3" data-toggle="collapse"
@@ -137,24 +137,24 @@
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu3">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="services/whitening.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/"><i
                                                         class="fas fa-arrow-right"></i>Whitening</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/veneers.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/"><i
                                                         class="fas fa-arrow-right"></i>Veneers</a></li>
                                             <li class="nav-item"><a class="nav-link active"
-                                                    href="services/bonding.html"><i
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/"><i
                                                         class="fas fa-arrow-right"></i>Dental Bonding</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/smile-makeover.html"><i
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/smile-makeover/"><i
                                                         class="fas fa-arrow-right"></i>Smile Makeover</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Clear Aligners (Invisalign)</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners (Invisalign)</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Dental
+                                    <a class="nav-link" href="<?php echo $root; ?>services/dental-implants/">Dental
                                         Implants</a>
                                 </li>
                             </ul>
@@ -225,7 +225,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h1>Dental Bonding in Toronto</h1>
+                                <h1>Fix Chips & Gaps with Dental Bonding</h1>
                                 <p>Looking for a fast and affordable way to improve your smile? Dental bonding is a
                                     simple cosmetic treatment that can fix chips, close gaps, and brighten discolored
                                     teeth in just one visit. At Crossroads Dental, we offer expert bonding to enhance
@@ -234,11 +234,11 @@
 
                             <div class="service-img mb-4">
                                 <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-480.webp"
+                                    <source srcset="<?php echo $root; ?>/assets/images/services/banner/bonding-480.webp"
                                         media="(max-width: 600px)">
-                                    <source srcset="<?php echo $root; ?>/assets/images/services/implants-768.webp"
+                                    <source srcset="<?php echo $root; ?>/assets/images/services/banner/bonding-768.webp"
                                         media="(max-width: 992px)">
-                                    <img src="<?php echo $root; ?>/assets/images/services/implants-1280.webp"
+                                    <img src="<?php echo $root; ?>/assets/images/services/banner/bonding-1280.webp"
                                         alt="Dental Bonding image of a person receiving treatment" loading="lazy"
                                         class="img-fluid">
                                 </picture>
@@ -289,6 +289,12 @@
                                         is a great way to get started with cosmetic dentistry. At Crossroads Dental, we
                                         make the process comfortable and rewarding. <br><strong>Book your dental bonding
                                             consultation today at Crossroads Dental in Toronto!</strong></p>
+                               
+                                    <div class="educational-video single mb-4">
+										<h2>Things to Know about Dental Bonding</h2>
+										<a href="//fast.wistia.net/embed/iframe/ea8qm1ez8b?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/cosmetic-bonding.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+									</div>
+
                                 </div>
                             </section>
 

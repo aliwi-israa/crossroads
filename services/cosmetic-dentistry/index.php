@@ -68,7 +68,7 @@
                     <div class="container">
                         <div class="breadcrumbs">
                             <ul class="crumb wow fadeInDown">
-                                <li><a <?php echo $root; ?>>Home</a></li>
+                                <li><a href="<?php echo $root; ?>">Home</a></li>
                                 <li><a href="<?php echo $root; ?>services/">Our Services</a></li>
                                 <li class="active">Cosmetics Dentistry</li>
                             </ul>
@@ -90,17 +90,17 @@
                                             Dentistry</span><i class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu1">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="services/dental-exam.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/"><i
                                                         class="fas fa-arrow-right"></i>Dental Examination</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/gum-care.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/gum-care/"><i
                                                         class="fas fa-arrow-right"></i>Gum Care & Teeth Cleaning</a>
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="services/sealants.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/sealants/"><i
                                                         class="fas fa-arrow-right"></i>Dental Sealants</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/fluoride.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/fluoride/"><i
                                                         class="fas fa-arrow-right"></i>Fluoride Treatments</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/oral-cancer-screening.html"><i
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/oral-cancer-screening/"><i
                                                         class="fas fa-arrow-right"></i>Oral Cancer Screening</a></li>
                                         </ul>
                                     </div>
@@ -111,22 +111,22 @@
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu2">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="services/fillings.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/fillings/"><i
                                                         class="fas fa-arrow-right"></i>Dental Fillings</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/root-canal.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/root-canal/"><i
                                                         class="fas fa-arrow-right"></i>Root Canal</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/extractions.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
                                                         class="fas fa-arrow-right"></i>Extractions</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/crowns-bridges.html"><i
+                                                    href="services/<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
                                                         class="fas fa-arrow-right"></i>Crowns & Bridges</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/pediatric.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
                                                         class="fas fa-arrow-right"></i>Paediatric Dentistry</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Emergency Dentistry</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/emergency-dentistry/">Emergency Dentistry</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu3"
@@ -135,24 +135,24 @@
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu3">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="services/whitening.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/"><i
                                                         class="fas fa-arrow-right"></i>Whitening</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/veneers.html"><i
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/"><i
                                                         class="fas fa-arrow-right"></i>Veneers</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services/bonding.html"><i
+                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/"><i
                                                         class="fas fa-arrow-right"></i>Dental Bonding</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/smile-makeover.html"><i
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/smile-makeover/"><i
                                                         class="fas fa-arrow-right"></i>Smile Makeover</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Clear Aligners (Invisalign)</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners (Invisalign)</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Dental
+                                    <a class="nav-link" href="<?php echo $root; ?>services/dental-implants/">Dental
                                         Implants</a>
                                 </li>
                             </ul>
