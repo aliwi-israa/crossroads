@@ -219,7 +219,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h2>Want to Eat, Speak, and Smile with Confidence Again?</h2>
+                                <h2 class="id-color">Want to Eat, Speak, and Smile with Confidence Again?</h2>
                                 <p>Missing teeth can affect more than just your smile. They impact your ability to chew,
                                     speak, and maintain oral health. At Crossroads Dental, we offer permanent,
                                     natural-looking dental implants to help you restore your confidence and

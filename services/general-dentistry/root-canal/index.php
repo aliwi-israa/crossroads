@@ -225,10 +225,9 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h2>Need Root Canal Treatment?</h2>
+                                <h2 class="id-color">Need Root Canal Treatment?</h2>
                                 <p>If you're experiencing severe tooth pain or sensitivity, you may need a root canal. At Crossroads Dental, our root canal treatments are safe, gentle, and designed to relieve pain while saving your natural tooth.</p>
                             </div>
-
                             <div class="service-img mb-4">
                                 <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
                                     <source srcset="<?php echo $root; ?>/assets/images/services/banner/root_canals-480.webp" media="(max-width: 600px)">
@@ -237,7 +236,6 @@
                                         alt="Root Canal Therapy in Toronto - Crossroads Dental" loading="lazy" class="img-fluid">
                                 </picture>
                             </div>
-
                             <section class="pt-0 pb-0">
                                 <div class="service-items">
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">What is a Root Canal?</h3>
@@ -280,7 +278,6 @@
                                     </div>
                                 </div>
                             </section>
-
                             <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
@@ -328,7 +325,6 @@
                                                     <div class="accordion-section-content" id="accordion-f5">
                                                         Yes. Root canals allow you to keep your natural tooth by removing the infected tissue and sealing it, avoiding the need for an extraction.
                                                     </div>
-
                                                 </div>
                                             </div>
                                         </div>

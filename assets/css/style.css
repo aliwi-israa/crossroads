@@ -2663,6 +2663,9 @@ background-color: var(--secondary-color);
   flex-direction: column;
 }
 
+#all-jobs ul li:hover{
+  background: #d6f5e9
+}
 .services-icons {
   display: flex;
   flex-direction: row;
@@ -3560,10 +3563,7 @@ img {
   }
 }
 @media only screen and (max-width: 600px) {
-  #subheader .col-lg-12{
-    margin-top: 70px;
-  }
-  
+
   .breadcrumbs li {
     font-size: 14px;
   }
@@ -3578,14 +3578,10 @@ img {
 .video-container {
   flex-direction: column;
 }
-  .banner-center-caption .buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  footer {
-    padding-top: 20px;
-  }
+
+footer {
+  padding-top: 20px;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -3936,6 +3932,16 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+  }
+
+  .banner-center-caption .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #subheader .col-lg-12{
+    margin-top: 70px;
   }
 }
 

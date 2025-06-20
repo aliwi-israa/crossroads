@@ -91,14 +91,18 @@
                                             Dentistry</span><i class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu1">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/"><i
                                                         class="fas fa-arrow-right"></i>Dental Examination</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/gum-care/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/gum-care/"><i
                                                         class="fas fa-arrow-right"></i>Gum Care & Teeth Cleaning</a>
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/sealants/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/sealants/"><i
                                                         class="fas fa-arrow-right"></i>Dental Sealants</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/fluoride/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/fluoride/"><i
                                                         class="fas fa-arrow-right"></i>Fluoride Treatments</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/preventative-dentistry/oral-cancer-screening/"><i
@@ -112,22 +116,27 @@
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu2">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/fillings/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/fillings/"><i
                                                         class="fas fa-arrow-right"></i>Dental Fillings</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/root-canal/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/root-canal/"><i
                                                         class="fas fa-arrow-right"></i>Root Canal</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
                                                         class="fas fa-arrow-right"></i>Extractions</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="services/<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
                                                         class="fas fa-arrow-right"></i>Crowns & Bridges</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
                                                         class="fas fa-arrow-right"></i>Paediatric Dentistry</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#" style="color: var(--primary-color);">Emergency Dentistry</a>
+                                    <a class="nav-link" href="#" style="color: var(--primary-color);">Emergency
+                                        Dentistry</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu3" data-toggle="collapse"
@@ -135,11 +144,14 @@
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu3">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/"><i
                                                         class="fas fa-arrow-right"></i>Whitening</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/"><i
                                                         class="fas fa-arrow-right"></i>Veneers</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/"><i
                                                         class="fas fa-arrow-right"></i>Dental Bonding</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/cosmetic-dentistry/smile-makeover/"><i
@@ -148,7 +160,8 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners (Invisalign)</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners
+                                        (Invisalign)</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo $root; ?>services/dental-implants/">Dental
@@ -217,68 +230,87 @@
 
                         </div>
                         <!-- Main Content -->
-               <div class="col-md-9">
-    <div class="title-wrap">
-        <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-            <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
-        </div>
-        <h2>Dental Emergency? We’re Here When You Need Us.</h2>
-        <p>Dental emergencies can happen without warning but fast, professional care can make all the difference. At Crossroads Dental, we provide same-day emergency appointments to relieve pain, treat trauma, and protect your smile when it matters most.</p>
-    </div>
-    <div class="educational-video mb-4">
-        <h3>Emergency Dentistry Explained</h3>
-        <a href="//fast.wistia.net/embed/iframe/pjkwm6m89d?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/emergency-dental-care.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-    </div>
-    <section class="pt-0 pb-0">
-        <div class="service-items">
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">When to Call for Emergency Dental Care</h3>
-            <p>Contact us immediately if you experience:</p>
-            <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li class="mb-4">Severe toothache or swelling</li>
-                <li class="mb-4">Knocked-out or broken tooth</li>
-                <li class="mb-4">Lost filling, crown, or bridge</li>
-                <li class="mb-4">Dental abscess or infection</li>
-                <li class="mb-4">Gum or soft tissue injury</li>
-                <li class="mb-4">Pain after dental work</li>
-                <li class="mb-4">Bleeding that won’t stop</li>
-            </ul>
-            <p>Delaying treatment can lead to complications, so let us help you quickly and safely.</p>
+                        <div class="col-md-9">
+                            <div class="title-wrap">
+                                <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
+                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                </div>
+                                <h2 class="id-color">Dental Emergency? We’re Here When You Need Us.</h2>
+                                <p>Dental emergencies can happen without warning but fast, professional care can make
+                                    all the difference. At Crossroads Dental, we provide same-day emergency appointments
+                                    to relieve pain, treat trauma, and protect your smile when it matters most.</p>
+                            </div>
+                            <div class="educational-video mb-4">
+                                <h3>Emergency Dentistry Explained</h3>
+                                <a href="//fast.wistia.net/embed/iframe/pjkwm6m89d?popover=true"
+                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
+                                        src="https://www.deardoctor.com/images/video-gallery/play/emergency-dental-care.jpg"
+                                        width="650" alt=""></a>
+                                <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js">
+                                </script>
+                            </div>
+                            <section class="pt-0 pb-0">
+                                <div class="service-items">
+                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">When to Call for Emergency Dental Care
+                                    </h3>
+                                    <p>Contact us immediately if you experience:</p>
+                                    <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                        <li class="mb-4">Severe toothache or swelling</li>
+                                        <li class="mb-4">Knocked-out or broken tooth</li>
+                                        <li class="mb-4">Lost filling, crown, or bridge</li>
+                                        <li class="mb-4">Dental abscess or infection</li>
+                                        <li class="mb-4">Gum or soft tissue injury</li>
+                                        <li class="mb-4">Pain after dental work</li>
+                                        <li class="mb-4">Bleeding that won’t stop</li>
+                                    </ul>
+                                    <p>Delaying treatment can lead to complications, so let us help you quickly and
+                                        safely.</p>
 
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">What to Expect</h3>
-            <p>When you call, our team will:</p>
-            <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li class="mb-4">Ask about your symptoms</li>
-                <li class="mb-4">Provide first-aid guidance over the phone</li>
-                <li class="mb-4">Schedule you for the earliest possible appointment</li>
-                <li class="mb-4">Offer pain management and follow-up care options</li>
-            </ul>
-            <p>We prioritize urgent cases and aim to provide treatment the same day whenever possible.</p>
+                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">What to Expect</h3>
+                                    <p>When you call, our team will:</p>
+                                    <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                        <li class="mb-4">Ask about your symptoms</li>
+                                        <li class="mb-4">Provide first-aid guidance over the phone</li>
+                                        <li class="mb-4">Schedule you for the earliest possible appointment</li>
+                                        <li class="mb-4">Offer pain management and follow-up care options</li>
+                                    </ul>
+                                    <p>We prioritize urgent cases and aim to provide treatment the same day whenever
+                                        possible.</p>
 
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Our Emergency Services Include:</h3>
-            <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li class="mb-4">Pain relief and diagnosis</li>
-                <li class="mb-4">Tooth extractions (if needed)</li>
-                <li class="mb-4">Temporary or permanent restorations</li>
-                <li class="mb-4">Root canal therapy</li>
-                <li class="mb-4">Re-cementing crowns or bridges</li>
-                <li class="mb-4">Infection management</li>
-            </ul>
-            <p>Our goal is to stabilize the issue, relieve discomfort, and plan the next steps for full recovery.</p>
+                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">Our Emergency Services Include:</h3>
+                                    <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                        <li class="mb-4">Pain relief and diagnosis</li>
+                                        <li class="mb-4">Tooth extractions (if needed)</li>
+                                        <li class="mb-4">Temporary or permanent restorations</li>
+                                        <li class="mb-4">Root canal therapy</li>
+                                        <li class="mb-4">Re-cementing crowns or bridges</li>
+                                        <li class="mb-4">Infection management</li>
+                                    </ul>
+                                    <p>Our goal is to stabilize the issue, relieve discomfort, and plan the next steps
+                                        for full recovery.</p>
 
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">How to Handle a Dental Emergency Before Your Visit</h3>
-            <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li class="mb-4"><strong>Tooth knocked out?</strong> Keep it moist in milk or saliva and bring it with you.</li>
-                <li class="mb-4"><strong>Toothache?</strong> Rinse with warm salt water, take pain relievers, and avoid chewing on that side.</li>
-                <li class="mb-4"><strong>Broken tooth?</strong> Save any pieces, and apply a cold compress to reduce swelling.</li>
-            </ul>
-            <p>Call us immediately for further instructions.</p>
+                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">How to Handle a Dental Emergency
+                                        Before Your Visit</h3>
+                                    <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                        <li class="mb-4"><strong>Tooth knocked out?</strong> Keep it moist in milk or
+                                            saliva and bring it with you.</li>
+                                        <li class="mb-4"><strong>Toothache?</strong> Rinse with warm salt water, take
+                                            pain relievers, and avoid chewing on that side.</li>
+                                        <li class="mb-4"><strong>Broken tooth?</strong> Save any pieces, and apply a
+                                            cold compress to reduce swelling.</li>
+                                    </ul>
+                                    <p>Call us immediately for further instructions.</p>
 
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Your Toronto Emergency Dental Clinic</h3>
-            <p>At Crossroads Dental, we’re prepared to treat dental emergencies with speed, care, and professionalism. Our modern facility and compassionate team are here to ease your pain and restore your smile as soon as possible.</p>
-            <p><strong>Experiencing a dental emergency? Call Crossroads Dental now for a same-day appointment in Toronto.</strong></p>
-        </div>
-    </section>
-</div>
+                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">Your Toronto Emergency Dental Clinic
+                                    </h3>
+                                    <p>At Crossroads Dental, we’re prepared to treat dental emergencies with speed,
+                                        care, and professionalism. Our modern facility and compassionate team are here
+                                        to ease your pain and restore your smile as soon as possible.</p>
+                                    <p><strong>Experiencing a dental emergency? Call Crossroads Dental now for a
+                                            same-day appointment in Toronto.</strong></p>
+                                </div>
+                            </section>
+                        </div>
 
                     </div>
                 </div>
@@ -304,7 +336,6 @@
                                             <?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?></span>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>

@@ -225,7 +225,7 @@
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i
                                             class="fa-solid fa-arrow-left-long"></i> Services</a></div>
-                                <h2>Smile Makeovers with Dental Veneers</h2>
+                                <h2 class="id-color">Smile Makeovers with Dental Veneers</h2>
                                 <p>If you’re looking for a dramatic yet natural-looking smile upgrade, dental veneers
                                     may be the perfect solution. At Crossroads Dental, we offer high-quality porcelain
                                     veneers to correct chips, stains, gaps, and uneven teeth.</p>
@@ -298,7 +298,6 @@
 
                                 </div>
                             </section>
-
                             <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
@@ -375,7 +374,6 @@
                                 </div>
                             </section>
                         </div>
-
                     </div>
                 </div>
             </section>

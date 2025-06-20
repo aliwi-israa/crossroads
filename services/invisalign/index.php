@@ -222,7 +222,7 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h2>Want Straighter Teeth Without Braces?</h2>
+                                <h2 class="id-color">Want Straighter Teeth Without Braces?</h2>
                                 <p>Want a straighter smile without metal braces? At Crossroads Dental, we offer clear
                                     aligners which are an invisible, comfortable alternative to traditional
                                     orthodontics. Perfect for teens and adults, clear aligners help you achieve a

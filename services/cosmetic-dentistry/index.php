@@ -90,14 +90,18 @@
                                             Dentistry</span><i class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu1">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/"><i
                                                         class="fas fa-arrow-right"></i>Dental Examination</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/gum-care/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/gum-care/"><i
                                                         class="fas fa-arrow-right"></i>Gum Care & Teeth Cleaning</a>
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/sealants/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/sealants/"><i
                                                         class="fas fa-arrow-right"></i>Dental Sealants</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/fluoride/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/fluoride/"><i
                                                         class="fas fa-arrow-right"></i>Fluoride Treatments</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/preventative-dentistry/oral-cancer-screening/"><i
@@ -111,22 +115,27 @@
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu2">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/fillings/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/fillings/"><i
                                                         class="fas fa-arrow-right"></i>Dental Fillings</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/root-canal/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/root-canal/"><i
                                                         class="fas fa-arrow-right"></i>Root Canal</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
                                                         class="fas fa-arrow-right"></i>Extractions</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="services/<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
                                                         class="fas fa-arrow-right"></i>Crowns & Bridges</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
                                                         class="fas fa-arrow-right"></i>Paediatric Dentistry</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo $root; ?>services/emergency-dentistry/">Emergency Dentistry</a>
+                                    <a class="nav-link"
+                                        href="<?php echo $root; ?>services/emergency-dentistry/">Emergency Dentistry</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu3"
@@ -135,12 +144,14 @@
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu3">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/"><i
                                                         class="fas fa-arrow-right"></i>Whitening</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/"><i
                                                         class="fas fa-arrow-right"></i>Veneers</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/"><i
                                                         class="fas fa-arrow-right"></i>Dental Bonding</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/cosmetic-dentistry/smile-makeover/"><i
@@ -149,7 +160,8 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners (Invisalign)</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners
+                                        (Invisalign)</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo $root; ?>services/dental-implants/">Dental
@@ -218,74 +230,97 @@
 
                         </div>
                         <!-- Main Content -->
-                <div class="col-md-9">
-    <div class="title-wrap">
-        <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i
-                    class="fa-solid fa-arrow-left-long"></i> Services</a></div>
-        <h2>Dreaming of a More Confident Smile?</h2>
-        <p>A beautiful smile isn’t just about appearance, it’s about your overall confidence. At Crossroads Dental, we offer a range of cosmetic dentistry treatments designed to enhance your smile’s look, symmetry, and brightness. Whether you’re seeking subtle improvements or a full transformation, our Toronto team can help you achieve your dream smile.</p>
-    </div>
-    <div class="educational-video mb-4">
-        <h3>Things to Know about Dental Bonding</h3>
-        <a href="//fast.wistia.net/embed/iframe/ea8qm1ez8b?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/cosmetic-bonding.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-    </div>
+                        <div class="col-md-9">
+                            <div class="title-wrap">
+                                <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i
+                                            class="fa-solid fa-arrow-left-long"></i> Services</a></div>
+                                <h2 class="id-color">Dreaming of a More Confident Smile?</h2>
+                                <p>A beautiful smile isn’t just about appearance, it’s about your overall confidence. At
+                                    Crossroads Dental, we offer a range of cosmetic dentistry treatments designed to
+                                    enhance your smile’s look, symmetry, and brightness. Whether you’re seeking subtle
+                                    improvements or a full transformation, our Toronto team can help you achieve your
+                                    dream smile.</p>
+                            </div>
+                            <div class="educational-video mb-4">
+                                <h3>Things to Know about Dental Bonding</h3>
+                                <a href="//fast.wistia.net/embed/iframe/ea8qm1ez8b?popover=true"
+                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
+                                        src="https://www.deardoctor.com/images/video-gallery/play/cosmetic-bonding.jpg"
+                                        width="650" alt=""></a>
+                                <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js">
+                                </script>
+                            </div>
 
-    <section class="pt-0 pb-0">
-        <div class="service-items">
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Our Cosmetic Services</h3>
-            <p>We offer personalized treatment options tailored to your goals, lifestyle, and budget:</p>
-            <ul class="fw-500 mb-4 wow fadeInUp services-icon-list" data-wow-delay=".6s">
-                <li class="mb-4">
-                    <a href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/">
-                        <div class="services-icons">
-                            <img src="<?php echo $root; ?>assets/images/icons/icons-whitening.svg" class="w-100 wow scaleIn" alt="Icon for Teeth Whitening">
-                            <strong>Teeth Whitening</strong>
-                        </div><br>
-                        Brighten your smile with professional-grade whitening treatments that safely lift deep stains and discoloration for a noticeably whiter smile in just one visit.
-                    </a>
-                </li>
+                            <section class="pt-0 pb-0">
+                                <div class="service-items">
+                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">Our Cosmetic Services</h3>
+                                    <p>We offer personalized treatment options tailored to your goals, lifestyle, and
+                                        budget:</p>
+                                    <ul class="fw-500 mb-4 wow fadeInUp services-icon-list" data-wow-delay=".6s">
+                                        <li class="mb-4">
+                                            <a href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/">
+                                                <div class="services-icons">
+                                                    <img src="<?php echo $root; ?>assets/images/icons/icons-whitening.svg"
+                                                        class="w-100 wow scaleIn" alt="Icon for Teeth Whitening">
+                                                    <strong>Teeth Whitening</strong>
+                                                </div><br>
+                                                Brighten your smile with professional-grade whitening treatments that
+                                                safely lift deep stains and discoloration for a noticeably whiter smile
+                                                in just one visit.
+                                            </a>
+                                        </li>
 
-                <li class="mb-4">
-                    <a href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/">
-                        <div class="services-icons">
-                            <img src="<?php echo $root; ?>assets/images/icons/icons-veneers-cosmetic.svg" class="w-100 wow scaleIn" alt="Icon for Dental Veneers">
-                            <strong>Dental Veneers</strong>
-                        </div><br>
-                        Thin, custom-made shells that cover the front of your teeth to correct chips, gaps, uneven shapes, or deep staining. Durable and natural-looking for long-lasting results.
-                    </a>
-                </li>
+                                        <li class="mb-4">
+                                            <a href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/">
+                                                <div class="services-icons">
+                                                    <img src="<?php echo $root; ?>assets/images/icons/icons-veneers-cosmetic.svg"
+                                                        class="w-100 wow scaleIn" alt="Icon for Dental Veneers">
+                                                    <strong>Dental Veneers</strong>
+                                                </div><br>
+                                                Thin, custom-made shells that cover the front of your teeth to correct
+                                                chips, gaps, uneven shapes, or deep staining. Durable and
+                                                natural-looking for long-lasting results.
+                                            </a>
+                                        </li>
 
-                <li class="mb-4">
-                    <a href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/">
-                        <div class="services-icons">
-                            <img src="<?php echo $root; ?>assets/images/icons/icons-dental-bonding.svg" class="w-100 wow scaleIn" alt="Icon for Dental Bonding">
-                            <strong>Dental Bonding</strong>
-                        </div><br>
-                        A cost-effective way to repair minor imperfections using tooth-colored resin. Ideal for small chips, cracks, or gaps without invasive procedures.
-                    </a>
-                </li>
+                                        <li class="mb-4">
+                                            <a href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/">
+                                                <div class="services-icons">
+                                                    <img src="<?php echo $root; ?>assets/images/icons/icons-dental-bonding.svg"
+                                                        class="w-100 wow scaleIn" alt="Icon for Dental Bonding">
+                                                    <strong>Dental Bonding</strong>
+                                                </div><br>
+                                                A cost-effective way to repair minor imperfections using tooth-colored
+                                                resin. Ideal for small chips, cracks, or gaps without invasive
+                                                procedures.
+                                            </a>
+                                        </li>
 
-                <li class="mb-4">
-                    <a href="<?php echo $root; ?>services/cosmetic-dentistry/smile-makeover/">
-                        <div class="services-icons">
-                            <img src="<?php echo $root; ?>assets/images/homepage/icons/smile-makeover.svg" class="w-100 wow scaleIn" alt="Icon for Smile Makeovers">
-                            <strong>Smile Makeovers</strong>
-                        </div><br>
-                        A customized combination of cosmetic treatments designed to give you a complete smile transformation. Perfect for patients looking for dramatic, yet natural-looking results.
-                    </a>
-                </li>
-            </ul>
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Why Choose Cosmetic Dentistry?</h3>
-            <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li class="mb-4">Boosts confidence and self-esteem</li>
-                <li class="mb-4">Enhances facial symmetry and youthfulness</li>
-                <li class="mb-4">Corrects years of wear, discoloration, or damage</li>
-                <li class="mb-4">Improves social and professional presence</li>
-            </ul>
-            <p><strong> Book your cosmetic consultation today at Crossroads Dental in Toronto and take the first step toward a more confident smile.</strong></p>
-        </div>
-    </section>
-</div>
+                                        <li class="mb-4">
+                                            <a href="<?php echo $root; ?>services/cosmetic-dentistry/smile-makeover/">
+                                                <div class="services-icons">
+                                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/smile-makeover.svg"
+                                                        class="w-100 wow scaleIn" alt="Icon for Smile Makeovers">
+                                                    <strong>Smile Makeovers</strong>
+                                                </div><br>
+                                                A customized combination of cosmetic treatments designed to give you a
+                                                complete smile transformation. Perfect for patients looking for
+                                                dramatic, yet natural-looking results.
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">Why Choose Cosmetic Dentistry?</h3>
+                                    <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                        <li class="mb-4">Boosts confidence and self-esteem</li>
+                                        <li class="mb-4">Enhances facial symmetry and youthfulness</li>
+                                        <li class="mb-4">Corrects years of wear, discoloration, or damage</li>
+                                        <li class="mb-4">Improves social and professional presence</li>
+                                    </ul>
+                                    <p><strong> Book your cosmetic consultation today at Crossroads Dental in Toronto
+                                            and take the first step toward a more confident smile.</strong></p>
+                                </div>
+                            </section>
+                        </div>
 
                     </div>
                 </div>

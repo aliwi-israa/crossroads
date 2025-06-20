@@ -224,10 +224,9 @@
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
                                     <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h2>Looking for a Kid-Friendly Dentist in Toronto?</h2>
+                                <h2 class="id-color">Looking for a Kid-Friendly Dentist in Toronto?</h2>
                                 <p>At Crossroads Dental, we believe a lifetime of healthy smiles starts in childhood. Our pediatric dental services are designed to make visits comfortable, fun, and educational for kids, while giving parents the peace of mind they deserve.</p>
                             </div>
-
                             <div class="service-img mb-4">
                                 <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
                                     <source srcset="<?php echo $root; ?>/assets/images/services/banner/pediatric-480.webp" media="(max-width: 600px)">
@@ -277,7 +276,6 @@
 									</div>
                                 </div>
                             </section>
-
                             <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container">
                                     <div class="row g-4">
@@ -322,7 +320,6 @@
                     </div>
                 </div>
             </section>
-
             <section class="text-dark no-bottom overflow-hidden bg-gray"
                 style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
                 <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">

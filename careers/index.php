@@ -196,7 +196,7 @@
                     } else {
                         const jobListHtml = '<ul>' +
                             jobs.map(job =>
-                                `<li><a href="${job.absolute_url}"><strong>${job.title}</strong></a> <a class="view-job-link" href="${job.absolute_url}">View Job &#8594;</a></li>`
+                                `<li><a class= "text-blue" href="${job.absolute_url}"><strong>${job.title}</strong></a> <a class="view-job-link id-color" href="${job.absolute_url}">View Job &#8594;</a></li>`
                             ).join('') +
                             '</ul>';
                         $('#all-jobs').html(jobListHtml);

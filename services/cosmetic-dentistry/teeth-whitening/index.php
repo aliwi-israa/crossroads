@@ -223,7 +223,7 @@
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s"><a href="#"><i
                                             class="fa-solid fa-arrow-left-long"></i> Services</a></div>
-                                <h2>Whitening Treatments for a Noticeably Brighter Smile</h2>
+                                <h2 class="id-color">Whitening Treatments for a Noticeably Brighter Smile</h2>
                                 <p>A bright smile can make a lasting impression. At Crossroads Dental, our professional
                                     teeth whitening treatments help you remove deep stains and restore the natural
                                     brilliance of your smile. Safely, comfortably, and effectively.</p>
@@ -287,21 +287,19 @@
                                     <p><strong>Book your teeth whitening appointment at Crossroads Dental in Toronto
                                             today and rediscover the power of your smile!</p>
                                     
-                                        <div class="educational-video mb-4">
-                                            <h3>Things to Know about Teeth Whitening</h3>
-                                            <div class="video-container">
-                                                <div class="video">
-                                                    <a href="//fast.wistia.net/embed/iframe/9314b05d1b?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/teeth-whitening.jpg" width="350" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                                </div>
-                                                <div class="video">
-                                                    <a href="//fast.wistia.net/embed/iframe/2sigqha7ft?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/top5-advantages-of-in-office-whitening.jpg" width="350" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                                </div>
+                                    <div class="educational-video mb-4">
+                                        <h3>Things to Know about Teeth Whitening</h3>
+                                        <div class="video-container">
+                                            <div class="video">
+                                                <a href="//fast.wistia.net/embed/iframe/9314b05d1b?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/teeth-whitening.jpg" width="350" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+                                            </div>
+                                            <div class="video">
+                                                <a href="//fast.wistia.net/embed/iframe/2sigqha7ft?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/top5-advantages-of-in-office-whitening.jpg" width="350" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
                                             </div>
                                         </div>
-                              
+                                    </div>
                                 </div>
                             </section>
-
                             <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
@@ -379,8 +377,6 @@
                                 </div>
                             </section>
                         </div>
-
-
                     </div>
                 </div>
             </section>

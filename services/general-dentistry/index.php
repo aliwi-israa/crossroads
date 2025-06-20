@@ -91,14 +91,18 @@
                                             Dentistry</span><i class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu1">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/"><i
                                                         class="fas fa-arrow-right"></i>Dental Examination</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/gum-care/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/gum-care/"><i
                                                         class="fas fa-arrow-right"></i>Gum Care & Teeth Cleaning</a>
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/sealants/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/sealants/"><i
                                                         class="fas fa-arrow-right"></i>Dental Sealants</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/preventative-dentistry/fluoride/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/preventative-dentistry/fluoride/"><i
                                                         class="fas fa-arrow-right"></i>Fluoride Treatments</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/preventative-dentistry/oral-cancer-screening/"><i
@@ -108,39 +112,47 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu2" data-toggle="collapse"
-                                        data-target="#submenu2" aria-expanded="false" style="color: var(--primary-color);"><span>General Dentistry</span> <i
+                                        data-target="#submenu2" aria-expanded="false"
+                                        style="color: var(--primary-color);"><span>General Dentistry</span> <i
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu2">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/fillings/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/fillings/"><i
                                                         class="fas fa-arrow-right"></i>Dental Fillings</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/root-canal/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/root-canal/"><i
                                                         class="fas fa-arrow-right"></i>Root Canal</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
                                                         class="fas fa-arrow-right"></i>Extractions</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="services/<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
                                                         class="fas fa-arrow-right"></i>Crowns & Bridges</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
                                                         class="fas fa-arrow-right"></i>Paediatric Dentistry</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo $root; ?>services/emergency-dentistry/">Emergency Dentistry</a>
+                                    <a class="nav-link"
+                                        href="<?php echo $root; ?>services/emergency-dentistry/">Emergency Dentistry</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link parent-category" href="#submenu3"data-toggle="collapse"
+                                    <a class="nav-link parent-category" href="#submenu3" data-toggle="collapse"
                                         data-target="#submenu3" aria-expanded="false"><span>Cosmetic Dentistry </span><i
                                             class="fas fa-chevron-down rotate-icon"></i></a>
                                     <div class="collapse" id="submenu3">
                                         <ul class="flex-column nav">
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/teeth-whitening/"><i
                                                         class="fas fa-arrow-right"></i>Whitening</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/cosmetic-dentistry/veneers/"><i
                                                         class="fas fa-arrow-right"></i>Veneers</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/"><i
+                                            <li class="nav-item"><a class="nav-link"
+                                                    href="<?php echo $root; ?>services/cosmetic-dentistry/bonding/"><i
                                                         class="fas fa-arrow-right"></i>Dental Bonding</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/cosmetic-dentistry/smile-makeover/"><i
@@ -149,7 +161,8 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners (Invisalign)</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners
+                                        (Invisalign)</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo $root; ?>services/dental-implants/">Dental
@@ -218,77 +231,96 @@
 
                         </div>
                         <!-- Main Content -->
-        <div class="col-md-9">
-    <div class="title-wrap">
-        <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-            <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
-        </div>
-        <h2>Need Reliable Dental Care in Toronto?</h2>
-        <p>At Crossroads Dental, our goal is to help you maintain a healthy, pain-free smile for life. Our general dentistry services cover everything from routine fillings and root canals to extractions and pediatric care. We deliver with precision, compassion, and a patient-first approach.</p>
-    </div>
-    <div class="educational-video mb-4">
-        <h3>Things to Know About Fillings</h3>
-        <a href="//fast.wistia.net/embed/iframe/ev9iwtlk0w?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/tooth-colored-fillings.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-    </div>
-    <section class="pt-0 pb-0">
-        <div class="service-items">
-            <h3 class="wow fadeInUp" data-wow-delay=".2s">Full-Service Family Dental Care</h3>
-            <p>We provide a complete range of general dental treatments under one roof, including:</p>
-            <ul class="fw-500 mb-4 wow fadeInUp services-icon-list" data-wow-delay=".6s">
-                <li class="mb-4">
-                    <div class="services-icons">
-                        <a href="<?php echo $root; ?>services/general-dentistry/fillings/">
-                            <img src="<?php echo $root; ?>assets/images/icons/icons-fillings-restorative.svg" class="w-100 wow scaleIn" alt="An icon of Dental filling">
-                            <strong>Dental Fillings</strong>
-                        </div><br>
-                        Quick and effective repairs for cavities using strong, natural-looking composite materials that blend seamlessly with your teeth.
-                    </a>
-                </li>
+                        <div class="col-md-9">
+                            <div class="title-wrap">
+                                <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
+                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                </div>
+                                <h2 class="id-color">Need Reliable Dental Care in Toronto?</h2>
+                                <p>At Crossroads Dental, our goal is to help you maintain a healthy, pain-free smile for
+                                    life. Our general dentistry services cover everything from routine fillings and root
+                                    canals to extractions and pediatric care. We deliver with precision, compassion, and
+                                    a patient-first approach.</p>
+                            </div>
+                            <div class="educational-video mb-4">
+                                <h3>Things to Know About Fillings</h3>
+                                <a href="//fast.wistia.net/embed/iframe/ev9iwtlk0w?popover=true"
+                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
+                                        src="https://www.deardoctor.com/images/video-gallery/play/tooth-colored-fillings.jpg"
+                                        width="650" alt=""></a>
+                                <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js">
+                                </script>
+                            </div>
+                            <section class="pt-0 pb-0">
+                                <div class="service-items">
+                                    <h3 class="wow fadeInUp" data-wow-delay=".2s">Full-Service Family Dental Care</h3>
+                                    <p>We provide a complete range of general dental treatments under one roof,
+                                        including:</p>
+                                    <ul class="fw-500 mb-4 wow fadeInUp services-icon-list" data-wow-delay=".6s">
+                                        <li class="mb-4">
+                                            <div class="services-icons">
+                                                <a href="<?php echo $root; ?>services/general-dentistry/fillings/">
+                                                    <img src="<?php echo $root; ?>assets/images/icons/icons-fillings-restorative.svg"
+                                                        class="w-100 wow scaleIn" alt="An icon of Dental filling">
+                                                    <strong>Dental Fillings</strong>
+                                            </div><br>
+                                            Quick and effective repairs for cavities using strong, natural-looking
+                                            composite materials that blend seamlessly with your teeth.
+                                            </a>
+                                        </li>
 
-                <li class="mb-4">
-                    <div class="services-icons">
-                        <a href="<?php echo $root; ?>services/general-dentistry/root-canal/">
-                            <img src="<?php echo $root; ?>assets/images/icons/icons-root-canal.svg" class="w-100 wow scaleIn" alt="An icon of root canal therapy">
-                            <strong>Root Canal Therapy</strong>
-                        </div><br>
-                        Relieve tooth pain and save damaged teeth with modern root canal treatment—performed gently and with minimal discomfort.
-                    </a>
-                </li>
-
-                <li class="mb-4">
-                    <div class="services-icons">
-                        <a href="<?php echo $root; ?>services/general-dentistry/extractions/">
-                            <img src="<?php echo $root; ?>assets/images/icons/icons-extractions.svg" class="w-100 wow scaleIn" alt="An icon of tooth extraction">
-                            <strong>Tooth Extractions</strong>
-                        </div><br>
-                        When a tooth can’t be saved, we perform safe and comfortable extractions, including wisdom teeth removal if needed.
-                    </a>
-                </li>
-
-                <li class="mb-4">
-                    <div class="services-icons">
-                        <a href="<?php echo $root; ?>services/general-dentistry/crowns-bridges/">
-                            <img src="<?php echo $root; ?>assets/images/icons/icons-crowns-bridges-2.svg" class="w-100 wow scaleIn" alt="An icon of crowns and bridges">
-                            <strong>Crowns & Bridges</strong>
-                        </div><br>
-                        Restore strength, function, and aesthetics to damaged or missing teeth with high-quality custom restorations.
-                    </a>
-                </li>
-
-                <li class="mb-4">
-                    <div class="services-icons">
-                        <a href="<?php echo $root; ?>services/general-dentistry/pediatric/">
-                            <img src="<?php echo $root; ?>assets/images/homepage/icons/children.svg" class="w-100 wow scaleIn" alt="An icon representing pediatric dentistry">
-                            <strong>Pediatric Dentistry</strong>
-                        </div><br>
-                        Gentle, preventive care tailored for kids of all ages to build healthy habits and positive dental experiences early on.
-                    </a>
-                </li>
-            </ul>
-            <p><strong>Book your general dentistry appointment today and enjoy complete care at Crossroads Dental in the heart of Toronto.</strong></p>
-        </div>
-    </section>
-</div>
+                                        <li class="mb-4">
+                                            <div class="services-icons">
+                                                <a href="<?php echo $root; ?>services/general-dentistry/root-canal/">
+                                                    <img src="<?php echo $root; ?>assets/images/icons/icons-root-canal.svg"
+                                                        class="w-100 wow scaleIn" alt="An icon of root canal therapy">
+                                                    <strong>Root Canal Therapy</strong>
+                                            </div><br>
+                                            Relieve tooth pain and save damaged teeth with modern root canal
+                                            treatment—performed gently and with minimal discomfort.
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <div class="services-icons">
+                                                <a href="<?php echo $root; ?>services/general-dentistry/extractions/">
+                                                    <img src="<?php echo $root; ?>assets/images/icons/icons-extractions.svg"
+                                                        class="w-100 wow scaleIn" alt="An icon of tooth extraction">
+                                                    <strong>Tooth Extractions</strong>
+                                            </div><br>
+                                            When a tooth can’t be saved, we perform safe and comfortable extractions,
+                                            including wisdom teeth removal if needed.
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <div class="services-icons">
+                                                <a
+                                                    href="<?php echo $root; ?>services/general-dentistry/crowns-bridges/">
+                                                    <img src="<?php echo $root; ?>assets/images/icons/icons-crowns-bridges-2.svg"
+                                                        class="w-100 wow scaleIn" alt="An icon of crowns and bridges">
+                                                    <strong>Crowns & Bridges</strong>
+                                            </div><br>
+                                            Restore strength, function, and aesthetics to damaged or missing teeth with
+                                            high-quality custom restorations.
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <div class="services-icons">
+                                                <a href="<?php echo $root; ?>services/general-dentistry/pediatric/">
+                                                    <img src="<?php echo $root; ?>assets/images/homepage/icons/children.svg"
+                                                        class="w-100 wow scaleIn"
+                                                        alt="An icon representing pediatric dentistry">
+                                                    <strong>Pediatric Dentistry</strong>
+                                            </div><br>
+                                            Gentle, preventive care tailored for kids of all ages to build healthy
+                                            habits and positive dental experiences early on.
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p><strong>Book your general dentistry appointment today and enjoy complete care at
+                                            Crossroads Dental in the heart of Toronto.</strong></p>
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </section>

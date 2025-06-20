@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-color-op-1">
+            <section>
                 <div class="container mt-6">
                     <div class="row">
                         <div class="col-md">
