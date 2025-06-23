@@ -11,20 +11,20 @@
     <title>Crossroads Dental – Canadian Dental Care Program (CDCP)</title>
     <meta name="title" content="Crossroads Dental – Canadian Dental Care Program (CDCP)">
     <meta name="description" content="Discover how Crossroads Dental supports CDCP. Learn what’s covered and apply directly via the Government of Canada to access dental benefits in Toronto.">
-    <meta name="author" content="Dentalook">
+    <meta name="author" content="Crossroads">
 
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Crossroads Dental – Canadian Dental Care Program (CDCP)">
     <meta property="og:description" content="Discover how Crossroads Dental supports CDCP. Learn what’s covered and apply directly via the Government of Canada to access dental benefits in Toronto.">
-    <meta property="og:image" content="<?php echo $root; ?>assets/images/CDCP.jpg">
+    <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/CDCP.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="dentalook.ca">
+    <meta property="twitter:domain" content="crossroadsdental.ca">
     <meta property="twitter:url" content="">
     <meta name="twitter:title" content="Crossroads Dental – Canadian Dental Care Program (CDCP)">
     <meta name="twitter:description" content="Discover how Crossroads Dental supports CDCP. Learn what’s covered and apply directly via the Government of Canada to access dental benefits in Toronto.">
-    <meta name="twitter:image" content="<?php echo $root; ?>assets/images/CDCP.jpg">
+    <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/CDCP.jpg">
 
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -68,9 +68,9 @@
             <div class="col-lg-6">
                 <div class="rounded-1 overflow-hidden wow zoomIn image-container">
                     <picture>
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p1-480.webp" media="(max-width: 600px)">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p1-768.webp" media="(max-width: 992px)">
-                    <img src="<?php echo $root; ?>assets/images/cdcp/p1-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist smiling and talking with her friend">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/people-480.webp" media="(max-width: 600px)">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/people-768.webp" media="(max-width: 992px)">
+                    <img src="<?php echo $root; ?>assets/images/cdcp/people-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="Understanding CDCP">
                     </picture>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                     <p class="wow fadeInUp">
                         Crossroads Dental is proud to support the Canadian Dental Care Program (CDCP), a new federal initiative to expand access to essential dental care for eligible Canadians. If you're approved through CDCP, we’re ready to welcome you with high-quality care right here in Toronto.
                     </p>
-                    <a class="btn-main fx-slide wow fadeInUp" href="#book"><span>Book Appointment</span></a>
+                    <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
                 </div>
             </div>
         </div>
@@ -93,9 +93,9 @@
         <div class="row g-4 gx-5 align-items-center flex-row-reverse">
             <div class="col-lg-6">
                 <div class="rounded-1 overflow-hidden wow zoomIn image-container">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p2-480.webp" media="(max-width: 600px)">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p2-768.webp" media="(max-width: 992px)">
-                    <img src="<?php echo $root; ?>assets/images/cdcp/p2-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist smiling and talking with her friend">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp2-480.webp" media="(max-width: 600px)">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp2-768.webp" media="(max-width: 992px)">
+                    <img src="<?php echo $root; ?>assets/images/cdcp/cdcp2-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="What is CDCP?">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -104,7 +104,7 @@
                     <p class="wow fadeInUp">
                         CDCP is a federally funded dental coverage plan designed to provide basic dental care to Canadians who might not otherwise afford it. It is part of Canada's effort to reduce oral health inequality and improve public health outcomes.
                     </p>
-                    <a class="btn-main fx-slide mt-3 wow fadeInUp" href="#book"><span>Book Appointment</span></a>
+                    <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
                 </div>
             </div>
         </div>
@@ -116,9 +116,9 @@
         <div class="row g-4 gx-5 align-items-center">
             <div class="col-lg-6">
                 <div class="rounded-1 overflow-hidden wow zoomIn image-container">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p3-480.webp" media="(max-width: 600px)">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p3-768.webp" media="(max-width: 992px)">
-                    <img src="<?php echo $root; ?>assets/images/cdcp/p3-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist smiling and talking with her friend">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp3-480.webp" media="(max-width: 600px)">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp3-768.webp" media="(max-width: 992px)">
+                    <img src="<?php echo $root; ?>assets/images/cdcp/cdcp3-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="Who is Eligible?">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -136,7 +136,7 @@
                     <p class="wow fadeInUp">
                         Full eligibility requirements and application details are available on the official government site.
                     </p>
-                    <a class="btn-main fx-slide mt-3 wow fadeInUp" href="#book"><span>Book Appointment</span></a>
+                    <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
                 </div>
             </div>
         </div>
@@ -148,21 +148,22 @@
         <div class="row g-4 gx-5 align-items-center flex-row-reverse">
             <div class="col-lg-6">
                 <div class="rounded-1 overflow-hidden wow zoomIn image-container">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p4-480.webp" media="(max-width: 600px)">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p4-768.webp" media="(max-width: 992px)">
-                    <img src="<?php echo $root; ?>assets/images/cdcp/p4-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist smiling and talking with her friend">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp4-480.webp" media="(max-width: 600px)">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp4-768.webp" media="(max-width: 992px)">
+                    <img src="<?php echo $root; ?>assets/images/cdcp/cdcp4-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="How to Apply?">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="ms-lg-3">
                     <h2 class="wow fadeInUp">How to Apply</h2>
                     <p class="wow fadeInUp">
-                        Crossroads Dental does not process CDCP applications directly. You must apply through the Government of Canada. Visit the official CDCP portal.
+                        Crossroads Dental does not process CDCP applications directly. You must apply through the <strong>Government of Canada. </strong> Visit the official CDCP portal here:
+                        <br><a href="https://www.canada.ca/en/services/benefits/dental/dental-care-plan.html" class="cdcp-apply text-blue">Apply for CDCP Coverage</a>
                     </p>
                     <p class="wow fadeInUp">
                         Once your application is approved, you’ll receive confirmation and instructions. Bring these details with you when booking your dental appointment with us.
                     </p>
-                    <a class="btn-main fx-slide mt-3 wow fadeInUp" href="#book"><span>Book Appointment</span></a>
+                    <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
                 </div>
             </div>
         </div>
@@ -174,9 +175,9 @@
         <div class="row g-4 gx-5 align-items-center">
             <div class="col-lg-6">
                 <div class="rounded-1 overflow-hidden wow zoomIn image-container">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p5-480.webp" media="(max-width: 600px)">
-                    <source srcset="<?php echo $root; ?>assets/images/cdcp/p5-768.webp" media="(max-width: 992px)">
-                    <img src="<?php echo $root; ?>assets/images/cdcp/p5-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="A dentist smiling and talking with her friend">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp5-480.webp" media="(max-width: 600px)">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp5-768.webp" media="(max-width: 992px)">
+                    <img src="<?php echo $root; ?>assets/images/cdcp/cdcp5-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="What’s Covered?">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -195,13 +196,66 @@
                     <p class="wow fadeInUp">
                         Cosmetic procedures such as whitening or veneers are not covered under the plan.
                     </p>
-                    <a class="btn-main fx-slide mt-3 wow fadeInUp" href="#book"><span>Book Appointment</span></a>
+                    <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-color bg-color-op-1">
+    <div class="container">
+        <div class="row g-4 gx-5 align-items-center flex-row-reverse">
+            <div class="col-lg-6">
+                <div class="rounded-1 overflow-hidden wow zoomIn image-container">
+                    <picture>
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp-480.webp" media="(max-width: 600px)">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp-768.webp" media="(max-width: 992px)">
+                    <img src="<?php echo $root; ?>assets/images/cdcp/cdcp-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="Why Choose Crossroads Dental?">
+                    </picture>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="ms-lg-3">
+                    <h2 class="wow fadeInUp">Why Choose Crossroads Dental?</h2>
+                    <p class="wow fadeInUp">
+                        We’re committed to serving our Toronto community with compassion, clarity, and excellence. When you choose Crossroads Dental, you benefit from:
+                    </p>
+                    <ul class="wow fadeInUp">
+                        <li>A CDCP-participating clinic with trained staff familiar with the program</li>
+                        <li>Clear explanations of your treatment plan and what’s covered</li>
+                        <li>Convenient online booking and a modern, welcoming environment</li>
+                    </ul>
+                    <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="row g-4 gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="rounded-1 overflow-hidden wow zoomIn image-container">
+                    <picture>
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp6-480.webp" media="(max-width: 600px)">
+                    <source srcset="<?php echo $root; ?>assets/images/cdcp/cdcp6-768.webp" media="(max-width: 992px)">
+                    <img src="<?php echo $root; ?>assets/images/cdcp/cdcp6-1280.webp" class="w-100 wow scaleIn  responsive-img" loading="lazy" alt="Need Help Understanding Your Coverage?">
+                    </picture>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="ms-lg-3">
+                    <h2 class="wow fadeInUp">Need Help Understanding Your Coverage?</h2>
+                    <p class="wow fadeInUp">
+                        We can’t apply on your behalf, but we’ll gladly answer any questions you may have about using your CDCP benefits at our clinic. Whether you're just starting the process or have already been approved, our team is ready to help you make the most of your care.
+                    </p>
+                    <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
         </div>
     </div>

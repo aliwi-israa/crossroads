@@ -7,10 +7,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
 
-	<title>Welcome to <?php echo $config['ClinicName']; ?>, Your Dental Home</title>
+	<title>booking completed</title>
+    <meta name="title" content="booking completed">
 	<meta name="description"
 		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
-	<meta name="author" content="Dentalook">
+	<meta name="author" content="Crossroads">
 
     	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="">
@@ -22,7 +23,7 @@
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:domain" content="dentalook.ca">
+	<meta property="twitter:domain" content="crossroadsdental.ca">
 	<meta property="twitter:url" content="">
 	<meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
 	<meta name="twitter:description"
@@ -50,6 +51,7 @@
 					<h1 class="orange-color">We’re committed to providing you with the best experience possible.</h1>
 					<div class="text-blue">You will receive an SMS/Text shortly with your appointment confirmation.<br>We look forward to seeing you!
 					</div>
+					<img src="<?php echo $root;?>assets/images/booking-completed.jpg" alt="Booking Completed">
 				</div>
 			</div>
 			<div class="container">

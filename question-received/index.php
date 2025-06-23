@@ -10,7 +10,7 @@
 	<title>Welcome to <?php echo $config['ClinicName']; ?>, Your Dental Home</title>
 	<meta name="description"
 		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
-	<meta name="author" content="Crossroads">
+	<meta name="author" content="Dentalook">
 
     	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="">
@@ -22,7 +22,7 @@
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:domain" content="crossroadsdental.ca">
+	<meta property="twitter:domain" content="dentalook.ca">
 	<meta property="twitter:url" content="">
 	<meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
 	<meta name="twitter:description"
@@ -41,14 +41,14 @@
 <body class="subpage">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-body.php';?>
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/header.php';?>
-	<section> 
+    <section>
 	<div class="page-content" style="margin-top:100px;">
 		<div class="section page-content-first">
 			<div class="container">
-				<div class="text-center mb-2  mb-md-3 mb-lg-4 mt-5">
-					<div class="h-sub text-blue">Page Not Found</div>
-					<h1 class="orange-color">Oops! We cannot find the page you were looking for.</h1>
-					<div class="text-blue">Please click on the link below to go back to the homepage or use the menu above.
+				<div class="text-center mb-2  mb-md-3 mb-lg-4">
+					<div class="h-sub theme-color">Thank you for reaching out, we will get you the answers you need at Crossroads Dental Clinic.</div>
+					<h1 class="orange-color">We’re committed to providing you with the best experience possible.</h1>
+					<div class="text-blue">One of our team will reach out to you to provide you with an answer to your question.
 					</div>
 				</div>
 			</div>
@@ -58,19 +58,19 @@
 						<p class="mb-4">
 							<div class="cta-book mb-5">
      							<a class="btn-main fx-slide btn-outline-white" href="<?php echo $root; ?>"><span>Back to Homepage</span></a>								
-								<a class="btn-main fx-slide menu_side_area m-0" href="<?php  echo $config['ClinicBookingLink']; ?>"><span>Book Appointment</span></a>
 							</div>
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	</section>
+	</div>	
+     </section>
 	 <div class="backToTop js-backToTop">
 		<i class="icon icon-up-arrow"></i>
 	</div>
 	 
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/footer.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/js-vendors.php';?>
+
 </html>

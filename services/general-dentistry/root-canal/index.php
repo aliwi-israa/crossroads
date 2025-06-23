@@ -10,7 +10,7 @@
     <meta name="title" content="Root Canal Therapy in Toronto | Crossroads Dental">
     <meta name="description"
         content="Relieve tooth pain and save your smile with gentle root canal therapy at Crossroads Dental in Toronto. Fast, comfortable, expert care.">
-    <meta name="author" content="Dentalook">
+    <meta name="author" content="Crossroads">
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
@@ -20,7 +20,7 @@
     <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Root-Canal.png">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="dentalook.ca">
+    <meta property="twitter:domain" content="crossroadsdental.ca">
     <meta property="twitter:url" content="">
     <meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
     <meta name="twitter:description"

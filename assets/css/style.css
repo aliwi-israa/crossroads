@@ -2712,6 +2712,32 @@ button.btn.btn-dark.button-element, #_builder-form button{
 .icons {
   justify-content: center;
 }
+
+a.cdcp-apply {
+  font-weight: 600;
+}
+
+ul.checked li {
+    color: var(--id-color, #007BFF);
+}
+
+span.service-item, ul.checked li {
+  color: rgb(96, 97, 97);
+}
+
+ ul.checked {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.checked li::before {
+    content: "\f00c"; 
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #6fbcb2;
+    margin-right: 8px;
+}
+
 @-webkit-keyframes move-up-down {
   0% {
     transform: translateY(0);

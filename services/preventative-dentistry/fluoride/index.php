@@ -12,7 +12,7 @@
     <meta name="title" content="Fluoride Treatment in Toronto | Crossroads Dental">
     <meta name="description"
         content="Strengthen your teeth with professional fluoride treatments at Crossroads Dental in Toronto. Safe and effective cavity prevention for all ages.">
-    <meta name="author" content="Dentalook">
+    <meta name="author" content="Crossroads">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
@@ -24,7 +24,7 @@
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="dentalook.ca">
+    <meta property="twitter:domain" content="crossroadsdental.ca">
     <meta property="twitter:url" content="">
     <meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
     <meta name="twitter:description"

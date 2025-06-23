@@ -112,29 +112,25 @@
                         <div class="col-lg-6">
                             <div class="p-40 bg-color-op-1 rounded-1">
                                 <h3>Get In Touch</h3>
-                                <form name="contactForm" id="contact_form" method="post" action="contact.php">
-
-                                    <div class="mb-4">
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
-                                    </div>
-
-                                    <div class="mb-4">
-                                        <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" required>
-                                    </div>
-
-                                    <div class="mb-4">
-                                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
-                                    </div>
-
-                                    <div class="mb-4 mb20">
-                                        <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
-                                    </div>
-
-
-                                    <div id='submit' class="mt20">
-                                        <input type='submit' id='send_message' value='Send Message' class="btn-main">
-                                    </div>
-                                </form>
+                                <iframe
+                                src="https://api.leadconnectorhq.com/widget/form/YGflwVK0Fr1JQmshy5vs"
+                                style="width:100%;height:100%;border:none;border-radius:3px"
+                                id="inline-YGflwVK0Fr1JQmshy5vs" 
+                                data-layout="{'id':'INLINE'}"
+                                data-trigger-type="alwaysShow"
+                                data-trigger-value=""
+                                data-activation-type="alwaysActivated"
+                                data-activation-value=""
+                                data-deactivation-type="neverDeactivate"
+                                data-deactivation-value=""
+                                data-form-name="Contact us"
+                                data-height="676"
+                                data-layout-iframe-id="inline-YGflwVK0Fr1JQmshy5vs"
+                                data-form-id="YGflwVK0Fr1JQmshy5vs"
+                                title="Contact us"
+                                    >
+                            </iframe>
+                            <script src="https://link.msgsndr.com/js/form_embed.js"></script>
                             </div>
                         </div>
 

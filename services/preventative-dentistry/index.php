@@ -11,7 +11,7 @@
     <meta name="title" content="Preventive Dentistry in Toronto | Crossroads Dental">
     <meta name="description"
         content="Protect your smile with expert preventive dental care at Crossroads Dental in Toronto. Book your cleaning, exam, or oral cancer screening today.">
-    <meta name="author" content="Dentalook">
+    <meta name="author" content="Crossroads">
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
@@ -21,7 +21,7 @@
     <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Preventative-Dentistry.png">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="dentalook.ca">
+    <meta property="twitter:domain" content="crossroadsdental.ca">
     <meta property="twitter:url" content="">
     <meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
     <meta name="twitter:description"
