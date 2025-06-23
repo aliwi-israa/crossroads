@@ -1,19 +1,16 @@
 <?php require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-head.php';?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-
     <title>Dental Implants in Toronto | Crossroads Dental</title>
     <meta name="title" content="Dental Implants in Toronto | Crossroads Dental">
     <meta name="description"
         content="Replace missing teeth with strong, natural-looking dental implants at Crossroads Dental in Toronto. Permanent solutions for a complete smile.">
     <meta name="author" content="Dentalook">
-
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
@@ -21,7 +18,6 @@
     <meta property="og:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
     <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/dental-implants.png">
-
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="dentalook.ca">
@@ -30,7 +26,6 @@
     <meta name="twitter:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/dental-implants.png">
-
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
     <!-- Google Fonts -->
     <link
@@ -41,7 +36,6 @@
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
-
 </head>
 
 <body class="subpage">
@@ -50,14 +44,12 @@
     <div id="wrapper">
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center"
-                style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container relative z-2" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
+            <section id="subheader" class="bg-color-op-1 text-center">
+                <div class="container relative z-2" >
+                    <div class="row align-items-center" >
+                        <div class="col-lg-12" >
                             <h3 class="wow fadeInUp subheader">Services</h3>
-                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                                Dental Implants in Toronto</h1>
+                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">Dental Implants in Toronto</h1>
                         </div>
                     </div>
                 </div>
@@ -68,7 +60,6 @@
                         <div class="breadcrumbs">
                             <ul class="crumb wow fadeInDown">
                                 <li><a href="index.php">Home</a></li>
-                                <li><a href="index.php">About</a></li>
                                 <li><a href="about.php">Our Services</a></li>
                                 <li class="active">Dental Implants</li>
                             </ul>
@@ -80,7 +71,7 @@
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
-                        <div class="col-md d-none d-md-block">
+                        <div class="col-md d-none d-md-block sidebar">
                             <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
@@ -214,42 +205,34 @@
 
                         </div>
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 main-content">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                    <a href="<?php echo $root; ?>services/" class="text-blue"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
                                 </div>
-                                <h2 class="id-color">Want to Eat, Speak, and Smile with Confidence Again?</h2>
+                                <h2 class="id-color service-header">Want to Eat, Speak, and Smile with Confidence Again?</h2>
                                 <p>Missing teeth can affect more than just your smile. They impact your ability to chew,
                                     speak, and maintain oral health. At Crossroads Dental, we offer permanent,
                                     natural-looking dental implants to help you restore your confidence and
                                     functionality.</p>
                             </div>
-
                             <div class="service-img mb-4">
-                                  <div class="educational-video mb-4">
-                                        <h3>How Implants Work</h3>
-                                        <div class="video-container">
-
-                                            <div class="video">
-                                                <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
-                                                    class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
-                                                        src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
-                                                        width="350" style="width:100%" alt="" /></a>
-                                                <script charset="ISO-8859-1"
-                                                    src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="educational-video single mb-4">
+                                    <h3>How Implants Work</h3>
+                                        <a href="//fast.wistia.net/embed/iframe/9996c81a28?popover=true"
+                                            class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
+                                                src="https://www.deardoctor.com/images/video-gallery/play/dental-implants.jpg"
+                                                width="350" style="width:100%" alt="" /></a>
+                                        <script charset="ISO-8859-1"
+                                            src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+                                </div>
                             </div>
-
                             <section class="pt-0 pb-0">
                                 <div class="service-items">
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">What Are Dental Implants?</h3>
                                     <p>Dental implants are titanium posts surgically placed into the jawbone to act as
                                         artificial roots for replacement teeth. Once healed, they support crowns,
                                         bridges, or dentures that look, feel, and function like real teeth.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Benefits of Dental Implants</h3>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
                                         <li class="mb-4">Restore full chewing power and speech clarity</li>
@@ -259,7 +242,6 @@
                                         <li class="mb-4">Last for decades with proper care</li>
                                     </ul>
                                     <p>Implants are the most durable and lifelike solution for tooth replacement.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Who is a Good Candidate?</h3>
                                     <p>You may be a candidate for implants if you:</p>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
@@ -269,7 +251,6 @@
                                         <li class="mb-4">Are committed to good oral hygiene</li>
                                     </ul>
                                     <p>Even if you’ve lost bone, grafting options may still make implants possible.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Our Implant Process</h3>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
                                         <li class="mb-4"><strong>Consultation:</strong> We assess your health, take
@@ -283,7 +264,6 @@
                                     </ul>
                                     <p>We work closely with trusted surgical partners or perform in-house placement
                                         depending on your case.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Caring for Your Implants</h3>
                                     <p>Dental implants require the same care as natural teeth:</p>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
@@ -292,7 +272,6 @@
                                         <li class="mb-4">Avoid smoking and manage health conditions</li>
                                     </ul>
                                     <p>With consistent care, implants can last a lifetime.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Rebuild Your Smile with Confidence
                                     </h3>
                                     <p>At Crossroads Dental, we combine advanced technology with expert care to deliver
@@ -306,11 +285,44 @@
                     </div>
                 </div>
             </section>
-            <section class="text-dark no-bottom overflow-hidden bg-gray"
-                style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
-                <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="py-5 my-5 me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
+            <!-- Mobile Contact Form -->
+            <section class="contact-mobile"> 
+                <div class="question-box bg-gray d-block d-md-none">
+                    <div class="content">
+                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
+                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
+                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
+                            style="border-radius: 3px; display: block;">
+                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
+                                style="border-radius: 3px;">
+                                <iframe
+                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
+                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
+                                    id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-layout="{'id':'INLINE'}"
+                                    data-trigger-type="alwaysShow"
+                                    data-trigger-value=""
+                                    data-activation-type="alwaysActivated"
+                                    data-activation-value=""
+                                    data-deactivation-type="neverDeactivate"
+                                    data-deactivation-value=""
+                                    data-form-name="Ask an Expert"
+                                    data-height="668"
+                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-form-id="hVKuv45TUa57ScoGZiV7"
+                                    title="Ask an Expert"
+                                    scrolling="yes">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </section>
+            <section class="text-dark no-bottom overflow-hidden ad-section">
+                <div class="col-lg-12">
+                    <div class="me-lg-3">
+                        <div class="my-5 me-lg-3 content">
                             <h2 class="wow fadeInUp animated text-center" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 Complimentary Implant Consultation</h2>
@@ -327,7 +339,6 @@
                                             <?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?></span>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -341,16 +352,11 @@
         document.querySelectorAll('.services-nav .nav-link[data-toggle="collapse"]').forEach(link => {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 const targetId = this.getAttribute('data-target') || this.getAttribute('href');
                 const target = document.querySelector(targetId);
                 const arrowIcon = this.querySelector('.rotate-icon');
-
                 if (!target) return;
-
                 const isOpen = target.classList.contains('show');
-
-                // Close all others and reset their arrows
                 document.querySelectorAll('.services-nav .collapse').forEach(div => {
                     div.classList.remove('show');
                 });
@@ -359,8 +365,6 @@
                     const icon = l.querySelector('.rotate-icon');
                     if (icon) icon.classList.remove('rotated');
                 });
-
-                // Open the clicked one and rotate its arrow
                 if (!isOpen) {
                     target.classList.add('show');
                     this.setAttribute('aria-expanded', 'true');
@@ -369,7 +373,5 @@
             });
         });
     </script>
-
 </body>
-
 </html>

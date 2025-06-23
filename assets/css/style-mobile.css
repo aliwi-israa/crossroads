@@ -9,7 +9,17 @@
         background-color: rgba(var(--primary-color-rgb), .1);
     }
     .ad-section .content { 
-    padding: 48px;
+        padding: 48px;
+    }
+    .rc-inline-block {
+        width: 100px;
+    }
+    .rc-anchor-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .rc-inline-block {
+        padding: 10px;
     }
 }
 
@@ -516,12 +526,16 @@
     }
 
     #subheader {
-        padding-top: 80px !important;
-        padding-bottom: 50px;
+        padding-top: 60px !important;
+        padding-bottom: 30px;
     }
 
     .ad-section {
         padding: 30px 20px 0 20px;
+    }
+
+    .ad-section .content, .contact-mobile .content {
+        padding: 12px;
     }
 
     #testimonial-carousel .de_testi {
@@ -812,7 +826,33 @@
         top: 15%;
     }
 }
+@media only screen and (min-width: 770px) and (max-width: 1026px) {
+    .icons h4, .icons p, .icons a {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    }
 
+    .slider-contact.container {
+        max-width: 950px;   
+    }
+        
+    .icons {
+        flex-wrap: wrap;
+        margin: auto;
+        flex-direction: column;
+    }
+    .slider-contact .text {
+        margin: 0 !important;
+        text-align: center;
+
+    }
+    .slider-contact {
+        padding: 0 30px;
+    }
+    .call-text {
+        display: block;
+    }
+}
 @media only screen and (max-width: 600px) {
 
     .breadcrumbs li {
@@ -932,10 +972,9 @@
         display: none;
     }
 
-    section {
-        padding: 0;
+    .main-content {
+        margin-left: 0;
     }
-
     #subheader {
         padding-top: 100px;
     }
@@ -1199,6 +1238,15 @@
     footer {
         padding-top: 20px;
     }
+    .home-slider {
+        height: 600px;
+    }
+    .slider-wrapper {
+        min-height: 600px !important;
+    }
+    .intro.subtitle {
+        margin-top: 100px;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -1261,20 +1309,50 @@
     .educational-video.single img {
         width: 100%;
     }
-            #all-jobs ul {
-            padding-left: 0;
-            }
-        #all-jobs ul li {
-    padding: 15px;
-    margin: 20px;
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    #all-jobs ul {
+        padding-left: 0;
+    }
+    #all-jobs ul li {
+        padding: 15px;
+        margin: 20px;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contact-mobile .ep-wrapper{
+        max-height: 800px;
+    }
+    .contact-mobile iframe {
+        width: 100% !important;
+        height: 100vh !important;
+        max-height: 100vh !important;
+        border: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: block !important;
+    }
+    .faq-list {
+        background: white !important;
     }
 
+    .slider-contact {
+        flex-direction: column;
+    }
 
+    .icons {
+        display: flex !important;
+        justify-content: left;
+        align-items: start !important;
+    }
 
+    .icons i {
+        margin-top: 10px;
+    }
+    .menu_side_area {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 480px) {

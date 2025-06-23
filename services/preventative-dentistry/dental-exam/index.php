@@ -51,19 +51,16 @@
     <div id="wrapper">
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center"
-                style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container relative z-2" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                            <h3 class="wow fadeInUp subheader">Services</h3>
-                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                                Dental Examination in Toronto</h1>
-
+                <section id="subheader" class="bg-color-op-1 text-center">
+                        <div class="container relative z-2" >
+                            <div class="row align-items-center">
+                                <div class="col-lg-12" >
+                                    <h3 class="wow fadeInUp subheader">Services</h3>
+                                    <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"> Dental Examination in Toronto</h1>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                </section>
             <div class="section m-3">
                 <div class="breadcrumbs-wrap">
                     <div class="container">
@@ -79,13 +76,11 @@
                     </div>
                 </div>
             </div>
-
-
             <section class="pb-0">
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
-                        <div class="col-md d-none d-md-block">
+                        <div class="col-md d-none d-md-block sidebar">
                             <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
@@ -230,21 +225,19 @@
                                     </table>
                                 </div>
                             </div>
-
                         </div>
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 main-content">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                    <a href="<?php echo $root; ?>services/preventative-dentistry/" class="text-blue"><i class="fa-solid fa-arrow-left-long"></i> Preventive Dentistry</a>
                                 </div>
-                                <h2 class="id-color">When Was Your Last Dental Exam?</h2>
+                                <h2 class="id-color service-header">When Was Your Last Dental Exam?</h2>
                                 <p>Regular dental exams are essential to maintaining good oral health and catching
                                     problems before they become serious. At Crossroads Dental, our comprehensive exams
                                     help you stay one step ahead of cavities, gum disease, and other dental conditions.
                                 </p>
                             </div>
-
                             <div class="service-img mb-4">
                                 <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
                                     <source
@@ -258,7 +251,6 @@
                                         class="img-fluid">
                                 </picture>
                             </div>
-
                             <section class="pt-0 pb-0">
                                 <div class="service-items">
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Why Dental Exams Matter</h3>
@@ -266,7 +258,6 @@
                                         assessment of your teeth, gums, bite, and jaw. Regular exams help us detect
                                         early signs of decay, infection, oral cancer, and issues with existing dental
                                         work.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">What to Expect During Your Exam</h3>
                                     <p>Every exam at Crossroads Dental includes:</p>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
@@ -298,7 +289,7 @@
                                 </div>
                             </section>
 
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
+                            <section class="bg-light faq-list" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
                                         <div class="col-lg-5"
@@ -320,7 +311,6 @@
                                                         X-rays if needed, and screen for issues like decay, gum disease,
                                                         and oral cancer.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-a2">
                                                         How long does a dental exam take?
                                                     </div>
@@ -328,7 +318,6 @@
                                                         A standard exam usually takes 30–45 minutes, depending on
                                                         whether X-rays or a cleaning are included.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-a3">
                                                         Do I need X-rays at every exam?
                                                     </div>
@@ -336,7 +325,6 @@
                                                         Not always. We take X-rays only when necessary, typically once a
                                                         year, to check areas not visible during a visual exam.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-a4">
                                                         Is a dental exam painful?
                                                     </div>
@@ -345,7 +333,6 @@
                                                         anxiety, we’ll do everything we can to make the visit
                                                         comfortable.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-a5">
                                                         How can I prepare for a dental exam?
                                                     </div>
@@ -360,16 +347,47 @@
                                 </div>
                             </section>
                         </div>
-
-
                     </div>
                 </div>
             </section>
-            <section class="text-dark no-bottom overflow-hidden bg-gray"
-                style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
-                <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="py-5 my-5 me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
+            <!-- Mobile Contact Form -->
+            <section class="contact-mobile"> 
+                <div class="question-box bg-gray d-block d-md-none">
+                    <div class="content">
+                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
+                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
+                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
+                            style="border-radius: 3px; display: block;">
+                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
+                                style="border-radius: 3px;">
+                                <iframe
+                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
+                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
+                                    id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-layout="{'id':'INLINE'}"
+                                    data-trigger-type="alwaysShow"
+                                    data-trigger-value=""
+                                    data-activation-type="alwaysActivated"
+                                    data-activation-value=""
+                                    data-deactivation-type="neverDeactivate"
+                                    data-deactivation-value=""
+                                    data-form-name="Ask an Expert"
+                                    data-height="668"
+                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-form-id="hVKuv45TUa57ScoGZiV7"
+                                    title="Ask an Expert"
+                                    scrolling="yes">
+                                </iframe>
+                            </div>
+                    </div>
+                </div>
+                <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </section>
+            <section class="text-dark no-bottom overflow-hidden ad-section">
+                <div class="col-lg-12">
+                    <div class="me-lg-3">
+                        <div class="my-5 me-lg-3 content">
                             <h2 class="wow fadeInUp animated text-center" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 Complimentary Implant Consultation</h2>
@@ -386,7 +404,6 @@
                                             <?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?></span>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -400,16 +417,11 @@
         document.querySelectorAll('.services-nav .nav-link[data-toggle="collapse"]').forEach(link => {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 const targetId = this.getAttribute('data-target') || this.getAttribute('href');
                 const target = document.querySelector(targetId);
                 const arrowIcon = this.querySelector('.rotate-icon');
-
                 if (!target) return;
-
                 const isOpen = target.classList.contains('show');
-
-                // Close all others and reset their arrows
                 document.querySelectorAll('.services-nav .collapse').forEach(div => {
                     div.classList.remove('show');
                 });
@@ -419,7 +431,6 @@
                     if (icon) icon.classList.remove('rotated');
                 });
 
-                // Open the clicked one and rotate its arrow
                 if (!isOpen) {
                     target.classList.add('show');
                     this.setAttribute('aria-expanded', 'true');
@@ -428,7 +439,5 @@
             });
         });
     </script>
-
 </body>
-
 </html>

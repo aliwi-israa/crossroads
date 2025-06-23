@@ -1,19 +1,16 @@
 <?php require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-head.php';?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-
     <title>Root Canal Therapy in Toronto | Crossroads Dental</title>
     <meta name="title" content="Root Canal Therapy in Toronto | Crossroads Dental">
     <meta name="description"
         content="Relieve tooth pain and save your smile with gentle root canal therapy at Crossroads Dental in Toronto. Fast, comfortable, expert care.">
     <meta name="author" content="Dentalook">
-
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
@@ -21,7 +18,6 @@
     <meta property="og:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
     <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Root-Canal.png">
-
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="dentalook.ca">
@@ -30,7 +26,6 @@
     <meta name="twitter:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Root-Canal.png">
-
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
     <!-- Google Fonts -->
     <link
@@ -41,25 +36,19 @@
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
-
 </head>
-
-
 <body class="subpage">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-body.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/header.php';?>
     <div id="wrapper">
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center"
-                style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container relative z-2" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
+            <section id="subheader" class="bg-color-op-1 text-center">
+                <div class="container relative z-2" >
+                    <div class="row align-items-center" >
+                        <div class="col-lg-12" >
                             <h3 class="wow fadeInUp subheader">Services</h3>
-                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                                Root Canal Therapy in Toronto</h1>
-
+                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">Root Canal Therapy in Toronto</h1>
                         </div>
                     </div>
                 </div>
@@ -84,7 +73,7 @@
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
-                        <div class="col-md d-none d-md-block">
+                        <div class="col-md d-none d-md-block sidebar">
                             <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
@@ -220,12 +209,12 @@
 
                         </div>
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 main-content">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                    <a href="<?php echo $root; ?>services/general-dentistry/" class="text-blue"><i class="fa-solid fa-arrow-left-long"></i> General Dentistry</a>
                                 </div>
-                                <h2 class="id-color">Need Root Canal Treatment?</h2>
+                                <h2 class="id-color service-header">Need Root Canal Treatment?</h2>
                                 <p>If you're experiencing severe tooth pain or sensitivity, you may need a root canal. At Crossroads Dental, our root canal treatments are safe, gentle, and designed to relieve pain while saving your natural tooth.</p>
                             </div>
                             <div class="service-img mb-4">
@@ -240,7 +229,6 @@
                                 <div class="service-items">
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">What is a Root Canal?</h3>
                                     <p>A root canal is a procedure used to treat infection or damage inside a tooth’s pulp, which is the soft tissue containing nerves and blood vessels. By removing the infected tissue, we can stop the pain, clean the tooth, and seal it to prevent further problems.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Signs You May Need a Root Canal</h3>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
                                         <li class="mb-4">Persistent toothache or sensitivity</li>
@@ -250,7 +238,6 @@
                                         <li class="mb-4">A recurring pimple on the gums</li>
                                     </ul>
                                     <p>Prompt treatment can prevent the need for an extraction and preserve your natural bite.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">What to Expect</h3>
                                     <p>Root canal therapy typically involves the following steps:</p>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
@@ -261,14 +248,11 @@
                                         <li class="mb-4">A crown or filling is placed to protect and restore the tooth.</li>
                                     </ul>
                                     <p>Most patients compare it to getting a standard filling. It’s quicker and more comfortable than you might expect.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Aftercare and Recovery</h3>
                                     <p>Minor soreness is normal for a day or two, but most patients return to normal activities the same day. We’ll guide you through aftercare to ensure a smooth recovery and recommend a crown if additional reinforcement is needed.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Save Your Tooth, Restore Your Comfort</h3>
                                     <p>Root canals don’t cause pain — they relieve it. At Crossroads Dental, we use advanced tools and gentle techniques to make your treatment as stress-free as possible.</p>
                                     <p><strong>If you're in pain, don’t wait! Book your root canal consultation at Crossroads Dental in Toronto today!</strong></p>
-                                
                                    <div class="educational-video mb-4">
 										<h3>Things to Know about Root Canal Treatment</h3>
                                         <div class="video-container">
@@ -278,7 +262,7 @@
                                     </div>
                                 </div>
                             </section>
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
+                            <section class="bg-light faq-list" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
                                         <div class="col-lg-5" style="background-size: cover; background-repeat: no-repeat;">
@@ -290,35 +274,30 @@
                                         <div class="col-lg-7" style="background-size: cover; background-repeat: no-repeat;">
                                             <div class="accordion s2 wow fadeInUp animated">
                                                 <div class="accordion-section">
-
                                                     <div class="accordion-section-title" data-tab="#accordion-f1">
                                                         1. Does a root canal hurt?
                                                     </div>
                                                     <div class="accordion-section-content" id="accordion-f1">
                                                         With modern anesthesia and techniques, root canals are no more painful than getting a regular filling. Most patients feel relief from pain, not more of it.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-f2">
                                                         2. Why would I need a root canal?
                                                     </div>
                                                     <div class="accordion-section-content" id="accordion-f2">
                                                         A root canal is needed when the inside of your tooth becomes infected or inflamed due to deep decay, cracks, or trauma.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-f3">
                                                         3. How long does a root canal take?
                                                     </div>
                                                     <div class="accordion-section-content" id="accordion-f3">
                                                         Most root canals can be completed in one or two visits, lasting about 60–90 minutes per session depending on the tooth’s complexity.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-f4">
                                                         4. What happens after the procedure?
                                                     </div>
                                                     <div class="accordion-section-content" id="accordion-f4">
                                                         You may feel some tenderness for a day or two. We’ll usually recommend a crown after the root canal to protect the tooth long-term.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-f5">
                                                         5. Can a root canal save my tooth?
                                                     </div>
@@ -335,12 +314,44 @@
                     </div>
                 </div>
             </section>
-
-            <section class="text-dark no-bottom overflow-hidden bg-gray"
-                style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
-                <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="py-5 my-5 me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
+            <!-- Mobile Contact Form -->
+            <section class="contact-mobile"> 
+                <div class="question-box bg-gray d-block d-md-none">
+                    <div class="content">
+                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
+                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
+                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
+                            style="border-radius: 3px; display: block;">
+                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
+                                style="border-radius: 3px;">
+                                <iframe
+                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
+                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
+                                    id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-layout="{'id':'INLINE'}"
+                                    data-trigger-type="alwaysShow"
+                                    data-trigger-value=""
+                                    data-activation-type="alwaysActivated"
+                                    data-activation-value=""
+                                    data-deactivation-type="neverDeactivate"
+                                    data-deactivation-value=""
+                                    data-form-name="Ask an Expert"
+                                    data-height="668"
+                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-form-id="hVKuv45TUa57ScoGZiV7"
+                                    title="Ask an Expert"
+                                    scrolling="yes">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </section>
+            <section class="text-dark no-bottom overflow-hidden ad-section">
+                <div class="col-lg-12">
+                    <div class="me-lg-3">
+                        <div class="my-5 me-lg-3 content">
                             <h2 class="wow fadeInUp animated text-center" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 Complimentary Implant Consultation</h2>
@@ -371,16 +382,11 @@
         document.querySelectorAll('.services-nav .nav-link[data-toggle="collapse"]').forEach(link => {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 const targetId = this.getAttribute('data-target') || this.getAttribute('href');
                 const target = document.querySelector(targetId);
                 const arrowIcon = this.querySelector('.rotate-icon');
-
                 if (!target) return;
-
                 const isOpen = target.classList.contains('show');
-
-                // Close all others and reset their arrows
                 document.querySelectorAll('.services-nav .collapse').forEach(div => {
                     div.classList.remove('show');
                 });
@@ -389,8 +395,6 @@
                     const icon = l.querySelector('.rotate-icon');
                     if (icon) icon.classList.remove('rotated');
                 });
-
-                // Open the clicked one and rotate its arrow
                 if (!isOpen) {
                     target.classList.add('show');
                     this.setAttribute('aria-expanded', 'true');
@@ -399,7 +403,5 @@
             });
         });
     </script>
-
 </body>
-
 </html>

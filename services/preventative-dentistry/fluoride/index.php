@@ -43,27 +43,22 @@
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
 
 </head>
-
-
 <body class="subpage">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-body.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/header.php';?>
     <div id="wrapper">
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center"
-                style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container relative z-2" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                            <h3 class="wow fadeInUp subheader">Services</h3>
-                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                                Fluoride Treatments in Toronto</h1>
-
+            <section id="subheader" class="bg-color-op-1 text-center">
+                    <div class="container relative z-2" >
+                        <div class="row align-items-center" >
+                            <div class="col-lg-12" >
+                                <h3 class="wow fadeInUp subheader">Services</h3>
+                                <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">Fluoride Treatments in Toronto</h1>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </section>
             <div class="section m-3">
                 <div class="breadcrumbs-wrap">
                     <div class="container">
@@ -79,13 +74,11 @@
                     </div>
                 </div>
             </div>
-
-
             <section class="pb-0">
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
-                        <div class="col-md d-none d-md-block">
+                        <div class="col-md d-none d-md-block sidebar">
                             <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
@@ -233,12 +226,12 @@
 
                         </div>
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 main-content">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                    <a href="<?php echo $root; ?>services/preventative-dentistry/" class="text-blue"><i class="fa-solid fa-arrow-left-long"></i> Preventive Dentistry</a>
                                 </div>
-                                <h2 class="id-color">Fluoride Protection for Healthier Teeth</h2>
+                                <h2 class="id-color service-header">Fluoride Protection for Healthier Teeth</h2>
                                 <p>Fluoride is a natural mineral that helps protect your teeth from decay. At Crossroads
                                     Dental, we offer safe and effective in-office fluoride treatments to boost your
                                     enamel and support stronger, healthier smiles for all ages.</p>
@@ -281,7 +274,6 @@
                                         <li class="mb-4">Wear braces or other orthodontic appliances</li>
                                         <li class="mb-4">Drink mostly non-fluoridated or bottled water</li>
                                     </ul>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">How the Treatment Works</h3>
                                     <p>A fluoride treatment takes just a few minutes:</p>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
@@ -292,24 +284,19 @@
                                     </ul>
                                     <p>The treatment is painless and can be done at the end of your regular dental
                                         cleaning.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Fluoride Safety</h3>
                                     <p>Professional fluoride treatments use safe, controlled doses that provide
                                         excellent cavity protection without the risks associated with overexposure. Our
                                         team ensures the right amount is used for your age and needs.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Preventive Protection for a Healthier
                                         Smile</h3>
                                     <p>Whether you’re maintaining a healthy mouth or fighting off recurring decay,
                                         fluoride is a simple, cost-effective way to protect your teeth for the long run.
                                         We make it easy to incorporate into your preventive care plan.</p>
-
-                                    <p><strong>Book your fluoride treatment today at Crossroads Dental in
-                                            Toronto.</strong></p>
+                                    <p><strong>Book your fluoride treatment today at Crossroads Dental in Toronto.</strong></p>
                                 </div>
                             </section>
-
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
+                            <section class="bg-light faq-list" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
                                         <div class="col-lg-5"
@@ -371,19 +358,47 @@
                                 </div>
                             </section>
                         </div>
-
-
-
-
-
                     </div>
                 </div>
             </section>
-            <section class="text-dark no-bottom overflow-hidden bg-gray"
-                style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
-                <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="py-5 my-5 me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
+              <!-- Mobile Contact Form -->
+            <section class="contact-mobile"> 
+                <div class="question-box bg-gray d-block d-md-none">
+                    <div class="content">
+                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
+                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
+                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
+                            style="border-radius: 3px; display: block;">
+                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
+                                style="border-radius: 3px;">
+                                <iframe
+                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
+                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
+                                    id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-layout="{'id':'INLINE'}"
+                                    data-trigger-type="alwaysShow"
+                                    data-trigger-value=""
+                                    data-activation-type="alwaysActivated"
+                                    data-activation-value=""
+                                    data-deactivation-type="neverDeactivate"
+                                    data-deactivation-value=""
+                                    data-form-name="Ask an Expert"
+                                    data-height="668"
+                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-form-id="hVKuv45TUa57ScoGZiV7"
+                                    title="Ask an Expert"
+                                    scrolling="yes">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </section>
+            <section class="text-dark no-bottom overflow-hidden ad-section">
+                <div class="col-lg-12">
+                    <div class="me-lg-3">
+                        <div class="my-5 me-lg-3 content">
                             <h2 class="wow fadeInUp animated text-center" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 Complimentary Implant Consultation</h2>
@@ -394,13 +409,10 @@
                                 <div class="buttons">
                                     <a href="<?php  echo $config['ClinicBookingLink']; ?>" class="btn-main fx-slide"
                                         data-hover=" Book Appointment"><span>Book Appointment</span></a>
-                                    <a href="tel:<?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?>"
-                                        class="btn-main fx-slide btn-outline-white">
-                                        <span>Call:
-                                            <?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?></span>
+                                    <a href="tel:<?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?>" class="btn-main fx-slide btn-outline-white">
+                                        <span>Call:<?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?></span>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -414,16 +426,11 @@
         document.querySelectorAll('.services-nav .nav-link[data-toggle="collapse"]').forEach(link => {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 const targetId = this.getAttribute('data-target') || this.getAttribute('href');
                 const target = document.querySelector(targetId);
                 const arrowIcon = this.querySelector('.rotate-icon');
-
                 if (!target) return;
-
                 const isOpen = target.classList.contains('show');
-
-                // Close all others and reset their arrows
                 document.querySelectorAll('.services-nav .collapse').forEach(div => {
                     div.classList.remove('show');
                 });
@@ -432,8 +439,6 @@
                     const icon = l.querySelector('.rotate-icon');
                     if (icon) icon.classList.remove('rotated');
                 });
-
-                // Open the clicked one and rotate its arrow
                 if (!isOpen) {
                     target.classList.add('show');
                     this.setAttribute('aria-expanded', 'true');
@@ -442,7 +447,5 @@
             });
         });
     </script>
-
 </body>
-
 </html>

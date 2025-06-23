@@ -51,19 +51,16 @@
     <div id="wrapper">
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center"
-                style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container relative z-2" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                            <h3 class="wow fadeInUp subheader">Services</h3>
-                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                                Gum Care & Teeth Cleaning in Toronto</h1>
-
+                <section id="subheader" class="bg-color-op-1 text-center">
+                        <div class="container relative z-2" >
+                            <div class="row align-items-center" >
+                                <div class="col-lg-12" >
+                                    <h3 class="wow fadeInUp subheader">Services</h3>
+                                    <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">Gum Care & Teeth Cleaning in Toronto</h1>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                </section>
             <div class="section m-3">
                 <div class="breadcrumbs-wrap">
                     <div class="container">
@@ -79,13 +76,11 @@
                     </div>
                 </div>
             </div>
-
-
             <section class="pb-0">
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
-                        <div class="col-md d-none d-md-block">
+                        <div class="col-md d-none d-md-block sidebar">
                             <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
@@ -233,17 +228,16 @@
 
                         </div>
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 main-content">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                    <a href="<?php echo $root; ?>services/preventative-dentistry/" class="text-blue"><i class="fa-solid fa-arrow-left-long"></i> Preventive Dentistry</a>
                                 </div>
-                                <h2 class="id-color">Is It Time for a Dental Cleaning?</h2>
+                                <h2 class="id-color service-header">Is It Time for a Dental Cleaning?</h2>
                                 <p>Healthy gums are the foundation of a healthy smile. At Crossroads Dental, we offer
                                     professional teeth cleanings and periodontal care to help prevent gum disease and
                                     keep your mouth feeling fresh and healthy.</p>
                             </div>
-
                             <div class="service-img mb-4">
                                 <picture style="width: 100%; height: 100%; object-fit: cover; display: block;">
                                     <source
@@ -257,7 +251,6 @@
                                         class="img-fluid">
                                 </picture>
                             </div>
-
                             <section class="pt-0 pb-0">
                                 <div class="service-items">
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Why Gum Health Matters</h3>
@@ -266,7 +259,6 @@
                                         (gingivitis). If untreated, it can progress into periodontitis and cause
                                         irreversible damage. Regular cleanings and early intervention are key to
                                         avoiding long-term complications.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">What Happens During a Teeth Cleaning?
                                     </h3>
                                     <p>Our dental hygienists gently remove plaque and hardened tartar from areas your
@@ -280,12 +272,10 @@
                                     </ul>
                                     <p>We use gentle techniques and modern tools to make your experience comfortable and
                                         thorough.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Periodontal Maintenance</h3>
                                     <p>For patients with a history of gum disease, we offer specialized periodontal
                                         maintenance cleanings every 3–4 months. These deeper cleanings target bacteria
                                         below the gum line and help manage inflammation and infection.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Signs You May Need Gum Care</h3>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
                                         <li class="mb-4">Bleeding when brushing or flossing</li>
@@ -295,19 +285,16 @@
                                     </ul>
                                     <p>If you notice any of these signs, schedule an appointment right away! We can help
                                         stop gum disease in its tracks.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Your Smile Starts with Healthy Gums
                                     </h3>
                                     <p>At Crossroads Dental, we’re committed to helping you protect your teeth and gums
                                         for life. Whether it’s your regular check-up or you need extra care, we’re here
                                         to provide expert treatment in a calm, supportive environment.</p>
-
                                     <p><strong>Schedule your teeth cleaning and gum care visit at Crossroads Dental in
                                             Toronto today.</strong></p>
                                 </div>
                             </section>
-
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
+                            <section class="bg-light faq-list" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
                                         <div class="col-lg-5"
@@ -329,7 +316,6 @@
                                                         have gum disease or buildup, more frequent visits may be
                                                         recommended.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-b2">
                                                         Is teeth cleaning painful?
                                                     </div>
@@ -338,7 +324,6 @@
                                                         or buildup, we use gentle techniques and can provide numbing if
                                                         needed.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-b3">
                                                         What’s the difference between a regular cleaning and periodontal
                                                         cleaning?
@@ -348,7 +333,6 @@
                                                         Periodontal cleanings go deeper to treat gum disease and require
                                                         more frequent visits.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-b4">
                                                         Can cleanings help with bad breath?
                                                     </div>
@@ -356,7 +340,6 @@
                                                         Yes. Removing bacteria and tartar can significantly improve
                                                         breath and prevent the buildup of odor-causing plaque.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-b5">
                                                         Will my gums bleed during cleaning?
                                                     </div>
@@ -372,17 +355,47 @@
                                 </div>
                             </section>
                         </div>
-
-
-
                     </div>
                 </div>
             </section>
-            <section class="text-dark no-bottom overflow-hidden bg-gray"
-                style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
-                <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="py-5 my-5 me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
+            <!-- Mobile Contact Form -->
+            <section class="contact-mobile"> 
+                <div class="question-box bg-gray d-block d-md-none">
+                    <div class="content">
+                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
+                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
+                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
+                            style="border-radius: 3px; display: block;">
+                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
+                                style="border-radius: 3px;">
+                                <iframe
+                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
+                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
+                                    id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-layout="{'id':'INLINE'}"
+                                    data-trigger-type="alwaysShow"
+                                    data-trigger-value=""
+                                    data-activation-type="alwaysActivated"
+                                    data-activation-value=""
+                                    data-deactivation-type="neverDeactivate"
+                                    data-deactivation-value=""
+                                    data-form-name="Ask an Expert"
+                                    data-height="668"
+                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-form-id="hVKuv45TUa57ScoGZiV7"
+                                    title="Ask an Expert"
+                                    scrolling="yes">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </section>
+            <section class="text-dark no-bottom overflow-hidden ad-section">
+                <div class="col-lg-12">
+                    <div class="me-lg-3">
+                        <div class="my-5 me-lg-3 content">
                             <h2 class="wow fadeInUp animated text-center" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 Complimentary Implant Consultation</h2>
@@ -399,7 +412,6 @@
                                             <?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?></span>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -413,16 +425,11 @@
         document.querySelectorAll('.services-nav .nav-link[data-toggle="collapse"]').forEach(link => {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 const targetId = this.getAttribute('data-target') || this.getAttribute('href');
                 const target = document.querySelector(targetId);
                 const arrowIcon = this.querySelector('.rotate-icon');
-
                 if (!target) return;
-
                 const isOpen = target.classList.contains('show');
-
-                // Close all others and reset their arrows
                 document.querySelectorAll('.services-nav .collapse').forEach(div => {
                     div.classList.remove('show');
                 });
@@ -431,8 +438,6 @@
                     const icon = l.querySelector('.rotate-icon');
                     if (icon) icon.classList.remove('rotated');
                 });
-
-                // Open the clicked one and rotate its arrow
                 if (!isOpen) {
                     target.classList.add('show');
                     this.setAttribute('aria-expanded', 'true');
@@ -441,7 +446,5 @@
             });
         });
     </script>
-
 </body>
-
 </html>

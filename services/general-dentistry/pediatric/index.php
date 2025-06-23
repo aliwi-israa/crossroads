@@ -1,19 +1,16 @@
 <?php require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-head.php';?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-
     <title>Pediatric Dentistry in Toronto | Crossroads Dental</title>
     <meta name="title" content="Pediatric Dentistry in Toronto | Crossroads Dental">
     <meta name="description"
         content="Gentle, friendly dental care for kids in Toronto. Crossroads Dental offers pediatric dentistry that makes every visit positive and stress-free.">
     <meta name="author" content="Dentalook">
-
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
@@ -21,7 +18,6 @@
     <meta property="og:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
     <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Pediatric.jpg">
-
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="dentalook.ca">
@@ -30,7 +26,6 @@
     <meta name="twitter:description"
         content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Pediatric.jpg">
-
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
     <!-- Google Fonts -->
     <link
@@ -41,25 +36,19 @@
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
-
 </head>
-
-
 <body class="subpage">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-body.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/header.php';?>
     <div id="wrapper">
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center"
-                style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container relative z-2" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
+            <section id="subheader" class="bg-color-op-1 text-center">
+                <div class="container relative z-2" >
+                    <div class="row align-items-center" >
+                        <div class="col-lg-12" >
                             <h3 class="wow fadeInUp subheader">Services</h3>
-                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                                Pediatric Dentistry in Toronto</h1>
-
+                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">Pediatric Dentistry in Toronto</h1>
                         </div>
                     </div>
                 </div>
@@ -78,13 +67,11 @@
                     </div>
                 </div>
             </div>
-
-
             <section class="pb-0">
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
-                        <div class="col-md d-none d-md-block">
+                        <div class="col-md d-none d-md-block sidebar">
                             <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
@@ -216,15 +203,14 @@
                                     </table>
                                 </div>
                             </div>
-
                         </div>
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 main-content">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                    <a href="<?php echo $root; ?>services/general-dentistry/" class="text-blue"><i class="fa-solid fa-arrow-left-long"></i> General Dentistry</a>
                                 </div>
-                                <h2 class="id-color">Looking for a Kid-Friendly Dentist in Toronto?</h2>
+                                <h2 class="id-color service-header">Looking for a Kid-Friendly Dentist in Toronto?</h2>
                                 <p>At Crossroads Dental, we believe a lifetime of healthy smiles starts in childhood. Our pediatric dental services are designed to make visits comfortable, fun, and educational for kids, while giving parents the peace of mind they deserve.</p>
                             </div>
                             <div class="service-img mb-4">
@@ -235,7 +221,6 @@
                                         alt="Pediatric Dentistry at Crossroads Dental Toronto" loading="lazy" class="img-fluid">
                                 </picture>
                             </div>
-
                             <section class="pt-0 pb-0">
                                 <div class="service-items">
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Dental Care for Children of All Ages</h3>
@@ -249,10 +234,8 @@
                                         <li class="mb-4">Monitoring of growth, bite, and eruption patterns</li>
                                     </ul>
                                     <p>We create a relaxed environment to reduce anxiety and build trust with young patients.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">When Should My Child See the Dentist?</h3>
                                     <p>We recommend your child’s first dental visit by age 1 or within 6 months of the first tooth erupting. Early care helps prevent issues and establishes a strong foundation for lifelong dental health.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Creating Positive Experiences</h3>
                                     <p>Our goal is to make dental care something your child can look forward to. We use:</p>
                                     <ul class="ul-check fw-500 mb-4 wow fadeInUp" data-wow-delay=".6s">
@@ -262,21 +245,18 @@
                                         <li class="mb-4">A welcoming, child-friendly space</li>
                                     </ul>
                                     <p>We take time to answer questions and help your child feel confident in their care.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Working with Parents</h3>
                                     <p>We partner with you to ensure your child’s oral development stays on track. Whether you need advice on brushing, thumb-sucking, or cavity prevention, we’re here to support you every step of the way.</p>
-
                                     <h3 class="wow fadeInUp" data-wow-delay=".2s">Building Healthy Habits That Last</h3>
                                     <p>Pediatric dentistry is about more than fixing teeth but about education, prevention, and creating positive lifelong habits. At Crossroads Dental, we’re proud to help Toronto families grow healthy smiles from day one.</p>
                                     <p><strong>Schedule your child’s dental visit today at Crossroads Dental in Toronto and experience kid-friendly care with a gentle touch.</strong></p>
-
                                     <div class="educational-video single mb-4">
 										<h3>Things to Know about Paediatric Dentistry</h3>
 										<a href="//fast.wistia.net/embed/iframe/uk2n3ml6ys?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/pediatric-dentistry.jpg" width="650" alt=""></a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 									</div>
                                 </div>
                             </section>
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
+                            <section class="bg-light faq-list" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container">
                                     <div class="row g-4">
                                         <div class="col-lg-5">
@@ -290,12 +270,10 @@
                                                     <div class="accordion-section-content" id="accordion-f1">
                                                         We recommend the first visit by age 1 or within six months of the first tooth erupting. Early visits help build comfort and establish good habits.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-f2">2. How often should children see the dentist?</div>
                                                     <div class="accordion-section-content" id="accordion-f2">
                                                         Every six months, just like adults. Regular visits help prevent cavities and monitor proper growth and development.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-f3">3. Are baby teeth really that important?</div>
                                                     <div class="accordion-section-content" id="accordion-f3">
                                                         Yes. Healthy baby teeth are essential for chewing, speaking, and guiding permanent teeth into position.
@@ -305,7 +283,6 @@
                                                     <div class="accordion-section-content" id="accordion-f4">
                                                         We specialize in gentle, kid-friendly care. Our team uses calm communication, distraction techniques, and a fun environment to help your child feel safe.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-f5">5. Do children need dental X-rays?</div>
                                                     <div class="accordion-section-content" id="accordion-f5">
                                                         X-rays are safe and only taken when necessary. They help us detect problems early and track your child’s dental development.
@@ -320,11 +297,44 @@
                     </div>
                 </div>
             </section>
-            <section class="text-dark no-bottom overflow-hidden bg-gray"
-                style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
-                <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="py-5 my-5 me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
+            <!-- Mobile Contact Form -->
+            <section class="contact-mobile"> 
+                <div class="question-box bg-gray d-block d-md-none">
+                    <div class="content">
+                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
+                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
+                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
+                            style="border-radius: 3px; display: block;">
+                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
+                                style="border-radius: 3px;">
+                                <iframe
+                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
+                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
+                                    id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-layout="{'id':'INLINE'}"
+                                    data-trigger-type="alwaysShow"
+                                    data-trigger-value=""
+                                    data-activation-type="alwaysActivated"
+                                    data-activation-value=""
+                                    data-deactivation-type="neverDeactivate"
+                                    data-deactivation-value=""
+                                    data-form-name="Ask an Expert"
+                                    data-height="668"
+                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-form-id="hVKuv45TUa57ScoGZiV7"
+                                    title="Ask an Expert"
+                                    scrolling="yes">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </section>
+            <section class="text-dark no-bottom overflow-hidden ad-section">
+                <div class="col-lg-12">
+                    <div class="me-lg-3">
+                        <div class="my-5 me-lg-3 content">
                             <h2 class="wow fadeInUp animated text-center" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 Complimentary Implant Consultation</h2>

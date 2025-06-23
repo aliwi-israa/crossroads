@@ -51,15 +51,12 @@
     <div id="wrapper">
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="subheader" class="bg-color-op-1 text-center"
-                style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container relative z-2" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
+            <section id="subheader" class="bg-color-op-1 text-center">
+                <div class="container relative z-2" >
+                    <div class="row align-items-center" >
+                        <div class="col-lg-12" >
                             <h3 class="wow fadeInUp subheader">Services</h3>
-                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                                Oral Cancer Screening in Toronto</h1>
-
+                            <h1 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">Oral Cancer Screening in Toronto</h1>
                         </div>
                     </div>
                 </div>
@@ -79,13 +76,11 @@
                     </div>
                 </div>
             </div>
-
-
             <section class="pb-0">
                 <div class="container mb-4">
                     <div class="row">
                         <!-- Sidebar -->
-                        <div class="col-md d-none d-md-block">
+                        <div class="col-md d-none d-md-block sidebar">
                             <ul class="services-nav flex-column flex-nowrap d-none d-md-block">
                                 <li class="nav-item">
                                     <a class="nav-link parent-category" href="#submenu1" data-toggle="collapse"
@@ -233,12 +228,12 @@
 
                         </div>
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 main-content">
                             <div class="title-wrap">
                                 <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">
-                                    <a href="#"><i class="fa-solid fa-arrow-left-long"></i> Services</a>
+                                    <a href="<?php echo $root; ?>services/preventative-dentistry/" class="text-blue"><i class="fa-solid fa-arrow-left-long"></i> Preventive Dentistry</a>
                                 </div>
-                                <h2 class="id-color">Have You Had Your Oral Cancer Screening This Year?</h2>
+                                <h2 class="id-color service-header">Have You Had Your Oral Cancer Screening This Year?</h2>
                                 <p>Oral cancer can develop silently and progress rapidly but early detection saves
                                     lives. At Crossroads Dental, we include oral cancer screenings as part of every
                                     routine dental exam to protect your health and give you peace of mind.</p>
@@ -316,8 +311,7 @@
                                     </div>
                                 </div>
                             </section>
-
-                            <section class="bg-light" style="background-size: cover; background-repeat: no-repeat;">
+                            <section class="bg-light faq-list" style="background-size: cover; background-repeat: no-repeat;">
                                 <div class="container" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
                                         <div class="col-lg-5"
@@ -339,7 +333,6 @@
                                                         we look for unusual sores, lumps, or color changes in your mouth
                                                         and throat.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-c2">
                                                         Who should get screened for oral cancer?
                                                     </div>
@@ -348,7 +341,6 @@
                                                         over 40, smoke, drink alcohol frequently, or have a history of
                                                         HPV.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-c3">
                                                         How long does the screening take?
                                                     </div>
@@ -356,7 +348,6 @@
                                                         Only a few minutes. It’s included in your regular exam and
                                                         causes no discomfort.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-c4">
                                                         What happens if something suspicious is found?
                                                     </div>
@@ -365,7 +356,6 @@
                                                         further evaluation if needed. Most abnormalities are harmless,
                                                         but early detection is key.
                                                     </div>
-
                                                     <div class="accordion-section-title" data-tab="#accordion-c5">
                                                         Can oral cancer be prevented?
                                                     </div>
@@ -384,11 +374,44 @@
                     </div>
                 </div>
             </section>
-            <section class="text-dark no-bottom overflow-hidden bg-gray"
-                style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
-                <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="py-5 my-5 me-lg-3" style="background-size: cover; background-repeat: no-repeat;">
+ <!-- Mobile Contact Form -->
+            <section class="contact-mobile"> 
+                <div class="question-box bg-gray d-block d-md-none">
+                    <div class="content">
+                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
+                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
+                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
+                            style="border-radius: 3px; display: block;">
+                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
+                                style="border-radius: 3px;">
+                                <iframe
+                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
+                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
+                                    id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-layout="{'id':'INLINE'}"
+                                    data-trigger-type="alwaysShow"
+                                    data-trigger-value=""
+                                    data-activation-type="alwaysActivated"
+                                    data-activation-value=""
+                                    data-deactivation-type="neverDeactivate"
+                                    data-deactivation-value=""
+                                    data-form-name="Ask an Expert"
+                                    data-height="668"
+                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
+                                    data-form-id="hVKuv45TUa57ScoGZiV7"
+                                    title="Ask an Expert"
+                                    scrolling="yes">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </section>
+            <section class="text-dark no-bottom overflow-hidden ad-section">
+                <div class="col-lg-12">
+                    <div class="me-lg-3">
+                        <div class="my-5 me-lg-3 content">
                             <h2 class="wow fadeInUp animated text-center" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 Complimentary Implant Consultation</h2>

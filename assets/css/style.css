@@ -739,6 +739,11 @@ h3.subheader{color: #6fbcb2;}
   margin-top: 0px;
 }
 
+.has-child ul li:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
 #mainmenu li ul ul:not(.ul-list) {
   top: 0px;
   margin-left: 188px;
@@ -1019,7 +1024,6 @@ a.btn-main.btn-line:hover {
 a.btn-secondary:hover,
 a.btn-secondary.btn-line:hover {
   color: var(--btn-hover-bg);
-  ;
   background: #fff;
   border: 1px solid var(--btn-hover-b);
 }
@@ -2699,6 +2703,14 @@ background-color: var(--secondary-color);
 
 button.btn.btn-dark.button-element, #_builder-form button{
   background: #6fbcb2 !important;
+}
+
+.slider-wrapper {
+  min-height: 800px;
+}
+
+.icons {
+  justify-content: center;
 }
 @-webkit-keyframes move-up-down {
   0% {
