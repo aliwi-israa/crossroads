@@ -17,18 +17,18 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
     	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+	<meta property="og:title" content="Healthy Smiles Start Here | Crossroads Dental Clinic in Toronto">
 	<meta property="og:description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Visit Crossroads Dental Clinic in Toronto for complete dental care. Open 7 days a week, offering preventive, cosmetic, and emergency dentistry at Dundas & Bloor.">
 	<meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/about.png">
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="twitter:domain" content="crossroadsdental.ca">
 	<meta property="twitter:url" content="">
-	<meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+	<meta name="twitter:title" content="Healthy Smiles Start Here | Crossroads Dental Clinic in Toronto">
 	<meta name="twitter:description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Visit Crossroads Dental Clinic in Toronto for complete dental care. Open 7 days a week, offering preventive, cosmetic, and emergency dentistry at Dundas & Bloor.">
 	<meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/about.png">
 
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
@@ -208,19 +208,14 @@ require ($_SERVER['DOCUMENT_ROOT'].'/crossroads/includes/config.php'); ?>
                     <picture>
                         <source srcset="<?php echo $root; ?>assets/images/about/p4-480.webp" media="(max-width: 600px)">
                         <source srcset="<?php echo $root; ?>assets/images/about/p4-768.webp" media="(max-width: 992px)">
-                        <img src="<?php echo $root; ?>assets/images/about/p4-1280.webp" class="w-100 wow scaleIn responsive-img" loading="lazy" alt="Our Services">
+                        <img src="<?php echo $root; ?>assets/images/about/p4-1280.webp" class="w-100 wow scaleIn responsive-img" loading="lazy" alt="What We Offer">
                     </picture>
                 </div>
             </div>
         </div>
-
       </div>
     </div>
 </section>
-
-
-
-
 <section>
     <div class="container">
       <div class="row g-4 gx-5 align-items-center">

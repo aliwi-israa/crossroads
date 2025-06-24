@@ -17,18 +17,18 @@
     	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+	<meta property="og:title" content="Terms & Conditions | Crossroads Dental Toronto">
 	<meta property="og:description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Review the Terms of Use for accessing the Crossroads Dental website. Learn about user responsibilities, content rights, and legal disclaimers.">
 	<meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/homepage-og.png">
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="twitter:domain" content="crossroadsdental.ca">
 	<meta property="twitter:url" content="">
-	<meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+	<meta name="twitter:title" content="Terms & Conditions | Crossroads Dental Toronto">
 	<meta name="twitter:description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Review the Terms of Use for accessing the Crossroads Dental website. Learn about user responsibilities, content rights, and legal disclaimers.">
 	<meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/homepage-og.png">
 
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>

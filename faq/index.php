@@ -230,7 +230,7 @@
                                 </div>
                             </div>
                             <div class="subcategory-section">
-                                <h3 class="subcategory-title">Clear Aligners (Invisalign)</h3>
+                                <h3 class="subcategory-title">Clear Aligners</h3>
                                 <div class="accordion-section">
                                     <div class="accordion-section-title" data-tab="#faq-invisalign-1">
                                         How do Invisalign trays work?

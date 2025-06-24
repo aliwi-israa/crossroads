@@ -682,7 +682,7 @@ h3.subheader{color: #6fbcb2;}
 }
 
 #mainmenu li li a {
-  padding: 5px 15px;
+  padding: 8px 15px;
   border-top: none;
   color: #606060;
   width: 100%;
@@ -737,11 +737,6 @@ h3.subheader{color: #6fbcb2;}
   visibility: visible;
   opacity: 1;
   margin-top: 0px;
-}
-
-.has-child ul li:hover {
-  background: var(--primary-color);
-  color: white;
 }
 
 #mainmenu li ul ul:not(.ul-list) {
@@ -2737,6 +2732,46 @@ ul.checked li::before {
     color: #6fbcb2;
     margin-right: 8px;
 }
+
+
+
+header.header-mobile #mainmenu > li > span,
+header.header-mobile #mainmenu li > ul > li > span {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    margin-bottom: 10px;
+    transform: translateY(-50%); 
+    z-index: 1000;
+    cursor: pointer;
+    display: flex; /* Correct from inline to flex */
+    align-items: center;
+    justify-content: center;
+}
+
+
+header.header-mobile #mainmenu > li > span i,
+header.header-mobile #mainmenu li > ul > li > span i {
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+header.header-light.header-mobile #mainmenu > li > span i,
+header.header-light.header-mobile #mainmenu li > ul > li > span i {
+    color: #000;
+}
+
+header.header-mobile #mainmenu > li > span.active i,
+header.header-mobile #mainmenu li > ul > li > span.active i {
+    transform: rotate(180deg);
+}
+
+#mainmenu li li a:hover, #mainmenu ul li:hover>a {
+    background: unset;
+}
+
 
 @-webkit-keyframes move-up-down {
   0% {

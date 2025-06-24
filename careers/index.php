@@ -6,27 +6,27 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
-
-	<title>Welcome to <?php echo $config['ClinicName']; ?>, Your Dental Home</title>
+    <meta name="title" content="Careers at Crossroads Dental | Join Our Toronto Dental Team">
+	<title>Careers at Crossroads Dental | Join Our Toronto Dental Team</title>
 	<meta name="description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Looking for a dental career in Toronto? Join Crossroads Dental’s caring, modern team. Explore open roles for hygienists, assistants, dentists, and admin staff.">
 	<meta name="author" content="Crossroads">
 
     	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+	<meta property="og:title" content="Careers at Crossroads Dental | Join Our Toronto Dental Team">
 	<meta property="og:description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Looking for a dental career in Toronto? Join Crossroads Dental’s caring, modern team. Explore open roles for hygienists, assistants, dentists, and admin staff.">
 	<meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Careers.jpg">
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="twitter:domain" content="crossroadsdental.ca">
 	<meta property="twitter:url" content="">
-	<meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+	<meta name="twitter:title" content="Careers at Crossroads Dental | Join Our Toronto Dental Team">
 	<meta name="twitter:description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Looking for a dental career in Toronto? Join Crossroads Dental’s caring, modern team. Explore open roles for hygienists, assistants, dentists, and admin staff.">
 	<meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Careers.jpg">
 
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="container">
-                <section>
+                <section class="pb-5">
                     <div class="text-center mb-2  mb-md-3 mb-lg-4">
                          <div class="h-decor"></div>
                         <p>
@@ -79,6 +79,7 @@
                         </p>
                     </div>
                     <div class="container aos-init aos-animate text-center" data-aos="fade-up">
+                        <h2 class="wow fadeInUp" data-wow-delay=".0s">Jobs Openings</h2>
                         <div class="row">
                             <div class="col">
                                 <h2 id="job-title"></h2>
@@ -87,7 +88,7 @@
                         </div>
                     </div>
                 </section>
-                <section>
+                <section class="pt-5">
                     <div class="text-center mb-2  mb-md-3 mb-lg-4">
                         <h2 class="wow fadeInUp" data-wow-delay=".0s">Benefits of joining our team</h2>
                         <div class="h-decor"></div>
@@ -103,7 +104,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-growth-opportunities.svg" alt="an icon for a person going up the stairs to represent growth">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-growth-opportunities.svg" alt="Growth Opportunities">
                                     <h4>Growth Opportunities</h4>
                                 </div>
                             </div>
@@ -112,7 +113,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-health-dental-benefits.svg" alt="an icon of a heart being held by hands to repreent dental benefite">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-health-dental-benefits.svg" alt="Health & Dental Benefits">
                                     <h4>Health & Dental Benefits</h4>
                                 </div>
                             </div>
@@ -121,7 +122,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-mentorship-training.svg" alt="an icon of a graduation hat to represent mentorship">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-mentorship-training.svg" alt="Mentorship and Training">
                                     <h4>Mentorship and Training</h4>
                                 </div>
                             </div>
@@ -130,7 +131,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-relocation-support.svg" alt="an icon of a location pin with the globe to represent availability for the relocation">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-relocation-support.svg" alt="Relocation Support">
                                     <h4>Relocation Support</h4>
                                 </div>
                             </div>
@@ -139,7 +140,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1 career-icon">
                                 <div class="relative wow fadeInUp">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-competitive-wages.svg" alt="an icon of a hand holding money to represent competitive wages">
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-competitive-wages.svg" alt="Competitive Wages">
                                     <h4>Competitive Wages</h4>
                                 </div>
                             </div>
@@ -148,16 +149,15 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="border-gray p-40 h-100 rounded-1">
                                 <div class="relative wow fadeInUp career-icon">
-                                    <img src="<?php echo $root; ?>assets/images/icons/icons-supportive-teams.svg" alt="an icon of hands holding many people to represent supportive teams">
-                                    <h4>Supportive Teams
-                                    </h4>
+                                    <img src="<?php echo $root; ?>assets/images/icons/icons-supportive-teams.svg" alt="Supportive Teams">
+                                    <h4>Supportive Teams</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
             </div>
-                        <section class="text-dark no-bottom overflow-hidden bg-gray"
+            <section class="text-dark no-bottom overflow-hidden bg-gray ad-section"
                 style="background-size: cover; background-repeat: no-repeat;padding-top:30px">
                 <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
                     <div class="me-lg-3" style="background-size: cover; background-repeat: no-repeat;">

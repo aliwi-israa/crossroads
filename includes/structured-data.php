@@ -3,19 +3,19 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "image": "https://crossroadsdental.ca/assets/images/logo.png",
+      "image": "https://crossroadsdental.ca/assets/images/crosroads-dental-clinic-logo.webp",
       "url": "https://crossroadsdental.ca",
-      "logo": "https://crossroadsdental.ca/assets/images/logo.png",
-      "name": "Crossroads Dental",
+      "logo": "https://crossroadsdental.ca/assets/images/crosroads-dental-clinic-logo.webp",
+      "name": "Crossroads Dental Clinic",
       "description": "Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.",
       "email": "info@crossroadsdental.ca",
-      "telephone": "(1) 234-5678",
+      "telephone": "(416) 623-8443",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2384 Dundas St W ",
-        "addressLocality": "Canada",
+        "addressLocality": "Toronto",
         "addressCountry": "CA",
-        "addressRegion": "Toronto",
+        "addressRegion": "ON",
         "postalCode": "M6P 1W9"
       },
 	  "geo": {

@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$config['ClinicName'] = 'Crossroads Dental'; 
+$config['ClinicName'] = 'Crossroads Dental Clinic'; 
 $config['ClinicEmail'] = 'info@crossroadsdental.ca';
 $config['ClinicAddress'] = '2384 Dundas St W';
 $config['ClinicPhoneNumber'] = '(416) 623-8443';

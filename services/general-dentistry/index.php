@@ -14,17 +14,17 @@
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+    <meta property="og:title" content="General Dentistry in Toronto | Crossroads Dental">
     <meta property="og:description"
-        content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+        content="From fillings to root canals, Crossroads Dental offers complete general dentistry in Toronto. Compassionate care for patients of all ages.">
     <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/General-Dentistry.png">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="crossroadsdental.ca">
     <meta property="twitter:url" content="">
-    <meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+    <meta name="twitter:title" content="General Dentistry in Toronto | Crossroads Dental">
     <meta name="twitter:description"
-        content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+        content="From fillings to root canals, Crossroads Dental offers complete general dentistry in Toronto. Compassionate care for patients of all ages.">
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/General-Dentistry.png">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
     <!-- Google Fonts -->
@@ -116,7 +116,7 @@
                                                     href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
                                                         class="fas fa-arrow-right"></i>Extractions</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
+                                                    href="<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
                                                         class="fas fa-arrow-right"></i>Crowns & Bridges</a></li>
                                             <li class="nav-item"><a class="nav-link"
                                                     href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
@@ -150,73 +150,15 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners
-                                        (Invisalign)</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo $root; ?>services/dental-implants/">Dental
                                         Implants</a>
                                 </li>
                             </ul>
-                            <div class="question-box mt-3 bg-gray">
-                                <h4 class="question-box-title">Connect with our clinical team to get
-                                    the answers you need </h4>
-                                <p>If you’d like to discuss your options, costs, and get more information about our
-                                    services, complete this short form, and we’ll give you a call back.</p>
-                                <div id="inline-hVKuv45TUa57ScoGZiV7-div" class="ep-iFrameContainer"
-                                    style="border-radius: 3px; display: block;">
-                                    <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper" class="ep-wrapper"
-                                        style="border-radius: 3px;"><iframe
-                                            src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
-                                            style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
-                                            id="inline-hVKuv45TUa57ScoGZiV7" data-layout="{'id':'INLINE'}"
-                                            data-trigger-type="alwaysShow" data-trigger-value=""
-                                            data-activation-type="alwaysActivated" data-activation-value=""
-                                            data-deactivation-type="neverDeactivate" data-deactivation-value=""
-                                            data-form-name="Ask an Expert" data-height="668"
-                                            data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
-                                            data-form-id="hVKuv45TUa57ScoGZiV7" title="Ask an Expert" scrolling="yes">
-                                        </iframe></div>
-                                </div>
-                                <script src="https://link.msgsndr.com/js/form_embed.js"></script>
-                            </div>
-                            <div class="office-hours mt-3">
-                                <div class="contact-box contact-box-1">
-                                    <h5 class="contact-box-title"><i class="icon-clock"></i> Office Hours</h5>
-                                    <table class="row-table">
-                                        <tbody>
-                                            <tr>
-                                                <td><i>Monday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Tuesday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Wednesday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Thursday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Friday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Saturday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Sunday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                            <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/contact-form.php';?>
+                            <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/office-hours.php';?>
                         </div>
                         <!-- Main Content -->
                         <div class="col-md-9 main-content">
@@ -235,7 +177,7 @@
                                 <a href="//fast.wistia.net/embed/iframe/ev9iwtlk0w?popover=true"
                                     class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img
                                         src="https://www.deardoctor.com/images/video-gallery/play/tooth-colored-fillings.jpg"
-                                        width="650" alt=""></a>
+                                        width="650" alt="Things to Know About Fillings"></a>
                                 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js">
                                 </script>
                             </div>
@@ -249,7 +191,7 @@
                                             <div class="services-icons">
                                                 <a href="<?php echo $root; ?>services/general-dentistry/fillings/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/icons-fillings-restorative.svg"
-                                                        class="w-100 wow scaleIn" alt="An icon of Dental filling">
+                                                        class="w-100 wow scaleIn" alt="Full-Service Family Dental Care">
                                                     <strong>Dental Fillings</strong>
                                             </div><br>
                                             Quick and effective repairs for cavities using strong, natural-looking
@@ -261,7 +203,7 @@
                                             <div class="services-icons">
                                                 <a href="<?php echo $root; ?>services/general-dentistry/root-canal/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/icons-root-canal.svg"
-                                                        class="w-100 wow scaleIn" alt="An icon of root canal therapy">
+                                                        class="w-100 wow scaleIn" alt="Root Canal Therapy">
                                                     <strong>Root Canal Therapy</strong>
                                             </div><br>
                                             Relieve tooth pain and save damaged teeth with modern root canal
@@ -272,7 +214,7 @@
                                             <div class="services-icons">
                                                 <a href="<?php echo $root; ?>services/general-dentistry/extractions/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/icons-extractions.svg"
-                                                        class="w-100 wow scaleIn" alt="An icon of tooth extraction">
+                                                        class="w-100 wow scaleIn" alt="Tooth Extractions">
                                                     <strong>Tooth Extractions</strong>
                                             </div><br>
                                             When a tooth can’t be saved, we perform safe and comfortable extractions,
@@ -284,7 +226,7 @@
                                                 <a
                                                     href="<?php echo $root; ?>services/general-dentistry/crowns-bridges/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/icons-crowns-bridges-2.svg"
-                                                        class="w-100 wow scaleIn" alt="An icon of crowns and bridges">
+                                                        class="w-100 wow scaleIn" alt="Crowns & Bridges">
                                                     <strong>Crowns & Bridges</strong>
                                             </div><br>
                                             Restore strength, function, and aesthetics to damaged or missing teeth with
@@ -296,7 +238,7 @@
                                                 <a href="<?php echo $root; ?>services/general-dentistry/pediatric/">
                                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/children.svg"
                                                         class="w-100 wow scaleIn"
-                                                        alt="An icon representing pediatric dentistry">
+                                                        alt="Pediatric Dentistry">
                                                     <strong>Pediatric Dentistry</strong>
                                             </div><br>
                                             Gentle, preventive care tailored for kids of all ages to build healthy
@@ -312,40 +254,7 @@
                     </div>
                 </div>
             </section>
-            <!-- Mobile Contact Form -->
-            <section class="contact-mobile"> 
-                <div class="question-box bg-gray d-block d-md-none">
-                    <div class="content">
-                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
-                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
-                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
-                            style="border-radius: 3px; display: block;">
-                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
-                                style="border-radius: 3px;">
-                                <iframe
-                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
-                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
-                                    id="inline-hVKuv45TUa57ScoGZiV7"
-                                    data-layout="{'id':'INLINE'}"
-                                    data-trigger-type="alwaysShow"
-                                    data-trigger-value=""
-                                    data-activation-type="alwaysActivated"
-                                    data-activation-value=""
-                                    data-deactivation-type="neverDeactivate"
-                                    data-deactivation-value=""
-                                    data-form-name="Ask an Expert"
-                                    data-height="668"
-                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
-                                    data-form-id="hVKuv45TUa57ScoGZiV7"
-                                    title="Ask an Expert"
-                                    scrolling="yes">
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
-                </div>
-            </section>
+            <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/contact-form-mobile.php';?>
             <section class="text-dark no-bottom overflow-hidden ad-section">
                 <div class="col-lg-12">
                     <div class="me-lg-3">
@@ -376,39 +285,6 @@
     </div>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/footer.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/js-vendors.php';?>
-    <script>
-        document.querySelectorAll('.services-nav .nav-link[data-toggle="collapse"]').forEach(link => {
-            link.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                const targetId = this.getAttribute('data-target') || this.getAttribute('href');
-                const target = document.querySelector(targetId);
-                const arrowIcon = this.querySelector('.rotate-icon');
-
-                if (!target) return;
-
-                const isOpen = target.classList.contains('show');
-
-                // Close all others and reset their arrows
-                document.querySelectorAll('.services-nav .collapse').forEach(div => {
-                    div.classList.remove('show');
-                });
-                document.querySelectorAll('.services-nav .nav-link[aria-expanded]').forEach(l => {
-                    l.setAttribute('aria-expanded', 'false');
-                    const icon = l.querySelector('.rotate-icon');
-                    if (icon) icon.classList.remove('rotated');
-                });
-
-                // Open the clicked one and rotate its arrow
-                if (!isOpen) {
-                    target.classList.add('show');
-                    this.setAttribute('aria-expanded', 'true');
-                    if (arrowIcon) arrowIcon.classList.add('rotated');
-                }
-            });
-        });
-    </script>
-
 </body>
 
 </html>

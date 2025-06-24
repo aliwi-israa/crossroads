@@ -2,7 +2,7 @@
 <div class="container">
 <div class="row gx-5">
     <div class="col-lg-4 col-sm-6">
-        <img src="<?php echo $root; ?>assets/images/logo-white.webp" class="logo-footer" alt="" >
+        <img src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo-white.webp" class="logo-footer" alt="" >
         <div class="spacer-20"></div>
         <p>At Crossroads Dental, we’re dedicated to providing high-quality, personalized dental care for patients of all ages. Our skilled team uses the latest technology to ensure comfortable, efficient treatments and beautiful, healthy smiles for life.</p>
         <div class="social-icons mb-sm-30">
@@ -48,7 +48,7 @@
                         <li><a href="<?php echo $root; ?>services/general-dentistry/">General Dentistry</a></li>
                         <li><a href="<?php echo $root; ?>services/emergency-dentistry/">Emergency Dentistry</a></li>
                         <li><a href="<?php echo $root; ?>services/cosmetic-dentistry/">Cosmetic Dentistry</a></li>
-                        <li><a href="<?php echo $root; ?>services/invisalign/">Clear Aligners (Invisalign)</a></li>
+                        <li><a href="<?php echo $root; ?>services/invisalign/">Clear Aligners</a></li>
                         <li><a href="<?php echo $root; ?>services/dental-implants/">Dental Implants</a></li>
                     </ul>
                 </div>
@@ -87,7 +87,7 @@
                 </div>
                 <ul class="menu-simple">
                     <li><a href="<?php echo $root; ?>terms/">Terms &amp; Conditions</a></li>
-                    <li><a href="<?php echo $root; ?>Privacy-policy/">Privacy Policy</a></li>
+                    <li><a href="<?php echo $root; ?>privacy-policy/">Privacy Policy</a></li>
                 </ul>
             </div>
         </div>
@@ -101,7 +101,7 @@
 <span></span>
 </div>
 <div id="extra-content">
-<img src="<?php echo $root; ?>assets/images/logo-white.webp" class="w-150px" alt="">
+<img src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo-white.webp" class="w-150px" alt="">
 <div class="spacer-30-line"></div>
 <h5>Our Services</h5>
 <ul class="ul-check">
@@ -109,7 +109,7 @@
 <li><a href="<?php echo $root; ?>services/general-dentistry/">General Dentistry</a></li>
 <li><a href="<?php echo $root; ?>services/emergency-dentistry/">Emergency Dentistry</a></li>
 <li><a href="<?php echo $root; ?>services/cosmetic-dentistry/">Cosmetic Dentistry</a></li>
-<li><a href="<?php echo $root; ?>services/invisalign/">Clear Aligners (Invisalign)</a></li>
+<li><a href="<?php echo $root; ?>services/invisalign/">Clear Aligners</a></li>
 <li><a href="<?php echo $root; ?>services/dental-implants/">Dental Implants</a></li>
 </ul>
 <div class="spacer-30-line"></div>

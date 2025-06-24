@@ -15,17 +15,17 @@
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+    <meta property="og:title" content="Preventive Dentistry in Toronto | Crossroads Dental">
     <meta property="og:description"
-        content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+        content="Protect your smile with expert preventive dental care at Crossroads Dental in Toronto. Book your cleaning, exam, or oral cancer screening today.">
     <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/Preventative-Dentistry.png">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="crossroadsdental.ca">
     <meta property="twitter:url" content="">
-    <meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+    <meta name="twitter:title" content="Preventive Dentistry in Toronto | Crossroads Dental">
     <meta name="twitter:description"
-        content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+        content="Protect your smile with expert preventive dental care at Crossroads Dental in Toronto. Book your cleaning, exam, or oral cancer screening today.">
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Preventative-Dentistry.png">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
     <!-- Google Fonts -->
@@ -108,7 +108,7 @@
                                             <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/extractions/"><i
                                                         class="fas fa-arrow-right"></i>Extractions</a></li>
                                             <li class="nav-item"><a class="nav-link"
-                                                    href="services/<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
+                                                    href="<?php echo $root; ?>services/general-dentistry/crowns-bridges/"><i
                                                         class="fas fa-arrow-right"></i>Crowns & Bridges</a></li>
                                             <li class="nav-item"><a class="nav-link" href="<?php echo $root; ?>services/general-dentistry/pediatric/"><i
                                                         class="fas fa-arrow-right"></i>Paediatric Dentistry</a></li>
@@ -137,82 +137,15 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners (Invisalign)</a>
+                                    <a class="nav-link" href="<?php echo $root; ?>services/invisalign/">Clear Aligners</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo $root; ?>services/dental-implants/">Dental
                                         Implants</a>
                                 </li>
                             </ul>
-                            <div class="question-box mt-3 bg-gray">
-                                <h4 class="question-box-title">Connect with our clinical team to get
-                                    the answers you need </h4>
-                                <p>If you’d like to discuss your options, costs, and get more information about our
-                                    services, complete this short form, and we’ll give you a call back.</p>
-                                <div id="inline-hVKuv45TUa57ScoGZiV7-div" class="ep-iFrameContainer"
-                                    style="border-radius: 3px; display: block;">
-                                    <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper" class="ep-wrapper"
-                                        style="border-radius: 3px;">
-                                        <iframe
-                                            src="https://api.leadconnectorhq.com/widget/form/WedyvNamHtakMZmGXa9M"
-                                            style="width:100%;height:100%;border:none;border-radius:3px"
-                                            id="inline-WedyvNamHtakMZmGXa9M" 
-                                            data-layout="{'id':'INLINE'}"
-                                            data-trigger-type="alwaysShow"
-                                            data-trigger-value=""
-                                            data-activation-type="alwaysActivated"
-                                            data-activation-value=""
-                                            data-deactivation-type="neverDeactivate"
-                                            data-deactivation-value=""
-                                            data-form-name="Ask an Expert"
-                                            data-height="676"
-                                            data-layout-iframe-id="inline-WedyvNamHtakMZmGXa9M"
-                                            data-form-id="WedyvNamHtakMZmGXa9M"
-                                            title="Ask an Expert"
-                                                >
-                                        </iframe>
-                                    </div>
-                                </div>
-                                <script src="https://link.msgsndr.com/js/form_embed.js"></script>
-                            </div>
-                            <div class="office-hours mt-3">
-                                <div class="contact-box contact-box-1">
-                                    <h5 class="contact-box-title"><i class="icon-clock"></i> Office Hours</h5>
-                                    <table class="row-table">
-                                        <tbody>
-                                            <tr>
-                                                <td><i>Monday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Tuesday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Wednesday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Thursday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Friday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Saturday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>Sunday</i></td>
-                                                <td>9:00am - 9:00pm</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-
+                            <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/contact-form.php';?>
+                            <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/office-hours.php';?>
                         </div>
                         <!-- Main Content -->
                         <div class="col-md-9 main-content">
@@ -230,7 +163,7 @@
                                 <h3>How Implants Work</h3>
                                 <div class="video-container">
                                     <div class="video">
-                                        <a href="//fast.wistia.net/embed/iframe/7zejtgjz1m?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/dental-sealants.jpg" width="650" alt=""></a>
+                                        <a href="//fast.wistia.net/embed/iframe/7zejtgjz1m?popover=true" class="wistia-popover[height=360,playerColor=8c8c8c,width=640]"><img src="https://www.deardoctor.com/images/video-gallery/play/dental-sealants.jpg" width="650" alt="How Implants Work"></a>
                                         <script charset="ISO-8859-1"
                                             src="//fast.wistia.com/assets/external/popover-v1.js"></script>
                                     </div>
@@ -251,7 +184,7 @@
                                             <div class="services-icons">
                                                 <a href="<?php echo $root; ?>services/preventative-dentistry/dental-exam/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/oral-exam.svg"
-                                                        class="w-100 wow scaleIn" alt="Icon for Oral Exam">
+                                                        class="w-100 wow scaleIn" alt="Comprehensive Oral Exams">
                                                     <strong>Comprehensive Oral Exams</strong>
                                             </div><br>
                                             Thorough check-ups to detect cavities, gum disease, and other concerns. Our exams include digital X-rays, bite evaluations, and assessments of existing dental work.
@@ -261,7 +194,7 @@
                                             <div class="services-icons">
                                                 <a href="<?php echo $root; ?>services/preventative-dentistry/gum-care/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/whitening.svg"
-                                                        class="w-100 wow scaleIn" alt="Icon for Teeth Cleaning">
+                                                        class="w-100 wow scaleIn" alt="Professional Cleanings">
                                                     <strong>Professional Cleanings</strong>
                                             </div><br>
                                             Our hygienists remove plaque and tartar from areas that brushing alone can’t reach, helping to prevent gum disease and tooth decay.
@@ -271,7 +204,7 @@
                                             <div class="services-icons">
                                                 <a href="<?php echo $root; ?>services/preventative-dentistry/fluoride/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/fluoride.svg"
-                                                        class="w-100 wow scaleIn" alt="Icon for Fluoride Treatments">
+                                                        class="w-100 wow scaleIn" alt="Fluoride Treatments">
                                                     <strong>Fluoride Treatments</strong>
                                             </div><br>
                                             Safe and effective fluoride applications help strengthen tooth enamel and reduce the risk of decay. This is especially beneficial for children and patients with high cavity risk.
@@ -281,7 +214,7 @@
                                             <div class="services-icons">
                                                 <a href="<?php echo $root; ?>services/preventative-dentistry/sealants/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/sealants.svg"
-                                                        class="w-100 wow scaleIn" alt="Icon for Dental Sealants">
+                                                        class="w-100 wow scaleIn" alt="Dental Sealants">
                                                     <strong>Dental Sealants</strong>
                                             </div><br>
                                             Protective coatings applied to the grooves of molars to prevent food and bacteria buildup. Ideal for children and teens.
@@ -291,7 +224,7 @@
                                             <div class="services-icons">
                                                 <a href="<?php echo $root; ?>services/preventative-dentistry/oral-cancer-screening/">
                                                     <img src="<?php echo $root; ?>assets/images/icons/oral-screening.svg"
-                                                        class="w-100 wow scaleIn" alt="Icon for Oral Cancer Screening">
+                                                        class="w-100 wow scaleIn" alt="Oral Cancer Screening">
                                                     <strong>Oral Cancer Screenings</strong>
                                             </div><br>
                                             Quick, non-invasive screenings during your exam to detect early signs of oral cancer, especially important for adults over 40 or tobacco users.
@@ -301,7 +234,7 @@
                                             <div class="services-icons">
                                                 <a href="#">
                                                     <img src="<?php echo $root; ?>assets/images/icons/oral-hygiene.svg"
-                                                        class="w-100 wow scaleIn" alt="Icon for Oral Hygiene Education">
+                                                        class="w-100 wow scaleIn" alt="Personalized Oral Hygiene Education">
                                                     <strong>Personalized Oral Hygiene Education</strong>
                                             </div><br>
                                             We’ll guide you on the best brushing, flossing, and dietary habits to maintain your smile between visits.
@@ -315,40 +248,7 @@
                     </div>
                 </div>
             </section>
-            <!-- Mobile Contact Form -->
-            <section class="contact-mobile"> 
-                <div class="question-box bg-gray d-block d-md-none">
-                    <div class="content">
-                        <h4 class="question-box-title">Connect with our clinical team to get the answers you need</h4>
-                        <p>If you’d like to discuss your options, costs, and get more information about our services, complete this short form, and we’ll give you a call back.</p>
-                        <div id="inline-hVKuv45TUa57ScoGZiV7-div-mobile" class="ep-iFrameContainer"
-                            style="border-radius: 3px; display: block;">
-                            <div id="inline-hVKuv45TUa57ScoGZiV7-wrapper-mobile" class="ep-wrapper"
-                                style="border-radius: 3px;">
-                                <iframe
-                                    src="https://api.leadconnectorhq.com/widget/form/hVKuv45TUa57ScoGZiV7"
-                                    style="width: 100%; height: 813px; border: none; border-radius: 3px; overflow: auto; display: block;"
-                                    id="inline-hVKuv45TUa57ScoGZiV7"
-                                    data-layout="{'id':'INLINE'}"
-                                    data-trigger-type="alwaysShow"
-                                    data-trigger-value=""
-                                    data-activation-type="alwaysActivated"
-                                    data-activation-value=""
-                                    data-deactivation-type="neverDeactivate"
-                                    data-deactivation-value=""
-                                    data-form-name="Ask an Expert"
-                                    data-height="668"
-                                    data-layout-iframe-id="inline-hVKuv45TUa57ScoGZiV7"
-                                    data-form-id="hVKuv45TUa57ScoGZiV7"
-                                    title="Ask an Expert"
-                                    scrolling="yes">
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
-                </div>
-            </section>
+            <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/contact-form-mobile.php';?>
             <section class="text-dark no-bottom overflow-hidden ad-section">
                 <div class="col-lg-12">
                     <div class="me-lg-3">
@@ -378,30 +278,5 @@
     </div>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/footer.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/js-vendors.php';?>
-    <script>
-        document.querySelectorAll('.services-nav .nav-link[data-toggle="collapse"]').forEach(link => {
-            link.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('data-target') || this.getAttribute('href');
-                const target = document.querySelector(targetId);
-                const arrowIcon = this.querySelector('.rotate-icon');
-                if (!target) return;
-                const isOpen = target.classList.contains('show');
-                document.querySelectorAll('.services-nav .collapse').forEach(div => {
-                    div.classList.remove('show');
-                });
-                document.querySelectorAll('.services-nav .nav-link[aria-expanded]').forEach(l => {
-                    l.setAttribute('aria-expanded', 'false');
-                    const icon = l.querySelector('.rotate-icon');
-                    if (icon) icon.classList.remove('rotated');
-                });
-                if (!isOpen) {
-                    target.classList.add('show');
-                    this.setAttribute('aria-expanded', 'true');
-                    if (arrowIcon) arrowIcon.classList.add('rotated');
-                }
-            });
-        });
-    </script>
 </body>
 </html>
