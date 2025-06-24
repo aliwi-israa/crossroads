@@ -108,7 +108,7 @@
             <section class="bg-dark text-light pt-50 pb-30 slider">
                 <div class="container relative slider-contact">
                     <div class="row g-4 grid-divider slider-contact">
-                        <div class="col-lg-4 col-md-6 mb-sm-30">
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wrapper">
                             <div class="d-flex align-items-center icons">
                                 <i class="id-color fa-solid fa-phone fs-1 fs-md-2 fs-lg-3"></i>
                                 <div class="ms-3 text">
@@ -117,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-sm-30">
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wrapper">
                             <div class="d-flex align-items-center icons">
                                 <i class="id-color fa-solid fa-clock fs-1 fs-md-2 fs-lg-3"></i>
                                 <div class="ms-3 text">
@@ -126,7 +126,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-sm-30">
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wrapper">
                             <div class="d-flex align-items-center icons">
                                 <i class="id-color fa fa-envelope fs-1 fs-md-2 fs-lg-3"></i>
                                 <div class="ms-3 text">
@@ -143,24 +143,7 @@
                     <div class="row g-4 gx-5 align-items-center">
                         <div class="col-lg-6">
                             <div class="row g-4">
-                                <div class="col-6">
-                                    <div class="row g-4">
-                                        <div class="col-lg-12">
-                                            <div class=" rounded-1 overflow-hidden wow zoomIn">
-                                                <picture>
-                                                    <source srcset="<?php echo $root; ?>assets/images/about/p1-480.webp"
-                                                        media="(max-width: 600px)">
-                                                    <source srcset="<?php echo $root; ?>assets/images/about/p1-768.webp"
-                                                        media="(max-width: 992px)">
-                                                    <img src="<?php echo $root; ?>assets/images/about/p1-1280.webp"
-                                                        class="w-100 wow scaleIn"
-                                                        alt="Woman having her teeth examined by a dentist">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                     <div class="row g-4">
                                         <div class="spacer-single sm-hide"></div>
                                         <div class="col-lg-12">
@@ -172,7 +155,7 @@
                                                         media="(max-width: 992px)">
                                                     <img src="<?php echo $root; ?>assets/images/about/p2-1280.webp"
                                                         class="w-100 wow scaleIn" data-wow-delay=".3s"
-                                                        alt="A dentist and her patient smiling at the result of the dentist work">
+                                                        alt="Your Crossroads Clinic for Healthy, Confident Smiles">
                                                 </picture>
                                             </div>
                                         </div>
@@ -222,7 +205,7 @@
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/examination.svg"
-                                        class="w-70px mb-3 wow scaleIn" alt="an icon of a tooth gettting checked">
+                                        class="w-70px mb-3 wow scaleIn" alt="General Dentistry">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>General Dentistry</h4>
                                         <p>Complete oral care for every smile with cleanings, exams, and more.</p>
@@ -238,7 +221,7 @@
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/smile-makeover.svg"
-                                        class="w-70px mb-3 wow scaleIn" alt="an icon of a smiling mouth">
+                                        class="w-70px mb-3 wow scaleIn" alt="Smile Makeover">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Smile Makeover</h4>
                                         <p>Enhance your smile’s beauty with whitening, veneers, and more.</p>
@@ -255,7 +238,7 @@
                                 <div class="bg-white h-100 p-40 rounded-1">
                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/children.svg"
                                         class="w-70px mb-3 wow scaleIn"
-                                        alt="an icon of a teeth with a little face on it to represent the pdiatric dentistry">
+                                        alt="Pediatric Dentistry">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Pediatric Dentistry</h4>
                                         <p>Gentle and fun dental care for kids to grow healthy, happy smiles.</p>
@@ -271,7 +254,7 @@
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/implants.svg"
-                                        class="w-70px mb-3 wow scaleIn" alt="an icon of a tooth being implanted">
+                                        class="w-70px mb-3 wow scaleIn" alt="Dental Implants">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Dental Implants</h4>
                                         <p>Repair and restore your teeth for lasting comfort and function.</p>
@@ -365,7 +348,7 @@
                                         media="(max-width: 992px)">
                                     <img src="<?php echo $root; ?>assets/images/homepage/p3-1280.webp"
                                         class="w-100 wow responsive-img" loading="lazy"
-                                        alt="an image of a women setting in the patients chair at the dentist, smiling with a thumbs up">
+                                        alt="Exceptional Service With a Personal Touch">
                                 </picture>
                             </div>
                         </div>
@@ -394,7 +377,7 @@
                                             media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/team/1-1280.webp"
                                             class="w-100 wow scaleIn" loading="lazy"
-                                            alt="a dentist from the crossroads dental team">
+                                            alt="Dr. Sarah Bennett">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -415,7 +398,7 @@
                                             media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/team/2-1280.webp"
                                             class="w-100 wow scaleIn" loading="lazy"
-                                            alt="a dentist from the crossroads dental team">
+                                            alt="Dr. Maya Lin">
                                     </picture>
                                 </div>
 
@@ -437,7 +420,7 @@
                                             media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/team/3-1280.webp"
                                             class="w-100 wow scaleIn" loading="lazy"
-                                            alt="a dentist from the crossroads dental team">
+                                            alt="Dr. Michael Reyes">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -458,7 +441,7 @@
                                             media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/team/4-1280.webp"
                                             class="w-100 wow scaleIn" loading="lazy"
-                                            alt="a dentist from the crossroads dental team">
+                                            alt="Dr. James Carter">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">

@@ -7,10 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
 
-	<title>booking completed</title>
-    <meta name="title" content="booking completed">
+	<title>Booking Confirmed | Crossroads Dental Toronto</title>
+    <meta name="title" content="Booking Confirmed | Crossroads Dental Toronto">
 	<meta name="description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Thank you for booking with Crossroads Dental in Toronto. We’ve received your request and our team will be in touch soon to confirm your appointment.">
 	<meta name="author" content="Crossroads">
 
     	<!-- Facebook Meta Tags -->

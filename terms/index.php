@@ -7,11 +7,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
 
-	<title>Privacy Policy | Crossroads Dental Toronto</title>
-    <meta name="title" content="Privacy Policy | Crossroads Dental Toronto">
+	<title>Terms & Conditions | Crossroads Dental Toronto</title>
+    <meta name="title" content="Terms & Conditions | Crossroads Dental Toronto">
 
 	<meta name="description"
-		content="Learn how Crossroads Dental in Toronto protects your personal information. Read our privacy policy covering data collection, security, and your rights.">
+		content="Review the Terms of Use for accessing the Crossroads Dental website. Learn about user responsibilities, content rights, and legal disclaimers.">
 	<meta name="author" content="Crossroads">
 
     	<!-- Facebook Meta Tags -->

@@ -227,10 +227,8 @@
                         <div class="col-lg-6">
                             <div class="me-lg-3">
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">Have questions?</h2>
-                       
-
-                                                    <p class="wow fadeInUp" data-wow-delay=".4s">
-                        Have questions? We’re here to help. Check out our <a class= "text-blue" href="<?php echo $root; ?>faq/">[FAQs]</a> or give us a call. We’re always happy to walk you through your first visit, insurance concerns, or any special requests.
+                                <p class="wow fadeInUp" data-wow-delay=".4s">
+                                    <strong>Questions? We’re Here to Help</strong><br/> Check out our <a class= "text-blue" href="<?php echo $root; ?>faq/">[FAQs]</a> or give us a call. We’re always happy to walk you through your first visit, insurance concerns, or any special requests.
                     </p>
                     <a href="<?php echo $config['ClinicBookingLink']; ?>" class="btn-main fx-slide wow fadeInUp" data-wow-delay=".6s"><span>Book Your First Visit</span></a>
                     <p class="wow fadeInUp mt-4" data-wow-delay=".4s">
