@@ -70,37 +70,56 @@
                         <div class="swiper wow scaleIn home-slider" id="homeSwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="swiper-inner" 
-                                        data-bg-sm="<?php echo $root; ?>assets/images/homepage/slider/1-480.webp"
-                                        data-bg-md="<?php echo $root; ?>assets/images/homepage/slider/1-768.webp"
-                                        data-bg-lg="<?php echo $root; ?>assets/images/homepage/slider/1-1280.webp">
-                                    <div class="sw-overlay op-5"></div>
-                                    <div class="gradient-edge-left z-2"></div>
-                                </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-inner"
-                                        data-bg-sm="<?php echo $root; ?>assets/images/homepage/slider/2-480.webp"
-                                        data-bg-md="<?php echo $root; ?>assets/images/homepage/slider/2-768.webp"
-                                        data-bg-lg="<?php echo $root; ?>assets/images/homepage/slider/2-1280.webp">
+                                    <div class="swiper-inner">
+                                        <img 
+                                            src="<?php echo $root; ?>assets/images/homepage/slider/1-768.webp"
+                                            srcset="
+                                                <?php echo $root; ?>assets/images/homepage/slider/1-480.webp 480w,
+                                                <?php echo $root; ?>assets/images/homepage/slider/1-768.webp 768w,
+                                                <?php echo $root; ?>assets/images/homepage/slider/1-1280.webp 1280w"
+                                            sizes="100vw"
+                                            alt="Hero Slide 1"
+                                            fetchpriority="high"
+                                            decoding="async"
+                                        >
                                         <div class="sw-overlay op-5"></div>
                                         <div class="gradient-edge-left z-2"></div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-
-                                    <div class="swiper-inner"
-                                        data-bg-sm="<?php echo $root; ?>assets/images/homepage/slider/3-480.webp"
-                                        data-bg-md="<?php echo $root; ?>assets/images/homepage/slider/3-768.webp"
-                                        data-bg-lg="<?php echo $root; ?>assets/images/homepage/slider/3-1280.webp">
+                                    <div class="swiper-inner">
+                                        <img 
+                                            src="<?php echo $root; ?>assets/images/homepage/slider/2-768.webp"
+                                            srcset="
+                                                <?php echo $root; ?>assets/images/homepage/slider/2-480.webp 480w,
+                                                <?php echo $root; ?>assets/images/homepage/slider/2-768.webp 768w,
+                                                <?php echo $root; ?>assets/images/homepage/slider/2-1280.webp 1280w"
+                                            sizes="100vw"
+                                            alt="Hero Slide 2"
+                                            decoding="async"
+                                        >
+                                        <div class="sw-overlay op-5"></div>
+                                        <div class="gradient-edge-left z-2"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-inner">
+                                        <img 
+                                            src="<?php echo $root; ?>assets/images/homepage/slider/3-768.webp"
+                                            srcset="
+                                                <?php echo $root; ?>assets/images/homepage/slider/3-480.webp 480w,
+                                                <?php echo $root; ?>assets/images/homepage/slider/3-768.webp 768w,
+                                                <?php echo $root; ?>assets/images/homepage/slider/3-1280.webp 1280w"
+                                            sizes="100vw"
+                                            alt="Hero Slide 3"
+                                            decoding="async"
+                                        >
                                         <div class="sw-overlay op-5"></div>
                                         <div class="gradient-edge-left z-2"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                            
                         </div>
                     </div>
                 </div>
