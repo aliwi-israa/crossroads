@@ -11,9 +11,9 @@
                     <div class="de-flex-col">
                         <div id="logo">
                             <a href="<?php echo $root; ?>">
-                                <img class="logo-main" src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo-white.webp" alt="">
-                                <img class="logo-scroll" src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo.webp" alt="">
-                                <img class="logo-mobile" src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo-white.webp" alt="">
+                                <img class="logo-main" src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo-white.webp" alt="crosroads dental clinic logo" width="595" height="170" style="width: 100%; height: auto;">
+                                <img class="logo-scroll" src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo.webp" alt="crosroads dental clinic logo" width="480" height="138" style="width: 100%; height: auto;">
+                                <img class="logo-mobile" src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo-white.webp" alt="crosroads dental clinic logo" width="595" height="170" style="width: 100%; height: auto;">
                             </a>
                         </div>
                     </div>

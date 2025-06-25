@@ -3,6 +3,9 @@
 <html lang="en">
 
 <head>
+    <style>
+<?php include $_SERVER['DOCUMENT_ROOT'].$webPath.'/assets/css/critical-css.css'; ?>
+</style>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/gtm-head.php';?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,16 +34,77 @@
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/homepage-og.png">
 
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
+    <link rel="preload" as="image" href="<?php echo $root; ?>assets/images/homepage/slider/1-1280.webp" imagesrcset="<?php echo $root; ?>assets/images/homepage/slider/1-480.webp 480w, <?php echo $root; ?>assets/images/homepage/slider/1-768.webp 768w, <?php echo $root; ?>assets/images/homepage/slider/1-1280.webp 1280w" imagesizes="100vw">
+    <link rel="preload" as="image" href="<?php echo $root; ?>assets/images/homepage/slider/2-1280.webp" imagesrcset="<?php echo $root; ?>assets/images/homepage/slider/2-480.webp 480w, <?php echo $root; ?>assets/images/homepage/slider/2-768.webp 768w, <?php echo $root; ?>assets/images/homepage/slider/2-1280.webp 1280w" imagesizes="100vw">
+    <link rel="preload" as="image" href="<?php echo $root; ?>assets/images/homepage/slider/3-1280.webp" imagesrcset="<?php echo $root; ?>assets/images/homepage/slider/3-480.webp 480w, <?php echo $root; ?>assets/images/homepage/slider/3-768.webp 768w, <?php echo $root; ?>assets/images/homepage/slider/3-1280.webp 1280w" imagesizes="100vw">
 
+    <style>
+
+.logo-footer {
+    width:150px;
+    height:20px;
+}
+.slider-contact .text h2 {
+    font-size:20px;
+}
+.swiper-inner {
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+}
+.img-container {
+    aspect-ratio: 4 / 3; /* Adjust based on your image dimensions */
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+@media (max-width: 1024px) {
+    .swiper-inner {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-inner {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .swiper-inner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .swiper-inner {
+        border: black solid;
+        width: 800px;
+        height: 800px;
+    }
+}
+@media (max-width: 480px) {
+    .swiper-inner {
+        height: 70vh;
+    }
+}
+    </style>
 </head>
 
 <body>
@@ -68,52 +132,32 @@
                     </div>
                     <div class="slider-wrapper">
                         <div class="swiper wow scaleIn home-slider" id="homeSwiper">
-                            <div class="swiper-wrapper">
+                                 <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="swiper-inner">
-                                        <img 
-                                            src="<?php echo $root; ?>assets/images/homepage/slider/1-768.webp"
-                                            srcset="
-                                                <?php echo $root; ?>assets/images/homepage/slider/1-480.webp 480w,
-                                                <?php echo $root; ?>assets/images/homepage/slider/1-768.webp 768w,
-                                                <?php echo $root; ?>assets/images/homepage/slider/1-1280.webp 1280w"
-                                            sizes="100vw"
-                                            alt="Hero Slide 1"
-                                            fetchpriority="high"
-                                            decoding="async"
-                                        >
+                                    <div class="swiper-inner" 
+                                        data-bg-sm="<?php echo $root; ?>assets/images/homepage/slider/1-480.webp"
+                                        data-bg-md="<?php echo $root; ?>assets/images/homepage/slider/1-768.webp"
+                                        data-bg-lg="<?php echo $root; ?>assets/images/homepage/slider/1-1280.webp"
+                                        fetchpriority="high">
+                                    <div class="sw-overlay op-5"></div>
+                                    <div class="gradient-edge-left z-2"></div>
+                                </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-inner"
+                                        data-bg-sm="<?php echo $root; ?>assets/images/homepage/slider/2-480.webp"
+                                        data-bg-md="<?php echo $root; ?>assets/images/homepage/slider/2-768.webp"
+                                        data-bg-lg="<?php echo $root; ?>assets/images/homepage/slider/2-1280.webp">
                                         <div class="sw-overlay op-5"></div>
                                         <div class="gradient-edge-left z-2"></div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper-inner">
-                                        <img 
-                                            src="<?php echo $root; ?>assets/images/homepage/slider/2-768.webp"
-                                            srcset="
-                                                <?php echo $root; ?>assets/images/homepage/slider/2-480.webp 480w,
-                                                <?php echo $root; ?>assets/images/homepage/slider/2-768.webp 768w,
-                                                <?php echo $root; ?>assets/images/homepage/slider/2-1280.webp 1280w"
-                                            sizes="100vw"
-                                            alt="Hero Slide 2"
-                                            decoding="async"
-                                        >
-                                        <div class="sw-overlay op-5"></div>
-                                        <div class="gradient-edge-left z-2"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-inner">
-                                        <img 
-                                            src="<?php echo $root; ?>assets/images/homepage/slider/3-768.webp"
-                                            srcset="
-                                                <?php echo $root; ?>assets/images/homepage/slider/3-480.webp 480w,
-                                                <?php echo $root; ?>assets/images/homepage/slider/3-768.webp 768w,
-                                                <?php echo $root; ?>assets/images/homepage/slider/3-1280.webp 1280w"
-                                            sizes="100vw"
-                                            alt="Hero Slide 3"
-                                            decoding="async"
-                                        >
+
+                                    <div class="swiper-inner"
+                                        data-bg-sm="<?php echo $root; ?>assets/images/homepage/slider/3-480.webp"
+                                        data-bg-md="<?php echo $root; ?>assets/images/homepage/slider/3-768.webp"
+                                        data-bg-lg="<?php echo $root; ?>assets/images/homepage/slider/3-1280.webp">
                                         <div class="sw-overlay op-5"></div>
                                         <div class="gradient-edge-left z-2"></div>
                                     </div>
@@ -131,7 +175,7 @@
                             <div class="d-flex align-items-center icons">
                                 <i class="id-color fa-solid fa-phone fs-1 fs-md-2 fs-lg-3"></i>
                                 <div class="ms-3 text">
-                                    <h4 class="mb-0"><span class="call-text">Need Dental Assistance? </span><span>Call us Now!</span></h4>
+                                    <h2 class="mb-0"><span class="call-text">Need Dental Assistance? </span><span>Call us Now!</span></h2>
                                     <p><a href="tel:<?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?>">Call: <?php echo $config['ClinicPhoneNumber'] ?: '(+1) 234-5678'; ?></a></p>
                                 </div>
                             </div>
@@ -166,7 +210,7 @@
                                     <div class="row g-4">
                                         <div class="spacer-single sm-hide"></div>
                                         <div class="col-lg-12">
-                                            <div class=" rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
+                                            <div class="img-container rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
                                                 <picture>
                                                     <source srcset="<?php echo $root; ?>assets/images/about/p2-480.webp"
                                                         media="(max-width: 600px)">
@@ -222,13 +266,13 @@
                     <div class="row g-4">
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
-                                <div class="bg-white h-100 p-40 rounded-1">
+                                <div class="bg-white h-100 p-40 rounded-1 services-imgs">
                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/examination.svg"
-                                        class="w-70px mb-3 wow scaleIn" alt="General Dentistry">
+                                        class="w-70px mb-3 wow scaleIn" alt="General Dentistry" width="70" height="79" style=" height: auto;">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>General Dentistry</h4>
                                         <p>Complete oral care for every smile with cleanings, exams, and more.</p>
-                                        <a class="btn-plus" href="service-general-dentistry.html">
+                                        <a class="btn-plus" href="<?php echo $root; ?>services/general-dentistry">
                                             <i class="fa fa-plus"></i>
                                             <span>Read more</span>
                                         </a>
@@ -238,13 +282,13 @@
                         </div>
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
-                                <div class="bg-white h-100 p-40 rounded-1">
+                                <div class="bg-white h-100 p-40 rounded-1 services-imgs">
                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/smile-makeover.svg"
-                                        class="w-70px mb-3 wow scaleIn" alt="Smile Makeover">
+                                        class="w-70px mb-3 wow scaleIn" alt="Smile Makeover" width="70" height="79" style="height: auto;">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Smile Makeover</h4>
                                         <p>Enhance your smile’s beauty with whitening, veneers, and more.</p>
-                                        <a class="btn-plus" href="service-cosmetic-dentistry.html">
+                                        <a class="btn-plus" href="<?php echo $root; ?>services/cosmetic-dentistry/">
                                             <i class="fa fa-plus"></i>
                                             <span>Read more</span>
                                         </a>
@@ -254,14 +298,14 @@
                         </div>
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
-                                <div class="bg-white h-100 p-40 rounded-1">
+                                <div class="bg-white h-100 p-40 rounded-1 services-imgs">
                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/children.svg"
                                         class="w-70px mb-3 wow scaleIn"
-                                        alt="Pediatric Dentistry">
+                                        alt="Pediatric Dentistry" width="70" height="79" style=" height: auto;">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Pediatric Dentistry</h4>
                                         <p>Gentle and fun dental care for kids to grow healthy, happy smiles.</p>
-                                        <a class="btn-plus" href="service-pediatric-dentistry.html">
+                                        <a class="btn-plus" href="<?php echo $root; ?>services/general-dentistry/pediatric/">
                                             <i class="fa fa-plus"></i>
                                             <span>Read more</span>
                                         </a>
@@ -271,13 +315,13 @@
                         </div>
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
-                                <div class="bg-white h-100 p-40 rounded-1">
+                                <div class="bg-white h-100 p-40 rounded-1 services-imgs">
                                     <img src="<?php echo $root; ?>assets/images/homepage/icons/implants.svg"
-                                        class="w-70px mb-3 wow scaleIn" alt="Dental Implants">
+                                        class="w-70px mb-3 wow scaleIn" alt="Dental Implants" width="70" height="79" style=" height: auto;">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Dental Implants</h4>
                                         <p>Repair and restore your teeth for lasting comfort and function.</p>
-                                        <a class="btn-plus" href="service-restorative-dentistry.html">
+                                        <a class="btn-plus" href="<?php echo $root; ?>services/dental-implants/">
                                             <i class="fa fa-plus"></i>
                                             <span>Read more</span>
                                         </a>
@@ -286,7 +330,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12 mt-5 text-center">
-                            <a class="btn-secondary fx-slide" href="services.html"><span>View All Services</span></a>
+                            <a class="btn-secondary fx-slide" href="<?php echo $root; ?>services/"><span>View All Services</span></a>
                         </div>
                     </div>
                 </div>
@@ -388,7 +432,7 @@
                     <div class="row g-4">
                         <div class="col-lg-3 col-md-6">
                             <div class="relative rounded-1 overflow-hidden">
-                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
+                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn doctors-imgs">
                                     <picture>
                                         <source srcset="<?php echo $root; ?>assets/images/team/1-480.webp"
                                             media="(max-width: 600px)">
@@ -396,7 +440,8 @@
                                             media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/team/1-1280.webp"
                                             class="w-100 wow scaleIn" loading="lazy"
-                                            alt="Dr. Sarah Bennett">
+                                            alt="Dr. Sarah Bennett"
+                                            width="1280" height="1728" style="width: 100%; height: auto;">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -409,7 +454,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="relative rounded-1 overflow-hidden">
-                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
+                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn doctors-imgs">
                                     <picture>
                                         <source srcset="<?php echo $root; ?>assets/images/team/2-480.webp"
                                             media="(max-width: 600px)">
@@ -417,7 +462,8 @@
                                             media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/team/2-1280.webp"
                                             class="w-100 wow scaleIn" loading="lazy"
-                                            alt="Dr. Maya Lin">
+                                            alt="Dr. Maya Lin"
+                                            width="1280" height="1728" style="width: 100%; height: auto;">
                                     </picture>
                                 </div>
 
@@ -431,7 +477,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="relative rounded-1 overflow-hidden">
-                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
+                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn doctors-imgs">
                                     <picture>
                                         <source srcset="<?php echo $root; ?>assets/images/team/3-480.webp"
                                             media="(max-width: 600px)">
@@ -439,7 +485,8 @@
                                             media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/team/3-1280.webp"
                                             class="w-100 wow scaleIn" loading="lazy"
-                                            alt="Dr. Michael Reyes">
+                                            alt="Dr. Michael Reyes"
+                                            width="1280" height="1728" style="width: 100%; height: auto;">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -452,7 +499,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="relative rounded-1 overflow-hidden">
-                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
+                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn doctors-imgs">
                                     <picture>
                                         <source srcset="<?php echo $root; ?>assets/images/team/4-480.webp"
                                             media="(max-width: 600px)">
@@ -460,7 +507,8 @@
                                             media="(max-width: 992px)">
                                         <img src="<?php echo $root; ?>assets/images/team/4-1280.webp"
                                             class="w-100 wow scaleIn" loading="lazy"
-                                            alt="Dr. James Carter">
+                                            alt="Dr. James Carter"
+                                            width="1280" height="1728" style="width: 100%; height: auto;">
                                     </picture>
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
@@ -550,79 +598,41 @@
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/footer.php';?>
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/js-vendors.php';?>
  <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const bgElements = document.querySelectorAll('.swiper-inner');
+    document.addEventListener("DOMContentLoaded", function () {
+        const bgElements = document.querySelectorAll('.swiper-inner');
 
-    bgElements.forEach(el => {
-        let bg;
+        bgElements.forEach(el => {
+            let bg;
 
-        if (window.matchMedia("(max-width: 480px)").matches) {
-            bg = el.dataset.bgSm;
-        } else if (window.matchMedia("(max-width: 768px)").matches) {
-            bg = el.dataset.bgMd;
-        } else {
-            bg = el.dataset.bgLg;
-        }
+            if (window.matchMedia("(max-width: 480px)").matches) {
+                bg = el.dataset.bgSm;
+            } else if (window.matchMedia("(max-width: 768px)").matches) {
+                bg = el.dataset.bgMd;
+            } else {
+                bg = el.dataset.bgLg;
+            }
 
-        el.style.backgroundImage = `url(${bg})`;
-        el.style.backgroundSize = 'cover';
-        el.style.backgroundPosition = 'center';
-    });
-
-    const homeSwiper = new Swiper('#homeSwiper', {
-        loop: true,
-        autoplay: {
-            delay: 5000,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        lazy: true,
-    });
-});
-</script>
-  
-   <!-- <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('.swiper-inner').forEach(function (el) {
-                const bg = el.getAttribute('data-bgimage');
-                if (bg) {
-                    el.style.backgroundImage = bg;
-                    el.style.backgroundSize = "cover";
-                    el.style.backgroundPosition = "center";
-                    el.style.backgroundRepeat = "no-repeat";
-                }
-            });
-
-            // Initialize Swiper after setting background images
-            new Swiper('#homeSwiper', {
-                loop: true,
-                centeredSlides: true,
-                slidesPerView: 1,
-                autoplay: {
-                    delay: 4000,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                }
-            });
+            el.style.backgroundImage = `url(${bg})`;
+            el.style.backgroundSize = 'cover';
+            el.style.backgroundPosition = 'center';
         });
-    </script> -->
 
-
-
-
+        const homeSwiper = new Swiper('#homeSwiper', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            lazy: true,
+        });
+    });
+</script>
 </body>
-
 </html>
