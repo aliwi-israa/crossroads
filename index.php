@@ -51,7 +51,7 @@
 
 .logo-footer {
     width:150px;
-    height:20px;
+    height:40px;
 }
 .slider-contact .text h2 {
     font-size:20px;
@@ -97,6 +97,9 @@
         border: black solid;
         width: 800px;
         height: 800px;
+    }
+    .logo-footer {
+        height:unset;
     }
 }
 @media (max-width: 480px) {
