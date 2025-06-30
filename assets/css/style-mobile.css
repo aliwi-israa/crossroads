@@ -1384,6 +1384,9 @@
         margin-bottom: 5px;
         margin-top: 12px;
     }
+    .logo-footer {
+        height:unset;
+    }
 }
 
 @media only screen and (max-width: 480px) {

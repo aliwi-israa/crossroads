@@ -33,7 +33,7 @@
                             </li>
 
                             <li>
-                                <a class="menu-item" href="#">Services</a>
+                                <a class="menu-item" href="<?php echo $root; ?>services/">Services</a>
                                 <span ><i class="fas fa-chevron-down d-flex d-lg-none"></i></span> 
                                 <ul>
                                     <li>
