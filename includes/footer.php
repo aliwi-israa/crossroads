@@ -4,7 +4,7 @@
 
             <!-- Logo Section - Full width on tablet and mobile -->
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <img src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo-white.webp" class="logo-footer" alt="">
+                <img src="<?php echo $root; ?>assets/images/crosroads-dental-clinic-logo-white.webp" class="logo-footer" alt="Crossroads dental footer logo">
                 <div class="spacer-20"></div>
                 <p>At Crossroads Dental, we’re dedicated to providing high-quality, personalized dental care for patients of all ages. Our skilled team uses the latest technology to ensure comfortable, efficient treatments and beautiful, healthy smiles for life.</p>
                 <div class="social-icons mb-sm-30">
@@ -33,7 +33,7 @@
                     <!-- Company -->
                     <div class="col-6 mb-4 mb-md-0">
                         <div class="widget">
-                            <h5>Company</h5>
+                            <p class="h5"> Company</p>
                             <ul>
                                 <li><a href="<?php echo $root; ?>">Home</a></li>
                                 <li><a href="<?php echo $root; ?>cdcp/">CDCP</a></li>
@@ -49,7 +49,7 @@
                     <!-- Services -->
                     <div class="col-6 mb-4 mb-md-0">
                         <div class="widget">
-                            <h5>Our Services</h5>
+                            <p class="h5"> Our Services</p>
                             <ul>
                                 <li><a href="<?php echo $root; ?>services/preventative-dentistry/">Preventative Dentistry</a></li>
                                 <li><a href="<?php echo $root; ?>services/general-dentistry/">General Dentistry</a></li>
@@ -67,7 +67,7 @@
             <!-- Contact Us -->
             <div class="col-lg-4 col-md-4 col-12 mt-4 mt-md-0">
                 <div class="widget text-md-start text-center">
-                    <h5>Contact Us</h5>
+                    <p class="h5">Contact Us</p>
                     <a href="<?php echo $config['ClinicMapLink'] ?: 'https://www.google.com/maps/'; ?>" target="_blank" class="text-white text-decoration-none d-block fw-bold">
                         <i class="fa-solid fa-location-dot me-2 id-color fs-14"></i> Clinic Location
                         <div class="fw-normal text-white ms-4"><?php echo $config['ClinicAddress'] ?: '2384 Dundas St W'; ?></div>

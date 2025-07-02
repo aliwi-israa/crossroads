@@ -1,7 +1,7 @@
 <?php 
     require ($_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/config.php');
 ?>
-<a href="#" id="back-to-top"></a>
+<a href="#" id="back-to-top" aria-label="Scroll to top of page" title="Back to top"></a>
 <div id="de-loader"></div>
 <header class="transparent scroll-light">
     <div class="container p-0">

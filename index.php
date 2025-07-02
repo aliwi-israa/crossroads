@@ -11,37 +11,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
 
-    <title>Welcome to <?php echo $config['ClinicName']; ?>, Your Dental Home</title>
+    <title>Crossroads Dental Toronto | Family, Cosmetic & Emergency Dentistry</title>
+    <meta name="title" content="Crossroads Dental Toronto | Family, Cosmetic & Emergency Dentistry">
     <meta name="description"
-        content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+        content="Looking for a dentist in Toronto? Crossroads Dental offers complete care! Open 7 days a week for family, cosmetic, and emergency dental services. ">
     <meta name="author" content="Crossroads">
+    <link rel="canonical" href="<?php echo $root;?>">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Dental Home">
+    <meta property="og:title" content="Crossroads Dental Toronto | Family, Cosmetic & Emergency Dentistry">
     <meta property="og:description"
-        content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+        content="Looking for a dentist in Toronto? Crossroads Dental offers complete care! Open 7 days a week for family, cosmetic, and emergency dental services. ">
     <meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/homepage-og.png">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="crossroadsdental.ca">
     <meta property="twitter:url" content="">
-    <meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Dental Home">
+    <meta name="twitter:title" content="Crossroads Dental Toronto | Family, Cosmetic & Emergency Dentistry">
     <meta name="twitter:description"
-        content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+        content="Looking for a dentist in Toronto? Crossroads Dental offers complete care! Open 7 days a week for family, cosmetic, and emergency dental services. ">
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/homepage-og.png">
 
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
     <link rel="preload" as="image" href="<?php echo $root; ?>assets/images/homepage/slider/1-1280.webp" imagesrcset="<?php echo $root; ?>assets/images/homepage/slider/1-480.webp 480w, <?php echo $root; ?>assets/images/homepage/slider/1-768.webp 768w, <?php echo $root; ?>assets/images/homepage/slider/1-1280.webp 1280w" imagesizes="100vw">
     <link rel="preload" as="image" href="<?php echo $root; ?>assets/images/homepage/slider/2-1280.webp" imagesrcset="<?php echo $root; ?>assets/images/homepage/slider/2-480.webp 480w, <?php echo $root; ?>assets/images/homepage/slider/2-768.webp 768w, <?php echo $root; ?>assets/images/homepage/slider/2-1280.webp 1280w" imagesizes="100vw">
@@ -58,7 +52,7 @@
     background-position: center;
 }
 .img-container {
-    aspect-ratio: 4 / 3; /* Adjust based on your image dimensions */
+    aspect-ratio: 4 / 3;
     overflow: hidden;
 }
 
@@ -97,7 +91,7 @@
 }
 @media (max-width: 480px) {
     .swiper-inner {
-        height: 70vh;
+        height: inherit;
     }
 }
     </style>

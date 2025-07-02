@@ -7,34 +7,31 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
 
-	<title>Welcome to <?php echo $config['ClinicName']; ?>, Your Dental Home</title>
+	<title>Our Dental Team | Crossroads Dental Toronto</title>
+    <meta name="title" content="Our Dental Team | Crossroads Dental Toronto">
 	<meta name="description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Meet the friendly and experienced dental team at Crossroads Dental in Toronto. Providing expert, patient-focused care for smiles of all ages. ">
 	<meta name="author" content="Crossroads">
+    <link rel="canonical" href="<?php echo $root;?>our-dentists/">
 
     	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+	<meta property="og:title" content="Our Dental Team | Crossroads Dental Toronto">
 	<meta property="og:description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Meet the friendly and experienced dental team at Crossroads Dental in Toronto. Providing expert, patient-focused care for smiles of all ages. ">
 	<meta property="og:image" content="<?php echo $root; ?>assets/images/openGraph/homepage-og.png">
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="twitter:domain" content="crossroadsdental.ca">
 	<meta property="twitter:url" content="">
-	<meta name="twitter:title" content="Welcome to <?php echo $config['ClinicName']; ?>, Your Barrie Dental Home">
+	<meta name="twitter:title" content="Our Dental Team | Crossroads Dental Toronto">
 	<meta name="twitter:description"
-		content="Discover high-quality dental solutions tailored to your needs. We provide emergency dental care, Invisalign clear aligners, and more.">
+		content="Meet the friendly and experienced dental team at Crossroads Dental in Toronto. Providing expert, patient-focused care for smiles of all ages. ">
 	<meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/homepage-og.png">
 
 	<?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
 </head>
 

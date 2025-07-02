@@ -3,6 +3,7 @@
   --primary-color-rgb: 74, 124, 210;
   --secondary-color: #21577F;
   --secondary-color-rgb: 59, 157, 31;
+  --button-darker-color: #58938c;
 }
 
 * {
@@ -923,7 +924,7 @@ footer p {
   line-height: 1.8em;
 }
 
-footer h5 {
+footer .h5 {
   color: #fff;
   font-size: 18px;
   text-transform: none;
@@ -1029,7 +1030,7 @@ a.btn-main:focus,
 a.btn-main:visited,
 .btn-main,
 a.btn-line {
-  background: var(--primary-color);
+  background: var(--button-darker-color);
   color: var(--btn-color);
   font-family: var(--btn-font-family);
   font-size: var(--btn-font-size);
@@ -1045,7 +1046,7 @@ a.btn-line {
   display: inline-block;
   text-align: center;
   outline: 0;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--button-darker-color);
 }
 
 a.btn-secondary,
@@ -1253,14 +1254,14 @@ footer h1,
 footer h2,
 footer h4,
 footer h4,
-footer h5 {
+footer .h5 {
   color: #fff;
 }
 
 h2.text-light,
 footer h4,
 footer h4,
-footer h5 {
+footer .h5 {
   color: #fff;
 }
 
@@ -1854,7 +1855,7 @@ footer .widget {
   margin-bottom: 0;
 }
 
-footer .widget h5 {
+footer .widget .h5 {
   margin-bottom: 20px;
 }
 

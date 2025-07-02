@@ -13,6 +13,7 @@
     <meta name="description"
         content="New to our clinic? Learn what to expect, how to prepare, and how to book your first visit at Crossroads Dental in Toronto.">
     <meta name="author" content="Crossroads">
+    <link rel="canonical" href="<?php echo $root;?>patients-corner/new-patients/">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
@@ -32,13 +33,6 @@
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Patients-Corner.jpg">
 
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
 </head>
 
@@ -59,7 +53,6 @@
                     </div>
                 </div>
             </section>
-
             <div class="section m-3">
                 <div class="breadcrumbs-wrap">
                     <div class="container">
@@ -72,7 +65,6 @@
                     </div>
                 </div>
             </div>
-
             <section>
                 <div class="container">
                     <div class="row g-4 gx-5 align-items-center">
@@ -104,7 +96,6 @@
                     </div>
                 </div>
             </section>
-
             <section class="bg-color-op-1">
                 <div class="container">
                     <div class="row g-4 gx-5 align-items-center">

@@ -13,6 +13,7 @@
     <meta name="description"
         content="Book a comprehensive dental exam at Crossroads Dental in Toronto. Early detection of cavities, gum disease & oral health issues starts here.">
     <meta name="author" content="Crossroads">
+    <link rel="canonical" href="<?php echo $root;?>services/preventative-dentistry/dental-exam/">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="">
@@ -32,14 +33,6 @@
     <meta name="twitter:image" content="<?php echo $root; ?>assets/images/openGraph/Dental-Examination.png">
 
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/css-vendors.php';?>
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <?php include_once $_SERVER['DOCUMENT_ROOT'].$webPath.'/includes/structured-data.php';?>
 
 </head>
